@@ -1,0 +1,91 @@
+.dev-partner {
+
+	.dev-partner-module-container {
+		.clearfix();
+		background: @white;
+		margin: 0 auto;
+		max-width: @screen-lg-min;
+	}
+
+	&.bsp-component {
+		padding: @space;
+	}
+
+	a {
+		color: @brand-accent;
+		font-family: @font-family-secondary;
+
+		&:after {
+			content: @fa-var-angle-right;
+			display: inline;
+			font-family: FontAwesome;
+		}
+	}
+
+	.bsp-component-title {
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+
+	.dev-partner-logo {
+		margin: 0 auto;
+		max-width: 300px;
+	}
+
+	.dev-partner-links {
+		ul {
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+		li {
+			font-size: @ts-neg-1;
+			list-style-type: none;
+			text-transform: uppercase;
+
+			a {
+				&:after {
+					content: ">";
+					display: inline;
+				}
+			}
+		}
+	}
+}
+
+@media @mq-sm {
+	.dev-partner {
+		.bsp-component-title {
+			padding-left: 0;
+			text-align: left;
+		}
+
+		.dev-partner-content-wrapper {
+			float: left;
+			width: ~"calc(100% - 300px)";
+
+            .bsp-component-content, .bsp-component-title {
+                width: auto;
+            }
+
+		}
+		.dev-partner-logo {
+			float: left;
+			img {
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media @mq-md {
+	.dev-partner {
+		.dev-partner-links {
+			li {
+				display: inline-block;
+				width: 45%;
+			}
+		}
+	}
+}

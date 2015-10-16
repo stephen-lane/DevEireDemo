@@ -23,6 +23,27 @@
 			]
 		},
 
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/dev-site-header-simple/",
+                            "title" : "DevEire Site Simple Header"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text" : "DevEire Site Simple Header"
+                        }
+                    }
+                }
+            ]
+        },
+
 		{
 			"sections" :[
 				{
@@ -258,86 +279,6 @@
                         "body" : {
                             "_template" : "common/text",
                             "text"  : "DevEire Partner Carousel"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "sections" :[
-                {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/dev-scorecard/",
-                            "title" : "DevEire Scorecard"
-                        },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "DevEire Scorecard"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "sections" :[
-                {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/dev-statistics/",
-                            "title" : "DevEire Statistics"
-                        },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "DevEire Statistics"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "sections" :[
-                {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/dev-tournament-schedule/",
-                            "title" : "DevEire Tournament Schedule"
-                        },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "DevEire Tournament Schedule"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "sections" :[
-                {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/dev-tourn-summary/",
-                            "title" : "DevEire Tournament Summary"
-                        },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "DevEire Tournament Summary"
                         }
                     }
                 }

@@ -1,0 +1,289 @@
+.bsp-gallery-grid-wrapper {
+
+	.bsp-component {
+		padding-top: 0;
+	}
+
+	.bsp-component-content {
+		position: relative;
+	}
+
+	&.showing-grid {
+		.bsp-component-content {
+			height: @dev-gallery-grid-embedded-height + @dev-gallery-grid-embedded-gutter;
+		}
+	}
+}
+
+.bsp-gallery-embedded {
+
+    .gallery-module {
+        margin-bottom: 0;
+    }
+}
+
+// embedded galleries
+.dev-gallery-grid-show {
+    -m-transition: opacity .5s ease-in .5s;
+    -webkit-transition: opacity .5s ease-in .5s;
+    transition: opacity .5s ease-in .5s;
+    opacity: 100;
+}
+.dev-gallery-grid-hidden {
+    -m-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+    opacity: 0;
+    pointer-events: none;
+}
+.dev-gallery-grid-embedded, .dev-gallery-grid-embedded .dev-gallery-grid {
+	width: 100%;
+}
+
+.dev-gallery-grid-embedded {
+
+	border-bottom: @border-style-5;
+    border-top: @border-style-5;
+    clear: both;
+    height: auto;
+	margin: 0 auto @space-double auto;
+	position: relative;
+
+	&.bsp-component, .bsp-component {
+        padding-bottom: 0;
+    }
+    .bsp-component-content {
+    	overflow: visible;
+    }
+	&.showing-grid {
+
+        .dev-gallery-grid-gallery-caption {
+        	.dev-caption-text;
+            display: block;
+            padding-bottom: @space;
+            text-align: center;
+            margin: 0 auto;
+            max-width: @dev-gallery-grid-embedded-width-sm;
+        }
+    }
+
+	.dev-gallery-grid {
+		height: @dev-gallery-grid-embedded-height;
+		position: absolute;
+		top: 0;
+		left: ~"calc( ( 100% - @{dev-gallery-grid-embedded-width-sm} ) / 2 )";
+	}
+	.dev-gallery-grid-thumb {
+		position: absolute;
+
+		img {
+			height: 100%;
+			width: 100%;
+		}
+
+        a {
+            display: block;
+
+            &:after {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0,0,0,0.7);
+                content: "VIEW GALLERY";
+                font-family: @font-family-secondary;
+                position: absolute;
+                left: 0;
+                opacity: 0;
+                height: 100%;
+                top: 0;
+                width: 100%;
+            }
+
+            &:hover {
+                &:after {
+                    transition: opacity 1s;
+                    opacity: 1;
+                }
+            }
+        }
+	}
+
+	.dev-gallery-thumb-dimensions(
+		@bottom: auto,
+		@left: 0,
+		@right: auto,
+		@top: 0,
+		@height: @dev-gallery-grid-embedded-square-side,
+		@width: @dev-gallery-grid-embedded-square-side
+	) {
+		bottom: @bottom;
+		left: @left;
+		right: @right;
+		top: @top;
+		height: @height;
+		width: @width;
+	}
+
+	.dev-gallery-grid-thumb0 {
+		.dev-gallery-thumb-dimensions(@height: @dev-gallery-grid-embedded-rec-side);
+	}
+	.dev-gallery-grid-thumb1 {
+		.dev-gallery-thumb-dimensions(@bottom: 0; @top: auto);
+	}
+	.dev-gallery-grid-thumb2 {
+		.dev-gallery-thumb-dimensions(@left: @dev-gallery-grid-embedded-square-side + @dev-gallery-grid-embedded-gutter;);
+	}
+	.dev-gallery-grid-thumb3 {
+		.dev-gallery-thumb-dimensions(@bottom: 0; @top: auto; @left: @dev-gallery-grid-embedded-square-side + @dev-gallery-grid-embedded-gutter; @height: @dev-gallery-grid-embedded-rec-side;);
+	}
+	.dev-gallery-grid-thumb4 {
+		display: none;
+		.dev-gallery-thumb-dimensions(
+			@left: @dev-gallery-grid-embedded-rec-side + (@dev-gallery-grid-embedded-gutter);
+			@height: @dev-gallery-grid-embedded-rec-side;
+			@width: @dev-gallery-grid-embedded-rec-side;
+		);
+	}
+	.dev-gallery-grid-thumb5 {
+		display: none;
+		.dev-gallery-thumb-dimensions(
+			@bottom: 0;
+			@left: @dev-gallery-grid-embedded-rec-side + (@dev-gallery-grid-embedded-gutter);
+			@top: auto;
+			@width: @dev-gallery-grid-embedded-rec-side;
+		);
+	}
+	.dev-gallery-grid-thumb6 {
+		display: none;
+		.dev-gallery-thumb-dimensions(@left: (@dev-gallery-grid-embedded-rec-side*2)+(@dev-gallery-grid-embedded-gutter*2););
+	}
+	.dev-gallery-grid-thumb7 {
+		display: none;
+		.dev-gallery-thumb-dimensions(@left: (@dev-gallery-grid-embedded-rec-side*2)+(@dev-gallery-grid-embedded-gutter*3)+@dev-gallery-grid-embedded-square-side;);
+	}
+	.dev-gallery-grid-thumb8 {
+		display: none;
+		.dev-gallery-thumb-dimensions(
+			@bottom: 0;
+			@left: (@dev-gallery-grid-embedded-rec-side*2)+(@dev-gallery-grid-embedded-gutter*2);
+			@top: auto;
+			@height: @dev-gallery-grid-embedded-rec-side;
+			@width: @dev-gallery-grid-embedded-rec-side;
+		);
+	}
+
+	@media @mq-sm {
+		.dev-gallery-grid-thumb4, .dev-gallery-grid-thumb5 {
+			display: block;
+		}
+		.dev-gallery-grid {
+			left: ~"calc( ( 100% - @{dev-gallery-grid-embedded-width-md} ) / 2 )";
+		}
+		&.showing-grid {
+			.dev-gallery-grid-gallery-caption {
+				max-width: @dev-gallery-grid-embedded-width-md;
+			}
+		}
+	}
+	@media @mq-lg {
+		.dev-gallery-grid-thumb6, .dev-gallery-grid-thumb7, .dev-gallery-grid-thumb8 {
+			display: block;
+		}
+		.dev-gallery-grid {
+			left: ~"calc( ( 100% - @{dev-gallery-grid-embedded-width} ) / 2 )";
+		}
+		&.showing-grid {
+			.dev-gallery-grid-gallery-caption {
+				max-width: @dev-gallery-grid-embedded-width;
+			}
+		}
+	}
+
+	// band-aid for JSPIETH-585
+	.bsp-image-promo img {
+		height: 495px;
+		width: auto;
+        max-width: none;
+
+        @media @mq-sm {
+            height: 495px;
+        }
+
+	}
+	.bsp-image-promo-image > a {
+		background: @gray-dark-3;
+		display: block;
+	}
+}
+
+// embedded gallery
+.dev-gallery-grid-gallery {
+
+    .bsp-component-title {
+        background: inherit;
+        padding: @space-double 0 0 0;
+        font-size: @ts-2;
+    }
+    .bsp-component-content {
+        width: 100%;
+    }
+    .bsp-image-promo-links {
+        background: inherit;
+        display: block;
+        padding-bottom: @space;
+        position: relative;
+
+        li {
+            display: block;
+            text-align: left;
+            text-transform: none;
+            width: auto;
+
+            a {
+                color: @brand-accent;
+                display: inline;
+                font-size: @ts-neg-1;
+                padding: @space 0 0 0;
+            }
+        }
+    }
+
+    .bsp-list-promo-image {
+        background: @gray-dark-3;
+        height: 495px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: auto;
+            width: auto;
+            max-width: 100%;
+        }
+    }
+
+    ul.bsp-list-promo-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .bsp-list-promo-section-text {
+        text-align: center;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+// override for something coming in from base
+.bsp-component-title+.bsp-component-content {
+    .bsp-list-promo-list {
+        margin-top: 0;
+    }
+}
+
+.dev-gallery-grid-gallery-caption {
+    display: none;
+}
+

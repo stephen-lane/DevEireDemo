@@ -1,0 +1,109 @@
+// dev table mixins
+
+.set-col-alignment (@col-index-start, @col-index-end, @alignment) when (@col-index-start =< @col-index-end) {
+
+    .col-@{col-index-start} {
+        text-align: @alignment;
+    }
+
+    .set-col-alignment ((@col-index-start+1), @col-index-end, @alignment);
+
+}
+
+// used for a range of table heading cells
+// sets the background and color for each cell
+.set-heading-cell-formatting (@background, @color, @cell-index-start, @cell-index-end) when (@cell-index-start =< @cell-index-end){
+
+    thead {
+        .col-@{cell-index-start} {
+            color: @color;
+            background: @background;
+        }
+    }
+
+    .set-heading-cell-formatting (@background, @color, (@cell-index-start + 1), @cell-index-end);
+
+}
+
+// used for a range of columns
+// set the left and right borders
+.set-column-borders (@left-border: none, @right-border: none, @col-index-start, @col-index-end) when (@col-index-start =< @col-index-end) {
+
+    .col-@{col-index-start} {
+        border-left: @left-border;
+        border-right: @right-border;
+    }
+
+    .set-column-borders (@left-border, @right-border, (@col-index-start + 1), @col-index-end);
+
+}
+
+// used to create selectors and text for
+// match play status
+.create-match-status (@start-range: 1, @end-range: 6) when (@start-range =< @end-range) {
+    @status-selector: ~"status-@{start-range}-u";
+    @status-text: "@{start-range}u";
+
+    .create-non-numbered(@start-range);
+
+    .row-1 {
+
+        .@{status-selector} {
+            &::before {
+                content: "@{status-text}";
+            }
+        }
+    }
+
+    .row-2 {
+
+        .@{status-selector} {
+            &::after {
+                content: "@{status-text}";
+            }
+        }
+    }
+
+    .create-match-status ( (@start-range + 1), @end-range)
+
+}
+
+// this mixin creates all of the status styles
+// for the match play scorecard
+.create-non-numbered(@start-range) when (@start-range = 1) {
+
+    td[class*='status-'] {
+        &::before, &::after {
+            color: @gray-dark-3;
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+
+    .row-1 {
+        .status-as {
+            &::before {
+                content: "as";
+            }
+        }
+        .status-c {
+            &::before {
+                content: "c";
+            }
+        }
+    }
+
+    .row-2 {
+        .status-as {
+            &::after {
+                content: "as";
+            }
+        }
+        .status-c {
+            &::after {
+                content: "c";
+            }
+        }
+    }
+
+}
