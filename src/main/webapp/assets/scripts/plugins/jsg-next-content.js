@@ -12,7 +12,7 @@ class NextContent {
 	}
 }
 
-export default bsp_utils.plugin(false, 'jsg', 'next-content', {
+export default bsp_utils.plugin(false, 'dev', 'next-content', {
     '_each': function(item) {
         new NextContent($(item), this.option(item));
     }

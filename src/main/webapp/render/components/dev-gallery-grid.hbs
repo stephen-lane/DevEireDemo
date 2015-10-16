@@ -1,13 +1,13 @@
-<div class="bsp-gallery-grid-wrapper{{#if galleryGridClassName}} {{galleryGridClassName}}{{/if}}{{#if galleryGridThumbs}} showing-grid{{/if}}" data-jsg-gallery-grid data-jsg-gallery-grid-options='{{> common/options options }}'>
+<div class="bsp-gallery-grid-wrapper{{#if galleryGridClassName}} {{galleryGridClassName}}{{/if}}{{#if galleryGridThumbs}} showing-grid{{/if}}" data-dev-gallery-grid data-dev-gallery-grid-options='{{> common/options options }}'>
 
-	<div class="bsp-component bsp-gallery-embedded jsg-gallery">
+	<div class="bsp-component bsp-gallery-embedded dev-gallery">
 		{{#if galleryTitle}}
 			<h3 class="bsp-component-title">{{galleryTitle}}</h3>
 		{{/if}}
 
 		<div class="bsp-component-content">
 			
-			<div class="gallery-module jsg-gallery-grid-gallery{{#if galleryGridThumbs}} jsg-gallery-grid-hidden{{/if}}" {{#unless showImagesAsList}}data-bsp-carousel{{/unless}}>
+			<div class="gallery-module dev-gallery-grid-gallery{{#if galleryGridThumbs}} dev-gallery-grid-hidden{{/if}}" {{#unless showImagesAsList}}data-bsp-carousel{{/unless}}>
 				{{#each gallerySlides}}
 					{{#unless ../showImagesAsList}}<div class="bsp-carousel-slide">{{/unless}}
 						{{render this}}
@@ -15,9 +15,9 @@
 				{{/each}}
 			</div>
 
-			<div class="jsg-gallery-grid {{#unless galleryGridThumbs}} hidden{{/unless}}">
+			<div class="dev-gallery-grid {{#unless galleryGridThumbs}} hidden{{/unless}}">
 				{{#each galleryGridThumbs}}
-					<div class="jsg-gallery-grid-thumb jsg-gallery-grid-thumb{{@index}}">
+					<div class="dev-gallery-grid-thumb dev-gallery-grid-thumb{{@index}}">
 						{{render this}}
 					</div>
 				{{/each}}
@@ -28,7 +28,7 @@
 	</div>
 
 	{{#if galleryCaption}}
-		<div class="jsg-gallery-grid-gallery-caption">{{galleryCaption}}</div>
+		<div class="dev-gallery-grid-gallery-caption">{{galleryCaption}}</div>
 	{{/if}}
 </div>
 

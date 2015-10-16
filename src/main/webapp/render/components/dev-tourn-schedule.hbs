@@ -1,10 +1,10 @@
-<div class="bsp-component jsg-tournament-sched-wrapper{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}" data-jsg-tournament-schedule data-jsg-tournament-schedule-options='{{> common/options options }}'>
+<div class="bsp-component dev-tournament-sched-wrapper{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}" data-dev-tournament-schedule data-dev-tournament-schedule-options='{{> common/options options }}'>
 	{{#with heading}}
 		{{render this}}
 		{{#with ../sortFilters}}
-			<span class="jsg-tournament-sched-filters">
+			<span class="dev-tournament-sched-filters">
 				{{label}}
-				<select name="jsg-tournament-sched-filters">
+				<select name="dev-tournament-sched-filters">
 				{{#each filters}}
 					<option value="{{value}}">{{text}}</option>
 				{{/each}}
@@ -12,7 +12,7 @@
 			</span>
 		{{/with}}
 	{{/with}}
-    <div class="bsp-component-content jsg-tournament-sched-content">
+    <div class="bsp-component-content dev-tournament-sched-content">
     	{{#with schedule}}
     		{{render this}}
     	{{/with}}

@@ -5,15 +5,15 @@ class GalleryGrid {
 	constructor($el, options) {
 		if (options.lowRes) {
 			this.$el = $el;
-			this.$grid = $el.find('.jsg-gallery-grid');
-			this.$gallery = $el.find('.jsg-gallery-grid-gallery');
+			this.$grid = $el.find('.dev-gallery-grid');
+			this.$gallery = $el.find('.dev-gallery-grid-gallery');
 			this.addIndexes();
 			this.addEvents();
 		}
 	}
 	addIndexes() {
 		var i = 0;
-		this.$grid.find('.jsg-gallery-grid-thumb').each((key, thumb) => {
+		this.$grid.find('.dev-gallery-grid-thumb').each((key, thumb) => {
 			var $thumb = $(thumb);
 			$thumb.data('grid-index', i);
 			i++;
@@ -21,7 +21,7 @@ class GalleryGrid {
 	}
 	addEvents() {
 		var self = this;
-		this.$el.find('.jsg-gallery-grid-thumb').on('click', (e) => {
+		this.$el.find('.dev-gallery-grid-thumb').on('click', (e) => {
 			self.thumbClickEvent( $(e.currentTarget) );
 		});
 		this.$gallery.find('a').on('click', (e) => {
@@ -37,14 +37,14 @@ class GalleryGrid {
 	}
 	hideGrid() {
 		this.$el.removeClass('showing-grid');
-		this.$grid.addClass('jsg-gallery-grid-hidden');
+		this.$grid.addClass('dev-gallery-grid-hidden');
 	}
 	showGallery() {
-		this.$gallery.removeClass('jsg-gallery-grid-hidden').addClass('jsg-gallery-grid-show');
+		this.$gallery.removeClass('dev-gallery-grid-hidden').addClass('dev-gallery-grid-show');
 	}
 }
 
-export default bsp_utils.plugin(false, 'jsg', 'gallery-grid', {
+export default bsp_utils.plugin(false, 'dev', 'gallery-grid', {
     '_each': function(item) {
         new GalleryGrid($(item), this.option(item));
     }
