@@ -1,0 +1,89 @@
+<div data-bsp-carousel-gallery data-bsp-carousel-gallery-options='{
+        "dynamicSlideLoad" : "{{options.dynamicSlideLoad}}",
+        "nav" : {
+            "themeConfig" : {
+                {{#if options.thumbnailsToShow}}"slidesToShow" : "{{options.thumbnailsToShow}}"{{/if}}
+            }
+        },
+        "stage" : {
+            "themeConfig" : {
+                {{#if options.deepLinking}}
+                    "deepLinking" : true
+                    {{#if options.deepLinkingQueryParam}}
+                    , "deepLinkingQueryParam" : "{{options.deepLinkingQueryParam}}"
+                    {{/if}}
+                {{/if}}
+            }
+        }
+    }'>
+
+    <div class="bsp-carousel-gallery-container">
+
+        {{#if galleryTitle}}
+            <h2 class="bsp-carousel-gallery-header">
+                {{galleryTitle}}
+            </h2>
+        {{/if}}
+
+        <div class="bsp-carousel-gallery">
+            <div class="bsp-carousel-stage">
+                {{#each gallerySlides}}
+                    <div class="bsp-carousel-slide"{{#if slideId}} data-slide-id="{{slideId}}"{{/if}} data-onload-index="{{@index}}">
+                        {{render this}}
+                    </div>
+                {{/each}}
+            </div>
+
+            {{#if options.galleryThumbnails}}
+                <div class="bsp-carousel-nav">
+
+                    {{#each gallerySlides}}
+                        <div class="bsp-carousel-slide">
+                            {{render this.thumbnail}}
+                        </div>
+                    {{/each}}
+
+                </div>
+            {{/if}}
+        </div>
+
+        <div class="bsp-carousel-gallery-footer">
+
+            {{#if options.galleryThumbnails}}
+            <div class="bsp-carousel-gallery-thumbs">
+                <span class="icon icon-th-large" href=""></span>
+                <span class="bsp-carousel-gallery-count"></span>
+            </div>
+            {{else}}
+            <div class="bsp-carousel-gallery-count-wrapper">
+                <span class="bsp-carousel-gallery-count"></span>
+            </div>
+            {{/if}}
+
+            <div class="bsp-carousel-gallery-caption-trigger">
+                <span class="icon icon-info-circle" href=""></span>
+                <span class="captions-visible">Hide Captions</span>
+                <span class="captions-hidden">Show Captions</span>
+            </div>
+
+            {{#if sharing}}
+            <div class="bsp-carousel-gallery-sharing">
+                {{render this.sharing}}
+            </div>
+            {{/if}}
+
+            {{#if tags}}
+            <div class="bsp-carousel-gallery-tags">
+                <div class="bsp-tag-list-title">{{render this.tagsTitle}}</div>
+                <ul class="bsp-tag-list">
+                    {{#each this.tags}}
+                        <li>{{render this cssClass="bsp-tag"}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/if}}
+
+        </div>
+
+    </div>
+</div>

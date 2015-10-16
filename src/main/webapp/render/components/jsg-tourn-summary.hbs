@@ -1,0 +1,12 @@
+<div class="bsp-component jsg-tourn-summary{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}">
+    <div class="bsp-component-content">
+        <ul class="bsp-list-inline">
+            {{#each listItems}}
+                <li class="{{this.type}}-wrapper">
+                    <p>{{this.title}}</p>
+                    <div class="stat{{#if this.type}} {{this.type}}{{/if}}">{{this.content}}</div>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

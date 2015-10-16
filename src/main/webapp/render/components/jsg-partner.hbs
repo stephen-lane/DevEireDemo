@@ -1,0 +1,33 @@
+<div class="bsp-component jsg-partner{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}">
+
+	<div class="jsg-partner-module-container">
+
+		{{#with logo}}
+			<div class="jsg-partner-logo">
+				{{render this}}
+			</div>
+		{{/with}}
+
+		<div class="jsg-partner-content-wrapper">
+			{{#if title}}
+				<div class="bsp-component-title">
+					{{title}}
+				</div>
+			{{/if}}
+
+			{{#with content}}
+				<div class="bsp-component-content">
+					{{render this}}
+				</div>
+			{{/with}}
+
+			{{#with links}}
+				<div class="jsg-partner-links">
+					{{render this}}
+				</div>
+			{{/with}}
+		</div>
+
+	</div>
+
+</div>

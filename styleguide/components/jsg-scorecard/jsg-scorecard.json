@@ -1,0 +1,198 @@
+{
+    "_template" : "components/bsp-table/bsp-table",
+
+    "options" : {
+        "modifierClass" : "jsg-scorecard"
+    },
+
+    "title" : "Round 1",
+
+    "headings" : [
+        {"text" : "Hole"},
+        {"text" : "1"},
+        {"text" : "2"},
+        {"text" : "3"},
+        {"text" : "4"},
+        {"text" : "5"},
+        {"text" : "6"},
+        {"text" : "7"},
+        {"text" : "8"},
+        {"text" : "9"},
+        {"text" : "10"},
+        {"text" : "11"},
+        {"text" : "12"},
+        {"text" : "13"},
+        {"text" : "14"},
+        {"text" : "15"},
+        {"text" : "16"},
+        {"text" : "17"},
+        {"text" : "18"},
+        {"text" : "Total"}
+    ],
+
+    "rows" : [
+        {
+            "row" : [
+                {"text" : "Par"},
+                {"text" : "4"},
+                {"text" : "5"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "4"},
+                {"text" : "5"},
+                {"text" : "4"},
+                {"text" : "4"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "4"},
+                {"text" : "5"},
+                {"text" : "4"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "5"},
+                {"text" : "72"}
+            ]
+        },
+        {
+            "row" : [
+                {"text" : "Score"},
+                {
+                    "text" : "4",
+                    "status" : "par"
+                },
+                {
+                    "text" : "4",
+                    "status" : "birdie"
+                },
+                {
+                    "text" : "3",
+                    "status" : "birdie"
+                },
+                {
+                    "text" : "3",
+                    "status" : "par"
+                },
+                {
+                    "text" : "4",
+                    "status" : "par"
+                },
+                {
+                    "text" : "3",
+                    "status" : "par"
+                },
+                {
+                    "text" : "4",
+                    "status" : "par"
+                },
+                {
+                    "text" : "5",
+                    "status" : "par"
+                },
+                {
+                    "text" : "4",
+                    "status" : "par"
+                },
+                {
+                    "text" : "5",
+                    "status" : "bogey"
+                },
+                {
+                    "text" : "5",
+                    "status" : "bogey"
+                },
+                {
+                    "text" : "3",
+                    "status" : "par"
+                },
+                {
+                    "text" : "4",
+                    "status" : "par"
+                },
+                {
+                    "text" : "5",
+                    "status" : "par"
+                },
+                {
+                    "text" : "4",
+                    "status" : "par"
+                },
+                {
+                    "text" : "3",
+                    "status" : "birdie"
+                },
+                {
+                    "text" : "3",
+                    "status" : "par"
+                },
+                {
+                    "text" : "2",
+                    "status" : "double-eagle"
+                },
+                {"text" : "72"}
+            ]
+        },
+        {
+            "row" : [
+                {"text" : "Status"},
+                {"text" : "E"},
+                {"text" : "-1"},
+                {"text" : "-2"},
+                {"text" : "-2"},
+                {"text" : "-2"},
+                {"text" : "-2"},
+                {"text" : "-2"},
+                {"text" : "-2"},
+                {"text" : "-2"},
+                {"text" : "-1"},
+                {"text" : "E"},
+                {"text" : "E"},
+                {"text" : "E"},
+                {"text" : "E"},
+                {"text" : "E"},
+                {"text" : "-1"},
+                {"text" : "-1"},
+                {"text" : "-4"},
+                {"text" : "70"}
+            ]
+        }
+    ],
+
+    "legend" : {
+
+        "_template" : "components/jsg-scorecard-legend",
+
+        "legendItems" : [
+            {
+                "title" : "Double Eagle",
+                "className" : "double-eagle"
+            },
+            {
+                "title" : "Eagle",
+                "className" : "eagle"
+            },
+            {
+                "title" : "Birdie",
+                "className" : "birdie"
+            },
+            {
+                "title" : "Par",
+                "className" : "par"
+            },
+            {
+                "title" : "Bogey",
+                "className" : "bogey"
+            },
+            {
+                "title" : "Double Bogey",
+                "className" : "double-bogey"
+            },
+            {
+                "title" : "Triple Bogey",
+                "className" : "triple-bogey"
+            }
+        ]
+
+    }
+}

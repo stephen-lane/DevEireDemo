@@ -1,0 +1,9 @@
+<ul class="bsp-list-inline tourn-nav">
+    <li class="tourn-nav-item"><a href="{{link.attributes.href}}?view=scorecard#anchor">Scorecard</a></li>
+    {{#unless options.isMatchPlay}}
+        <li class="tourn-nav-item"><a href="{{link.attributes.href}}?view=statistics#anchor">Stats</a></li>
+    {{/unless}}
+    <li class="tourn-nav-item"><a href="{{link.attributes.href}}?view=news#anchor">News</a></li>
+    <li class="tourn-nav-item"><a href="{{link.attributes.href}}?view=photos#anchor">Photos</a></li>
+</ul>
+

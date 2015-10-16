@@ -1,0 +1,29 @@
+{
+	"_template": "common/body",
+
+	"headerView": { "_dataUrl": "/components/jsg-site-header/jsg-header.json" },
+
+	"mainView": {
+		"_template": "layouts/full-page",
+		"main": {
+			"components": [
+				{ "_dataUrl": "/components/jsg-super-promo/super-promo-tourn-overview.json" },
+				{ "_dataUrl": "/components/jsg-tourn-summary/jsg-tourn-summary.json" },
+				{ "_dataUrl": "tabs.json" },
+				{
+					"_template": "layouts/full-page",
+					"options": {
+						"modifierClass": "jsg-tournament-display"
+					},
+					"main": {
+						"components": [
+							{ "_dataUrl": "/components/jsg-gallery-grid/gallery-low-res.json" }
+						]
+					}
+				}
+			]
+		}
+	},
+
+	"footerView": { "_dataUrl": "/components/jsg-site-footer/jsg-site-footer.json" }
+}

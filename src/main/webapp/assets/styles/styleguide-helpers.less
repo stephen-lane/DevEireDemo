@@ -1,0 +1,134 @@
+@import (reference) "bower/bootstrap/variables";
+@import "variables/variables.less";
+@import "variables/jsg-variables.less";
+
+/**
+ * Font helpers
+ */
+.sg-font-weight-base {
+	font-weight: @font-weight-base;
+	&:before {
+		content: "@font-weight-base: @{font-weight-base}"
+	}
+}
+.sg-font-weight-light {
+	font-weight: @font-weight-light;
+	&:before {
+		content: "@font-weight-light: @{font-weight-light}"
+	}	
+}
+.sg-font-weight-semi-bold {
+	font-weight: @font-weight-semi-bold;
+	&:before {
+		content: "@font-weight-semi-bold: @{font-weight-semi-bold}"
+	}
+}
+.sg-font-weight-bold {
+	font-weight: @font-weight-bold;
+	&:before {
+		content: "@font-weight-bold: @{font-weight-bold}"
+	}
+}
+.sg-font-family {
+	&.jsg-section-title {
+		background: inherit;
+		border-bottom: 1px #000 solid;
+		color: #000;
+		margin-bottom: @space;
+	}
+	&:before {
+		display: block;
+	}
+}
+.sg-font-family-base {
+	.sg-font-family;
+	font-family: @font-family-base;
+}
+.sg-font-family-base-title {
+	.sg-font-family-base;
+	&:before {
+		content: "@font-family-base: @{font-family-base}";
+	}
+}
+.sg-font-family-secondary {
+	.sg-font-family;
+	font-family: @font-family-secondary;
+}
+.sg-font-family-secondary-title {
+	.sg-font-family-secondary;
+	&:before {
+		content: "@font-family-secondary: @{font-family-secondary}";
+	}
+}
+.sg-font-family-serif {
+	.sg-font-family;
+	font-family: @font-family-serif;
+}
+.sg-font-family-serif-title {
+	.sg-font-family-serif;
+	&:before {
+		content: "@font-family-serif: @{font-family-serif}";
+	}
+}
+.sg-ts {
+	&:before {
+		display: block;
+		text-decoration: underline;
+	}
+}
+.sg-ts-neg-2 {
+	.sg-ts;
+	&:before {
+		content: "@ts-neg-2: @{ts-neg-2}";
+	}
+	font-size: @ts-neg-2;
+}
+.sg-ts-neg-1 {
+	.sg-ts;
+	&:before {
+		content: "@ts-neg-1: @{ts-neg-1}";
+	}
+	font-size: @ts-neg-1;
+}
+.sg-ts-0 {
+	.sg-ts;
+	&:before {
+		content: "@ts-0: @{ts-0}";
+	}
+	font-size: @ts-0;
+}
+.sg-ts-1 {
+	.sg-ts;
+	&:before {
+		content: "@ts-1: @{ts-1}";
+	}
+	font-size: @ts-1;
+}
+.sg-ts-2 {
+	.sg-ts;
+	&:before {
+		content: "@ts-2: @{ts-2}";
+	}
+	font-size: @ts-2;
+}
+.sg-ts-3 {
+	.sg-ts;
+	&:before {
+		content: "@ts-3: @{ts-3}";
+	}
+	font-size: @ts-3;
+}
+.sg-ts-4 {
+	.sg-ts;
+	&:before {
+		content: "@ts-4: @{ts-4}";
+	}
+	font-size: @ts-4;
+}
+.sg-ts-5 {
+	.sg-ts;
+	&:before {
+		content: "@ts-5: @{ts-5}";
+	}
+	font-size: @ts-5;
+}

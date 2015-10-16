@@ -1,0 +1,12 @@
+{
+	"_template" : "components/bsp-component-group",
+	"components" : [
+		{
+			"_dataUrl" : "promos.json"
+		},
+		{
+			"_template" : "components/jsg-next-content",
+			"url" : "/pages/news/load-more.html"
+		}
+	]
+}

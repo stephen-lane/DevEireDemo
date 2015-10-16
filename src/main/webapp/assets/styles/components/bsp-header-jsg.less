@@ -1,0 +1,119 @@
+.bsp-site-header-simple-wrapper {
+    border-bottom: @border-style-5;
+    height: @header-height-mobile + @header-bottom-border;
+}
+
+.bsp-site-header-simple {
+    height: @header-height-mobile + @header-bottom-border;
+}
+
+.bsp-nav-menu-simple {
+    font-size: @ts-neg-2;
+    font-weight: @font-weight-light;
+    font-family: @font-family-secondary;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bsp-site-menu-toggle {
+    vertical-align: middle;
+    width: 17px;
+}
+
+.bsp-site-menu-trigger-simple {
+    font-size: 26px;
+    margin-right: 0;
+
+    // override some wierdness coming from base
+    a, a .icon {
+        height: auto;
+        line-height: 1;
+    }
+
+    &.toggle-in {
+        background: transparent;
+
+        .icon {
+            color: @brand-accent;
+        }
+
+    }
+}
+
+.toggle-in {
+
+    .bsp-site-menu-simple& {
+        height: 280px;
+        text-transform: uppercase;
+        top: @header-height-mobile;
+    }
+
+    .bsp-site-menu-items-simple {
+        padding-top: @space;
+    }
+
+    .site-item-simple {
+        font-size: @ts-neg-2;
+        margin: @space-and-half;
+    }
+
+}
+
+
+.bsp-site-logo-simple {
+    text-align: left;
+    img {
+        width: 110px;
+
+        @media @mq-md {
+            margin-left: 0;
+            width: auto;
+        }
+    }
+}
+
+//align the text to the bottom of the
+//jordan spieth logo
+@media @mq-sm {
+    .nav-item-simple {
+        vertical-align: baseline;
+        padding-top: 38px;
+    }
+}
+
+// change to flex display instead of table layout
+@media @header-mobile-breakpoint {
+
+    .bsp-site-header-simple-wrapper {
+        height: @header-height + @header-bottom-border;
+    }
+
+
+    .bsp-nav-menu-items-simple {
+        display: flex;
+        justify-content: flex-end;
+
+        .nav-item-simple {
+            display: block;
+
+            &:not(:last-child) {
+                padding-right: @space-quint;
+            }
+
+        }
+    }
+}
+
+// temporary hack until we cand fix
+// the proper way
+@media @mq-only-xs {
+    body {
+        padding-top: @header-height-mobile;
+    }
+}
+
+@media @mq-only-sm {
+    body {
+        padding-top: @header-height-mobile;
+    }
+}

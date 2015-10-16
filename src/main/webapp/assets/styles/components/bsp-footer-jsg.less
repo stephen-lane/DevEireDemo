@@ -1,0 +1,60 @@
+.bsp-site-footer-simple {
+    background-color: @brand-dark;
+    padding: @space-quad;
+
+    .bsp-component {
+        padding-bottom: 0;
+    }
+
+    .bsp-component-content {
+        width: auto;
+    }
+
+    .bsp-component-title {
+        font-family: @font-family-secondary;
+        background-color: @brand-dark;
+        margin-bottom: 0;
+        .type-scale(1, @lh: @line-height-headings);
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        width: auto;
+    }
+
+    .bsp-share-link {
+        padding: 1px;
+        background-color: @white;
+        width: 35px;
+        height: 35px;
+    }
+
+    .bsp-share-links {
+        margin-bottom: 0;
+
+        li {
+            padding: 0 @space-half;
+        }
+
+        a {
+            background:none;
+
+            &:before {
+                color: @white;
+            }
+        }
+    }
+
+    .bsp-site-copyright {
+        .type-scale(-2);
+        color: @gray-light-3;
+
+        a {
+            color: @brand-accent;
+        }
+
+    }
+
+    .bsp-trademark {
+        color: @brand-accent;
+    }
+
+}

@@ -1,0 +1,346 @@
+{
+    "_template" : "components/bsp-list-promo",
+
+    "options" : {
+        "horizontalSplit" : "half",
+        "modifierClass" : "medium-promo"
+    },
+
+    "heading" : {
+
+        "_template" : "common/link",
+
+        "attributes" : {
+           "href"  : "link",
+           "title" : "Link Title",
+           "name" : "top-2014"
+        },
+
+        "body" : {
+            "_template": "common/text",
+            "text": "Top Tournaments 2014"
+        }
+
+    },
+
+    "listItems" : [
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "text-above",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template": "common/text",
+                            "text": "John Deere Classic 2014"
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/medium-promo/medium-promo-1.jpeg"
+                            }
+                        },
+
+                        "overlayLinked" : {
+
+                            "_template" : "components/jsg-overlay-linked",
+
+                            "link" : {
+
+                                "attributes" : {
+                                    "_template" : "common/attributes",
+
+                                    "href"  : "link",
+                                    "title" : "Link Title"
+                                },
+
+                                "description" : "The groundwork was set into motion in the Fall of 2013 following Jordan's participation on the United States President's Cup Team. Jordan’s experiences on and off the course have shaped his outlook toward service. The Jordan Spieth Charitable Fund is his platform to lend time, awareness, and financial assistance to three areas of philanthropic concern: Special needs youth, military families, and junior golf.",
+
+                                "ctaText" : "Read More"
+
+                            }
+                        }
+                    }
+
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "text-below",
+
+                    "description" : "Spieth’s combined 54-under-par score in the majors is the lowest in history, breaking the record Woods set in 2000."
+
+                }
+            ]
+        },
+
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template": "common/text",
+                            "text": "Masters Tournament"
+                        }
+
+                    }
+
+                },
+
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/medium-promo/medium-promo-2.jpeg"
+                            }
+                        },
+
+                        "overlayLinked" : {
+
+                            "_template" : "components/jsg-overlay-linked",
+
+                            "link" : {
+
+                                "attributes" : {
+                                    "_template" : "common/attributes",
+
+                                    "href"  : "link",
+                                    "title" : "Link Title"
+                                },
+
+                                "description" : "The groundwork was set into motion in the Fall of 2013 following Jordan's participation on the United States President's Cup Team. Jordan’s experiences on and off the course have shaped his outlook toward service. The Jordan Spieth Charitable Fund is his platform to lend time, awareness, and financial assistance to three areas of philanthropic concern: Special needs youth, military families, and junior golf.",
+
+                                "ctaText" : "Read More"
+
+                            }
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "description" : "That thing hedoes when he most needs it, that switch he flips, must have been on the fritz. Until it wasn't."
+
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "text-above",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template": "common/text",
+                            "text" : "John Deere Classic 2014"
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/medium-promo/medium-promo-1.jpeg"
+                            }
+                        },
+
+                        "overlayLinked" : {
+
+                            "_template" : "components/jsg-overlay-linked",
+
+                            "link" : {
+
+                                "attributes" : {
+                                    "_template" : "common/attributes",
+
+                                    "href"  : "link",
+                                    "title" : "Link Title"
+                                },
+
+                                "description" : "The groundwork was set into motion in the Fall of 2013 following Jordan's participation on the United States President's Cup Team. Jordan’s experiences on and off the course have shaped his outlook toward service. The Jordan Spieth Charitable Fund is his platform to lend time, awareness, and financial assistance to three areas of philanthropic concern: Special needs youth, military families, and junior golf.",
+
+                                "ctaText" : "Read More"
+
+                            }
+                        }
+                    }
+
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "text-below",
+
+                    "description" : "Spieth’s combined 54-under-par score in the majors is the lowest in history, breaking the record Woods set in 2000."
+
+                }
+            ]
+        },
+
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template": "common/text",
+                            "text" : "Masters Tournament"
+                        }
+
+                    }
+
+                },
+
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/medium-promo/medium-promo-2.jpeg"
+                            }
+                        },
+
+                        "overlayLinked" : {
+
+                            "_template" : "components/jsg-overlay-linked",
+
+                            "link" : {
+
+                                "attributes" : {
+                                    "_template" : "common/attributes",
+
+                                    "href"  : "link",
+                                    "title" : "Link Title"
+                                },
+
+                                "description" : "The groundwork was set into motion in the Fall of 2013 following Jordan's participation on the United States President's Cup Team. Jordan’s experiences on and off the course have shaped his outlook toward service. The Jordan Spieth Charitable Fund is his platform to lend time, awareness, and financial assistance to three areas of philanthropic concern: Special needs youth, military families, and junior golf.",
+
+                                "ctaText" : "Read More"
+
+                            }
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "description" : "That thing hedoes when he most needs it, that switch he flips, must have been on the fritz. Until it wasn't."
+
+                }
+            ]
+        }
+    ]
+}

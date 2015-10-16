@@ -1,0 +1,42 @@
+{
+	"_template" : "components/jsg-partner",
+	"options" : {
+		"modifierClass" : "light-gray-back-jsg"
+	},
+	"title" : "Under Armour",
+	"logo" : {
+		"_template" : "common/image",
+		"attributes" : {
+			"src" : "/components/jsg-partner/under-armour.jpg"
+		}
+	},
+	"content" : {
+		"_template" : "common/text",
+		"text" : "\"When starting, I looked at myself as the underdog. Under Armour, that's been their grit, being the underdog. They find out-of-the-box ways to innovate and get things done, and their growth in golf has been phenomenal. They show so much trust in me and continue to do so, in both my golf performance and my off-course efforts.\""
+	},
+	"links" : {
+		"_template" : "elements/list",
+		"items" : [
+			{
+				"_template" : "common/link",
+				"attributes" : {
+					"href" : "http://www.jordanspiethgolf.com"
+				},
+				"body" : {
+					"_template" : "common/text",
+					"text" : "Under Armour's golf gear"
+				}
+			},
+			{
+				"_template" : "common/link",
+				"attributes" : {
+					"href" : "http://www.jordanspiethgolf.com"
+				},
+				"body" : {
+					"_template" : "common/text",
+					"text" : "Jordan and Under Armour"
+				}
+			}
+		]
+	}
+}

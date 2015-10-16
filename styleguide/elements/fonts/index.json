@@ -1,0 +1,37 @@
+{
+	"_template" : "common/body",
+
+	"headerView" : {
+		"_dataUrl" : "/components/jsg-site-header/jsg-styleguide-header.json"
+	},
+
+	"mainView" : {
+
+		"_template" : "layouts/full-page",
+
+		"main" : {
+			"components" : [
+				{ "_dataUrl" : "page-title.json" },
+				{
+					"_template" : "layouts/one-col",
+
+					"main" : {
+						"components" : [
+							{
+								"_dataUrl" : "font-family-base.json"
+							},
+							{
+								"_dataUrl" : "font-family-secondary.json"
+							}
+						]
+					}
+				}
+			]
+		}
+
+	},
+
+	"footerView" : {
+		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+	}
+}

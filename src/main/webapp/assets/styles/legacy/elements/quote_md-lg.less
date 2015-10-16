@@ -1,0 +1,16 @@
+.bsp-quote {
+    q {
+        font-size: @ts-4;
+        &:before,
+        &:after {
+            width: 124px;
+            height: 72px;
+        }
+        &:before{
+            margin-left: -@quotation-margin;
+        }
+        &:after {
+            margin-right: -@quotation-margin;
+        }
+    }
+}

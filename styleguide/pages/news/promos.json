@@ -1,0 +1,171 @@
+{
+    "_template" : "components/bsp-list-promo",
+
+    "options" : {
+        "horizontalSplit" : "third",
+        "modifierClass" : "small-promo-with-cta"
+    },
+
+    "listItems" : [
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+                        "body" : {
+
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/small-promo/small-promo-1.jpeg"
+                            }
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body": {
+                            "_template" : "common/text",
+                            "text" : "Jordan Achieves 'Lifelong Goal'"
+                        }
+
+                    }
+
+                }
+            ]
+        },
+
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/small-promo/small-promo-2.jpeg"
+                            }
+                        }
+
+                    }
+
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "modifierClass" : "tournament-name",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body": {
+                            "_template" : "common/text",
+                            "text" : "'Staying Stubborn' in Third Round"
+                        }
+
+                    }
+
+                }
+            ]
+
+        },
+
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/small-promo/small-promo-3.jpeg"
+                            }
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body": {
+                            "_template" : "common/text",
+                            "text" : "Spieth Confident About FedExCup"
+                        }
+
+                    }
+                }
+            ]
+        }
+    ]
+}

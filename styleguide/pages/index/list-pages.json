@@ -1,0 +1,266 @@
+{
+	"_template" : "components/bsp-list-promo",
+
+	"listItems" : [
+		{
+			"sections" : [
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/pages/article/",
+							"title" : "Article"
+						},
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Article"
+                        }
+					}
+				}
+			]
+		},
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/article-bg-banner/",
+                            "title" : "Article - with Background Banner"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Article - with Background Banner"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/article-external/",
+                            "title" : "Article - external content"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Article - external content"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/gallery-full-screen/",
+                            "title" : "Full Page Gallery"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Full Page Gallery"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/gallery/",
+                            "title" : "Galleries"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Galleries"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/home-page/",
+                            "title" : "Home Page"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Home Page"
+                        }
+                    }
+                }
+            ]
+        },
+		{
+			"sections" : [
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/pages/news/",
+							"title" : "News"
+						},
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "News"
+                        }
+					}
+				}
+			]
+		},
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/photofall/",
+                            "title" : "Photofall"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Photofall"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/tournament-landing/",
+                            "title" : "Tournament Landing"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Tournament Landing"
+                        }
+                    }
+                }
+			]
+		},
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/tournament-page/",
+                            "title" : "Tournament Pages"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Tournament Pages"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/top-tournaments/2015/",
+                            "title" : "Top Tournaments"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Top Tournaments"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/jsg-error-page/",
+                            "title" : "Error Page"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Error Page"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" : [
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/pages/contact/",
+                            "title" : "Contact My Team"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Contact My Team"
+                        }
+                    }
+                }
+            ]
+        }
+	]
+}

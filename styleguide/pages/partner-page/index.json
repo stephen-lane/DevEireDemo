@@ -1,0 +1,47 @@
+{
+	"_template" : "common/body",
+
+	"headerView" : {
+		"_dataUrl" : "/components/jsg-site-header/jsg-header.json"
+	},
+
+	"mainView" : {
+		"_template": "layouts/full-page",
+		"main": {
+			"components": [
+				{ "_dataUrl": "page-title.json" },
+				{ "_dataUrl": "/components/jsg-super-promo/super-promo-single-no-tag.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{
+					"_template" : "components/jsg-section-inline-title",
+					"options" : {
+						"modifierClass" : "light-gray-back-jsg"
+					},
+					"title" : {
+						"_template" : "common/text",
+						"text" : "Jordan's Team"
+					},
+					"content" : {
+						"_template" : "common/text",
+						"text" : "Turducken filet mignon ball tip, meatball shankle ribeye sirloin venison leberkas ground."
+					}
+				},
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/jsg-partner/partner.json" }
+
+			]
+		}
+	},
+
+	"footerView" : {
+		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+	}
+
+}

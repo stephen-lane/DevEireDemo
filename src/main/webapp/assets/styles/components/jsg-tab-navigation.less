@@ -1,0 +1,84 @@
+.jsg-tab-navigation  {
+	background: @brand-dark;
+    border-top: 2px solid @white;
+	text-align: center;
+
+	a {
+		color: @white;
+		display: block;
+        padding: @space;
+		text-transform: uppercase;
+		width: 100%;
+
+		&.active, &:hover {
+			background: @black;
+		}
+	}
+
+	li {
+		display: block;
+        font-size: @ts-neg-2;
+        font-family: @font-family-secondary;
+	}
+
+	@media only screen and (min-width: @screen-xs-min) {
+
+		li {
+			display: inline-block;
+		}
+
+		a {
+			margin-bottom: -1px;
+			padding: 0 @space-double;
+
+			&.active {
+				border-bottom: 1px @gray-dark-3 solid;
+			}
+		}
+	}
+
+	@media @mq-sm {
+		a {
+			padding: 0 @space*6;
+		}
+	}
+}
+
+
+// css for brighspot tabber componetn
+.bsp-tabber-promo-component {
+    border-top: 2px solid @white;
+    padding-top: 0;
+}
+
+.bsp-tabber-nav-container {
+    background: @brand-dark;
+    display: block;
+
+    @media @mq-sm {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.bsp-tabber-nav {
+    background: @brand-dark;
+    font-size: @ts-neg-2;
+    font-family: @font-family-secondary;
+    padding: @space @space-triple;
+    text-transform: uppercase;
+
+    @media @mq-sm {
+        border: none;
+        width: auto;
+    }
+
+    &.active, &:hover {
+        background: @black;
+        color: @white;
+    }
+}
+
+.bsp-tab {
+    padding-top: @space-quint;
+}

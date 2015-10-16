@@ -1,0 +1,12 @@
+<div class="tourn-summary">
+    <span class="score-total">{{scoreTotal}}</span>
+    <span class="score-rel-to-par">{{scoreRelToPar}}</span>
+</div>
+<ul class="bsp-list-inline tourn-rounds">
+    {{#each rounds}}
+        <li class="round">
+            <span class="round-num">{{@key}}</span>
+            <span class="round-score">{{this}}</span>
+        </li>
+    {{/each}}
+</ul>

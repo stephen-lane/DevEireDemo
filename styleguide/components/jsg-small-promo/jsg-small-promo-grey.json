@@ -1,0 +1,217 @@
+{
+    "_template" : "components/bsp-list-promo",
+
+    "options" : {
+        "horizontalSplit" : "third",
+        "_notes" : "Second modifier class controls the bacground color of a component. Four possible options: black-back-jsg, light-gray-back-jsg, dark-gray-back-jsg, white-back-jsg",
+        "modifierClass" : "small-promo-with-cta light-gray-back-jsg"
+    },
+
+    "heading" : {
+
+        "_template" : "common/link",
+
+        "attributes" : {
+           "href"  : "link",
+            "title" : "Link Title"
+        },
+
+        "body" : {
+            "_template" : "common/text",
+            "text" : "2015 PGA Championship"
+        }
+    },
+
+    "listItems" : [
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/small-promo/small-promo-1.jpeg"
+                            }
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "text-below",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/text",
+                            "text" : "Jordan Achieves 'Lifelong Goal'"
+                        }
+
+                    },
+
+                    "description" : "Spieth’s combined 54-under-par score in the majors is the lowest in history, breaking the record Woods set in 2000. dsfjdf sdfldf dsflds ds dslkdf df dsldfk dsf dflkdf "
+
+                }
+            ]
+        },
+
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/small-promo/small-promo-2.jpeg"
+                            }
+                        }
+
+                    }
+
+                },
+
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "modifierClass" : "tournament-name",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/text",
+                            "text" : "'Staying Stubborn' in Third Round"
+                        }
+
+                    },
+
+                    "description" : "That thing hedoes when he most needs it, that switch he flips, must have been on the fritz. Until it wasn't."
+
+                }
+            ]
+
+        },
+
+        {
+            "sections" : [
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "name" : "image",
+
+                    "image" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+
+                            "_template" : "common/image",
+
+                            "attributes" : {
+                                "alt" : "Test Alt",
+                                "src" : "/assets/images/small-promo/small-promo-3.jpeg"
+                            }
+                        }
+                    }
+                },
+                {
+
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "title" : {
+
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "link",
+                            "title" : "Link Title"
+                        },
+
+                        "body" : {
+                            "_template" : "common/text",
+                            "text" : "Jordan Achieves 'Lifelong Goal'"
+                        }
+
+                    },
+
+                    "description" : "Spieth’s combined 54-under-par score in the majors is the lowest in history, breaking the record Woods set in 2000."
+
+                }
+            ]
+        }
+    ],
+
+    "cta" : {
+        "options" : {
+            "location" : "bottom-center"
+        },
+
+        "content" : {
+           "_template" : "common/link",
+
+            "attributes" : {
+               "href"  : "link",
+                "title" : "Link Title"
+            },
+
+            "body" : {
+                "_template" : "common/text",
+                "text" : "CTA Link"
+            }
+
+        }
+    }
+}

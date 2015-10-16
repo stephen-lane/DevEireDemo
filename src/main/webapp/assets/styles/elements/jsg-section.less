@@ -1,0 +1,198 @@
+.section-jsg {
+
+    @media @mq-md {
+        .bsp-component-content, .bsp-component-title {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media @mq-lg {
+        .bsp-component-content, .bsp-component-title {
+             width: @screen-lg-min;
+        }
+    }
+
+    @media @mq-only-md {
+        .bsp-component-content, .bsp-component-title {
+             width: @screen-md-min;
+        }
+    }
+
+    .bsp-image-promo-image {
+        margin-bottom: 0;
+    }
+
+}
+
+.jsg-tournament-display {
+    background: @black;
+    width: 100%;
+
+    .bsp-component-title, .bsp-component-cta {
+        color: @white;
+    }
+
+    .matchplay {
+        .legend {
+            color: @white;
+        }
+    }
+
+    .small-promo-with-cta {
+        padding-bottom: @space-triple;
+    }
+
+    .bsp-list-promo-title {
+        a {
+            color: @white;
+        }
+    }
+
+    .bsp-list-promo-desc {
+        color: @white;
+    }
+
+    .bsp-gallery-embedded {
+        color: @white;
+
+        .bsp-component-title {
+            font-weight: @font-weight-light;
+            width: 100%;
+        }
+    }
+
+    .jsg-gallery-grid-embedded {
+        border: none;
+    }
+
+}
+
+.tournaments-jsg {
+    .super-promo-jsg {
+        padding-bottom: 0;
+    }
+    .bsp-site {
+        overflow: hidden;
+    }
+}
+
+.jsg-tournament-sched-wrapper {
+    background: @black;
+
+    .bsp-component& {
+        padding-top: 0;
+    }
+
+    .jsg-section-title {
+        background: @black;
+
+        .bsp-component& {
+            padding-bottom: 0;
+            @media @mq-sm {
+                padding-top: @space-quad;
+            }
+        }
+
+        h3 {
+            font-size: @ts-2;
+
+            @media @mq-sm {
+                font-size: @ts-3;
+            }
+
+        }
+
+        .bsp-component-content {
+            padding-bottom: @space-double;
+
+            @media @mq-sm {
+                border-bottom: @border-style-white;
+            }
+        }
+    }
+
+}
+
+.section-jsg-news {
+
+    .bsp-component {
+        padding-bottom: 0;
+    }
+
+    .small-promo-with-cta {
+        padding-top: 0;
+    }
+
+}
+
+
+body.bsp-gallery-section {
+
+    &.bsp-fullscreen {
+        padding-top: 72px;
+    }
+
+    .bsp-page-title-wrapper {
+        margin-top: 0;
+    }
+    .bsp-site-wrapper {
+        background: @black;
+    }
+    .bsp-site {
+        background: @black;
+        padding: @space-and-half 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .bsp-component {
+        padding-top: 0;
+    }
+
+    .bsp-component-content {
+        height: auto;
+    }
+
+    .bsp-gallery-grid-wrapper{
+        &.showing-grid {
+            .bsp-component-content {
+                height: auto;
+            }
+        }
+    }
+}
+
+body.section-jsg-news {
+
+    .bsp-site {
+        padding-bottom: @space-double;
+    }
+
+    .small-promo-with-cta {
+        .bsp-column-third {
+            padding-right: @space;
+            padding-top: @space-triple;
+        }
+    }
+}
+
+@media @mq-md {
+    body.bsp-gallery-section {
+        .bsp-site {
+            margin: 0 auto;
+            width: (@jsg-gallery-section-grid-rec-side*2) + @jsg-gallery-section-grid-gutter + 200px;
+        }
+    }
+    .tournaments-jsg {
+        .bsp-site {
+            overflow: visible;
+        }
+    }
+}
+@media @mq-lg {
+    body.bsp-gallery-section {
+        .bsp-site {
+            width: @jsg-gallery-section-grid-width + 100px;
+        }
+    }
+}

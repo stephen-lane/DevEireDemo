@@ -1,0 +1,109 @@
+.bsp-site-footer {
+    text-align: center;
+    background: @brand-dark;
+
+    a {
+        color: white;
+        text-transform: none;
+     }
+    .bsp-trademark {
+        color: #46d1ff;
+    }
+    .bsp-site-copy {
+        font-size: @ts-neg-1;
+        color: @brand-dark-link;
+        margin-bottom: @space-half;
+    }
+    .bsp-footer-container {
+        padding-top: @space-quad;
+        padding-bottom: @space-quad;
+        color: white;
+        &:extend(.bsp-container);
+    }
+}
+
+.bsp-footer-nav {
+    text-align: justify;
+    margin: 0 auto;
+
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+    > li {
+        display: inline-block;
+        text-align: center;
+
+        &.active {
+            font-weight: bold;
+        }
+        a {
+            text-transform: uppercase;
+            font-size: 16px;
+            display: block;
+            padding: @space-half @space;
+            font-weight: 300;
+            letter-spacing: @letter-spacing-wide;
+            .transition(color .5s ease);
+        }
+    }
+}
+
+.bsp-site-links {
+    font-size: @ts-neg-1;
+    a {
+        color: @brand-dark-link;
+        &:before {
+            content: '|';
+            padding: 0 @space;
+         }
+            &:first-child {
+                &:before {
+                content: none;
+            }
+        }
+    }
+}
+
+@media @mq-only-xs {
+    .bsp-footer-nav {
+          -webkit-column-count: 1;
+          width: 100%;
+          text-align: center;
+            li{
+                text-align: center;
+                display: inline-block;
+                line-height: 32px;
+            }
+    }
+}
+
+@media @mq-only-sm {
+    .bsp-footer-nav {
+          -webkit-column-count: 2;
+          -webkit-column-gap: 10px;
+          width: 100%;
+          text-align: center;
+            li{
+                display: inline-block;
+                text-align: center;
+                line-height: 32px;
+                width: 50%;
+            }
+    }
+}
+
+@media @mq-xs-and-sm {
+    .bsp-site-footer-top {
+        text-align: center;
+    }
+
+    .bsp-site-footer {
+        .bsp-footer-container {
+            display: block;
+        }
+    }
+}
+
+

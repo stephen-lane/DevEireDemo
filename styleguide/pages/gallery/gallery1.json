@@ -1,0 +1,118 @@
+{
+	"_template" : "components/jsg-gallery-grid",
+
+    "galleryGridClassName" : "jsg-gallery-page-grid jsg-gallery-page-grid-layout1",
+
+    "galleryGridThumbs" : [
+    	{
+	        "attributes" : {
+	            "href" : "#link1"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#link2"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#link3"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+			"_template" : "components/bsp-list-promo",
+
+			"heading" : {
+
+		        "_template" : "common/text",
+
+		        "text" : "John Deere Classic"
+
+		    },
+
+			"listItems" : [
+				{
+					"sections" : [
+		                {
+
+		                    "_template" : "common/text",
+		                    "text": "Prosciutto chuck sausage ribeye turducken ground round meatball filet mignon pork."
+		                }
+		            ]
+				}
+			],
+
+			"cta" : {
+				"content" : {
+					"_template" : "common/link",
+					"attributes" : {
+						"href": "#link4",
+						"title": "Visit Gallery"
+					},
+					"body" : {
+						"_template" : "common/text",
+						"text": "Visit Gallery"
+					}
+				}
+			}
+		},
+	    {
+	        "attributes" : {
+	            "href" : "#link4"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square6.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#link5"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-horizontal1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#link6"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square4.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    }
+	    
+    ]
+}

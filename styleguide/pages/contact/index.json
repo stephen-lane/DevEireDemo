@@ -1,0 +1,26 @@
+{
+	"_template" : "common/body",
+
+    "headerView" : {
+        "_template": "components/bsp-component-group",
+        "components": [
+            { "_dataUrl" : "/components/jsg-site-header/jsg-header.json" },
+            { "_dataUrl" : "page-title.json" }
+        ]
+    },
+
+	"mainView" : {
+		"_template": "layouts/full-page",
+		"main": {
+			"components": [
+                { "_dataUrl": "promo-img-only.json" },
+				{ "_dataUrl": "/components/jsg-email-form/jsg-email-form.json" }
+			]
+		}
+	},
+
+	"footerView" : {
+		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+	}
+
+}

@@ -1,0 +1,47 @@
+{
+	"_template" : "common/body",
+
+	"headerView" : {
+		"_template": "components/bsp-component-group",
+		"components": [
+			{ "_dataUrl" : "/components/jsg-site-header/jsg-header.json" },
+			{ "_dataUrl" : "page-title.json" },
+			{ "_dataUrl" : "tabs.json" }
+		]
+	},
+
+	"mainView" : {
+
+		"_template" : "layouts/one-col",
+
+		"main" : {
+			"components" : [
+				{
+					"_dataUrl" : "gallery1.json"
+				},
+				{
+
+					"_dataUrl" : "gallery2.json"
+				},
+				{
+
+					"_dataUrl" : "gallery3.json"
+				},
+				{
+
+					"_dataUrl" : "gallery4.json"
+				},
+				{
+
+					"_dataUrl" : "load-more.json"
+				}
+			]
+		}
+
+	},
+
+	"footerView" : {
+		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+	}
+
+}

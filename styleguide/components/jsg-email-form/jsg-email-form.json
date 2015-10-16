@@ -1,0 +1,107 @@
+{
+    "_template" : "components/jsg-contact-form",
+
+
+    "formAction" : {
+        "url" : "submit.html"
+    },
+
+    "name" : {
+
+        "_template" : "components/bsp-form-input",
+        "showMessagesAbove": true,
+        "attributes": {
+            "autocomplete": "off",
+            "id": "fullName",
+            "placeholder": "Enter Full Name",
+            "required": true,
+            "type": "text"
+        },
+        "errors": [
+            { "valueMissing": "Please enter a name" }
+        ],
+        "label": {
+           "attributes": {
+                "for": "fullName"
+            },
+            "text": "Name"
+        }
+
+    },
+
+    "phoneNumber" : {
+
+        "_template" : "components/bsp-form-input",
+        "showMessagesAbove": true,
+        "attributes": {
+            "autocomplete": "off",
+            "id": "phoneNumber",
+            "placeholder": "(222) 222-2222",
+            "required": true,
+            "type": "tel"
+        },
+        "errors": [
+            { "valueMissing": "Please fill in the telephone number" }
+        ],
+        "label": {
+            "attributes": {
+                "for": "phoneNumber"
+            },
+            "text": "Phone Number"
+        }
+
+    },
+
+    "emailAddress" : {
+
+        "_template" : "components/bsp-form-input",
+        "showMessagesAbove": true,
+        "attributes": {
+            "autocomplete": "off",
+            "id": "emailAddress",
+            "placeholder": "address@domain.com",
+            "required": true,
+            "type": "email"
+        },
+        "errors": [
+            { "typeMismatch": "Email address must follow format a@b.c" },
+            { "valueMissing": "Please enter an email address" }
+        ],
+        "label": {
+            "attributes": {
+                "for": "emailAddress"
+            },
+            "text": "Email Address"
+        }
+
+    },
+
+    "msgContent" : {
+
+        "_template" : "components/bsp-form-textarea",
+        "showMessagesAbove": true,
+        "attributes": {
+            "id": "yourMessage",
+            "required": true
+        },
+        "errors": [
+            { "valueMissing": "Please enter some text" }
+        ],
+        "label": {
+            "attributes": {
+                "for": "yourMessage"
+            },
+            "text": "Your Message"
+        }
+    },
+
+    "submit" : {
+        "_template" : "components/bsp-form-input",
+        "attributes": {
+            "type": "submit",
+            "value": "Send Message"
+        }
+    }
+
+
+}

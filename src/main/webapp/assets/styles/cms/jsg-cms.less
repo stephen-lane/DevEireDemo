@@ -1,0 +1,84 @@
+
+// Hides the text field in the footer social links
+[data-type="com.jordanspiethgolf.model.Footer"] [data-field-name="socialLinks"] [data-field-name="link"] [data-field-name="text"] {
+    display: none;
+}
+
+// Hides the text field in the Static Promo List link
+[data-type="com.jordanspiethgolf.model.PromoListStatic"] [data-field-name="items"] [data-field-name="link"] [data-field-name="text"] {
+    display: none;
+}
+
+// Hides the name field inherited from Module on all modules when inside a section.
+[data-type="com.jordanspiethgolf.model.Section"] [data-field-name="modules"] [data-field-name="name"] {
+    display: none;
+}
+
+// Hides the backgroundTheme field inherited from Module on SharedModule.
+[data-type="com.jordanspiethgolf.model.SharedModule"] [data-field-name="backgroundTheme"] {
+    display: none;
+}
+
+// Hides the name field inherited from Module on all modules when inside a section.
+[data-type="com.jordanspiethgolf.model.Section"] [data-field-name="modules"] [data-field-name="content"] [data-field-name="isLoadMore"] {
+    display: none;
+}
+
+// Hides the name field inherited from Module on SharedModule.
+[data-type="com.jordanspiethgolf.model.SharedModule"] [data-field-name="name"] {
+    display: none;
+}
+
+// Hides the name field of the content list for the PromoModule.
+[data-type="com.jordanspiethgolf.model.PromoModule"] [data-field-name="content"] [data-field-name="name"] {
+    display: none;
+}
+
+// Hide the background theme option from TabNavigationModule
+[data-type="com.jordanspiethgolf.model.TabNavigationModule"] [data-field-name="backgroundTheme"] {
+    display: none;
+}
+
+.jsg-scorecard {
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+.jsg-scorecard-header {
+    position: relative;
+}
+
+.jsg-scorecard-headerInput {
+
+    position: absolute;
+    left: 14px;
+
+    &.jsg-scorecard-headerInput_back9 {
+        left: 24px;
+    }
+}
+
+.jsg-scorecard-headerLabel {
+    position: relative;
+    left: 8px;
+}
+
+.jsg-scorecard-rowStatus {
+    border-top: 1px solid #aaa;
+}
+
+.jsg-scorecard-dataTotal,
+.jsg-scorecard-headerTotal{
+    border-left: 1px solid #aaa;
+}
+
+.jsg-scorecard-holeInput {
+    width: 28px;
+
+    &.jsg-scorecard-holeInput_total {
+        width: 36px;
+    }
+}

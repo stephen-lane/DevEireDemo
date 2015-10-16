@@ -1,0 +1,47 @@
+/* This should be proper CSS so we don't have to worry about compiling it.  These should be overrides, so they can be old school CSS */
+
+
+.bsp-styleguide-header .bsp-extra-menu {
+    margin-right: -125px;
+}
+
+.bsp-scrolling .bsp-styleguide-header .bsp-site-logo, .bsp-fullscreen .bsp-styleguide-header .bsp-site-logo {
+    left: 2rem; 
+}
+
+.bsp-scrolling .bsp-styleguide-header .bsp-extra-menu, .bsp-fullscreen .bsp-styleguide-header .bsp-extra-menu {
+    margin: 0;
+    right: 2rem;    
+}
+
+/* hiding search in the styleguide for now until hbs is fixed */
+.bsp-styleguide-header .bsp-site-search-trigger {
+    display: none;
+}
+
+.bsp-form-input-button-container {
+    padding-top: 2em;
+    text-align: center;
+}
+
+/* a few jordan spieth style guide fixes */
+.jsp-styleguide-toc .bsp-list-promo-section {
+    font-size: 18px;
+}
+
+.jsp-styleguide-toc .bsp-page-title-wrapper {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.jsp-styleguide-component .subhead {
+    text-align: center;
+}
+
+.backLightGrey {
+    background: #f2f2f2;
+}
+
+.styleguide-index-page .bsp-site {
+    padding-top: 3rem;
+}

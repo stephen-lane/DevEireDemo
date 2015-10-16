@@ -1,0 +1,176 @@
+name: jordanspieth
+account: psd
+subdomain: jordanspieth.psdops.com
+internalDomain: jordanspieth.internal
+serial: 2
+
+rules:
+
+  - name: operations
+    permissions:
+      - cidr: 96.95.11.128/29
+      - cidr: 52.5.144.128/32
+      - cidr: 54.174.153.68/32
+      - cidr: 52.8.3.47/32
+      - cidr: 52.18.247.145/32
+
+  - name: network-gateway
+    permissions:
+      - cidr: production-frontend
+      - cidr: production-backend
+      - cidr: production-master
+      - name: openvpn
+        cidr: 0.0.0.0/0
+        protocol: udp
+        ports:
+          - 1194
+      - name: redirects
+        cidr: 0.0.0.0/0
+        ports:
+          - 80
+
+  - name: production-frontend
+    permissions:
+      - cidr: network-gateway
+      - cidr: elb
+
+  - name: production-backend
+    permissions:
+      - cidr: network-gateway
+      - cidr: production-frontend
+      - cidr: production-master
+
+  - name: production-master
+    permissions:
+      - cidr: network-gateway
+      - cidr: production-frontend
+      - cidr: production-backend
+
+  - name: elb
+    permissions:
+      - name: http
+        cidr: 0.0.0.0/0
+        ports:
+          - 80
+          - 443
+
+  - name: development
+    permissions:
+      - name: http
+        cidr: 52.4.141.219/32
+
+  - name: qa
+    permissions:
+      - cidr: development
+      - name: http
+        cidr: 0.0.0.0/0
+        protocol: tcp
+        ports:
+          - 80
+
+clouds:
+
+  - cloud: ec2
+    checkRegions:
+      - us-east-1
+
+    buckets:
+      - name: jordanspieth-ops-v2
+
+    regions:
+      - name: us-east-1
+        cidr: 10.0.0.0/16
+
+        loadBalancers:
+          - name: web
+            subnetType: public
+            dns:
+              hostnames:
+                - "upgrade-prod.jordanspieth.psdops.com."
+                - "*.upgrade-prod.jordanspieth.psdops.com."
+              verificationHostnames:
+                - "verify.jordanspieth.psdops.com."
+                - "*.verify.jordanspieth.psdops.com."
+
+            listeners:
+              - protocol: http
+                sourcePort: 80
+                destPort: 80
+
+            healthCheck:
+                protocol: http
+                port: 80
+                path: /_ping
+                timeout: 5
+                interval: 6
+                unhealthyCount: 2
+                healthyCount: 2
+
+            securityRules:
+              - elb
+
+        zones:
+
+          - name: us-east-1a
+            subnets: 
+              - types: [public, public-us-east, gateway]
+                cidr: 10.0.0.0/26
+                publicAccessible: true
+                gateway: &gateway
+                  image: jordanspieth serial-2 [gateway] hvm [3]
+                  ipAddress: 10.0.0.10
+                  instanceType: t2.medium
+                  hostnames:
+                    - "upgrade-vpn.jordanspieth.psdops.com."
+                    - "us-east-1a.upgrade-vpn.jordanspieth.psdops.com."
+
+                  rolePolicies:
+                    - beam-server-readonly
+                
+                  securityRules:
+                    - network-gateway
+                    - operations
+                
+                  provisioners:
+                    - type: knife-solo
+                      cookbookPath: ../chef
+                      environment: production
+                      recipe: jordanspieth::gateway
+
+
+              - types: [private, private-us-east, private-us-east-1a]
+                cidr: 10.0.0.128/25
+
+              - types: [development, qa]
+                publicAccessible: true
+                cidr: 10.0.0.64/26
+
+          - name: us-east-1b
+            subnets:
+              - types: [public, public-east, gateway]
+                cidr: 10.0.1.0/26
+                publicAccessible: true
+                gateway:
+                  <<: *gateway
+                  ipAddress: 10.0.1.10
+                  hostnames:
+                    - "upgrade-vpn.jordanspieth.psdops.com."
+                    - "us-east-1b.upgrade-vpn.jordanspieth.psdops.com."
+
+              - types: [private, private-us-east]
+                cidr: 10.0.1.128/25
+
+          - name: us-east-1c
+            subnets:
+              - types: [public, gateway]
+                cidr: 10.0.2.0/26
+                publicAccessible: true
+                gateway:
+                  <<: *gateway
+                  ipAddress: 10.0.2.10
+                  hostnames:
+                    - "upgrade-vpn.jordanspieth.psdops.com."
+                    - "us-east-1c.upgrade-vpn.jordanspieth.psdops.com."
+
+              - types: [master]
+                cidr: 10.0.2.128/25

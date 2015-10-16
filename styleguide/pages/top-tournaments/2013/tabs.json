@@ -1,0 +1,36 @@
+{
+    "_template": "components/jsg-tab-navigation",
+    "links": [
+        {
+            "_template": "common/link",
+            "cssClass": "active",
+            "attributes": {
+                "href": "#"
+            },
+            "body" : {
+                "_template": "common/text",
+                "text": "2013"
+            }
+        },
+        {
+            "_template": "common/link",
+            "attributes": {
+                "href": "/pages/top-tournaments/2014/"
+            },
+            "body" : {
+                "_template": "common/text",
+                "text": "2014"
+            }
+        },
+        {
+            "_template": "common/link",
+            "attributes": {
+                "href": "/pages/top-tournaments/2015/"
+            },
+            "body" : {
+                "_template": "common/text",
+                "text": "2015"
+            }
+        }
+    ]
+}

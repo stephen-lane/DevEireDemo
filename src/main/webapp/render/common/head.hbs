@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+{{#if title}}
+    <title>{{title}}</title>
+{{/if}}
+
+{{#if canonicalLink}}
+    <link rel="canonical" href="{{canonicalLink}}">
+{{/if}}
+
+{{#if description}}
+    <meta name="description" content="{{description}}">
+{{/if}}
+
+{{#if keywords}}
+    <meta name="keywords" content="{{keywords}}">
+{{/if}}
+
+{{#each meta}}
+    <meta {{> common/attributes this.attributes}}>
+{{/each}}
+
+{{#each icon}}
+    <link {{> common/attributes this.attributes}}>
+{{/each}}
+
+{{#each style}}
+    {{#if this.content}}
+        <style {{> common/attributes this.attributes}}>{{{this.content}}}</style>
+    {{else}}
+        <link {{> common/attributes this.attributes}}/>
+    {{/if}}
+{{/each}}
+{{#each script}}
+    <script {{> common/attributes this.attributes}}>{{#if this.content}}{{{this.content}}}{{/if}}</script>
+{{/each}}

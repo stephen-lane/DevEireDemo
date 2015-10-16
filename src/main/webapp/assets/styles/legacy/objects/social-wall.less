@@ -1,0 +1,51 @@
+.bsp-social-wall-item {
+	border: @default-border;
+	min-height: 201px;
+	position: relative;
+	.bsp-media-left {
+		padding-right: 0;
+	}
+	.bsp-media-body {
+		padding: 10px 10px 0 10px;
+	}
+	.bsp-media-blurb {
+		margin-bottom: 0;
+		font-size: 12px;
+	}
+}
+.bsp-social-wall-profile {
+	display: table;
+	img {
+		margin-right: 10px;
+	}
+}
+.bsp-social-wall-name {
+	font-weight: bold;
+	display: block;
+}
+.bsp-social-wall-id {
+  display: table-cell;
+  vertical-align: top;
+}
+.bsp-social-wall-footer {
+	&:extend(.clearfix all);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #f6f6f6;
+	padding: 5px;
+	color: #1c1c1c;
+	.icon {
+		&:before {
+			color: #a8a8a8;
+			margin-right: 5px;
+		}
+	}
+	.icon-clock {
+		float: left;
+	}
+	.bsp-social-wall-metrics {
+		float: right;
+	}
+}

@@ -1,0 +1,79 @@
+<div class="bsp-article-wrapper {{#if nextArticle}}bsp-infinite-load-wrapper{{/if}}" {{#if nextArticle}}data-bsp-infinite-content{{/if}}>
+
+	<div class="bsp-article-bg-banner {{#if nextArticle}}bsp-infinite-load-item{{/if}}" {{#if nextArticle}}data-bsp-infinite-load-item-url="{{permalink}}"{{/if}}>
+
+		<header class="bsp-article-header">
+
+			{{#with title}}
+				{{render this}}
+			{{/with}}
+
+			{{#with leadImage}}
+				<div class="bsp-article-lead-img">
+					{{render this}}
+				</div>
+			{{/with}}
+
+			{{#if subTitle}}
+				<div class="bsp-article-subtitle">
+
+					{{#with subTitleImage}}
+						<div class="bsp-article-subtitle-image">
+							{{render this}}
+						</div>
+					{{/with}}
+
+					<h3 class="bsp-article-subtitle-text bsp-component-title">{{subTitle}}</h3>	
+				</div>
+			{{/if}}
+		</header>
+
+		
+
+		{{#if sharing}}{{render sharing}}{{/if}}
+
+		<div class="bsp-meta-data">
+			{{#if authors}}
+		  		<div class="bsp-meta-author">by {{#each authors}}{{#unless @first}}, {{/unless}}{{render link}}{{/each}}</div>
+			{{/if}}
+			{{#if publishDate}}
+				<div class="bsp-meta-date">{{publishDate}}</div>
+			{{/if}}
+		</div>				
+
+		<div class="bsp-article-content">
+			{{#each body}}
+				{{#if options.enhancement}}
+					<div class="bsp-article-enhancement{{#if options.align}} align-{{options.align}}{{/if}}">
+						{{render content}}
+					</div>
+				{{else}}
+					{{render content}}
+				{{/if}}
+
+			{{/each}}
+		</div>
+
+		{{#if tags}}
+		<div class="bsp-tags">
+			<ul class="bsp-tag-list">
+				{{#each tags}}
+					<li>{{render this}}</li>
+				{{/each}}
+			</ul>
+		</div>
+		{{/if}}
+
+		{{#with cta}}
+	        <div class="bsp-component-cta {{#if options.location}}cta-{{options.location}}{{/if}}">
+	            {{render content}}
+	        </div>  
+	    {{/with}}
+	</div>
+</div>
+
+{{#with nextArticle}}
+	<div class="bsp-article-load-more">
+		{{render this class="bsp-infinite-load-trigger"}}
+	</div>
+{{/with}}

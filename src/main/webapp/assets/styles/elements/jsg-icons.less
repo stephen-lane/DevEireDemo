@@ -1,0 +1,29 @@
+// override nav arrows in carousel
+.bsp-carousel {
+	.slick-prev {
+		&:before {
+			content: "\e601";
+			font-family: jordanspieth-icons;
+			font-weight: bold;
+		}
+	}
+	.slick-next {
+		&:before {
+			content: "\e600";
+			font-family: jordanspieth-icons;
+			font-weight: bold;
+		}
+	}
+}
+
+.bsp-share-link {
+
+    &:before {
+        .bsp-instagram-share & {
+            content: @fa-var-instagram;
+        }
+        .bsp-googleplus-share & {
+            content: @fa-var-google-plus;
+        }
+    }
+}

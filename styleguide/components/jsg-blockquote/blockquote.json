@@ -1,0 +1,20 @@
+{
+	"_template" : "layouts/one-col",
+
+	"main" : {
+		"components" : [
+			{
+				"_template" : "components/jsg-blockquote",
+    			"author": "Jordan Spieth",
+    			"content": "It seems unreal, yet I couldn't be happier to have so many people across the country rooting for me to succeed. It is a very humbling thing to see friends and strangers pulling for you to achieve your dreams. I am very grateful for the words of encouragement week in and week out."
+			},
+			{
+				"_template" : "components/jsg-blockquote",
+    			"author": "Jordan Spieth",
+    			"authorColor" : "#339933",
+    			"content": "(color override) It seems unreal, yet I couldn't be happier to have so many people across the country rooting for me to succeed. It is a very humbling thing to see friends and strangers pulling for you to achieve your dreams. I am very grateful for the words of encouragement week in and week out.",
+    			"contentColor" : "#3366FF"
+			}
+		]
+	}
+}

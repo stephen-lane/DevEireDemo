@@ -1,0 +1,64 @@
+Social Posts API
+=========================
+
+Returns a list of a social posts, sorted in descending order on
+the publish date. If the 'network' parameter is included then the results will only
+include the posts from that social network class.
+
+Facebook : posts from the user
+Twitter : tweets from the user
+Instagram : posts from the user 
+
+
+
+Request
+-------
+
+URI:  `/api/socialposts/search`
+
+###Parameters
+
+- offset (optional, defaults to 0): long, offset.
+- limit (optional, defaults to 12): int, limit.
+- brand_name (optional): String, brand internal name.
+  Note: Required for all social posts.
+- brand_account_name (optional): String, Social network internal name.
+  Note: Required for a specific social network posts. This is provided by backend on the initial loading.
+- network (optional): String, Social network JAVA class name.
+  Note: Required for a specific social network posts. This is provided by backend on the initial loading.
+- lang: String, language code, lower-case, two-letter codes, optional.
+
+
+Sample:
+`/api/socialposts/search?offset=0&limit=10&network=facebook`
+`/api/socialposts/search?offset=0&limit=10
+
+
+Response
+--------
+
+- Content type: application/json
+
+
+- limit: number, limit.
+- social_posts: list of `SocialPost` objects.
+
+  - `social_posts`
+    - user_name : the user's account name of the post
+    - post_title : string, the title of the post
+    - post_text : string, the actual post text.
+    - post_date : string, string representation of the Date object for the post date.
+    - post_url : string, the url of the post
+    - network_icon : Icon image of social network itself.
+        - altText: string, alt text.
+    - icon_image : Icon image of coca-cola brand in a social network.
+        - altText: string, alt text.
+    - network : string, the StringUtils.toHyphenated version of the social network class name.
+- next_offset : long, the next offset
+- load_more : boolean, true if next offset will return results
+- total_posts_count : long, total number of posts
+
+
+
+Sample 1:  /api/socialposts/search?limit=6&offset=99
+

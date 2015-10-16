@@ -1,0 +1,125 @@
+.photofall-module {
+  background-color: black !important;
+  .photofallLayout {
+    background-color: black !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    .free-wall-zoned {
+      height: 545px !important;
+      min-height: 545px !important;
+      &.initialized {
+        .cell {
+          display: block;
+        }
+      }
+    }
+    .free-wall {
+      min-height: 500px;
+      &.initialized {
+        .cell {
+          display: block;
+        }
+      }
+    }
+    .cell {
+      display: none;
+      margin: 0;
+      overflow: hidden;
+
+      img {
+        width: auto;
+        height: 100%;
+        max-width: none;
+      }
+
+      .bsp-module-description {
+        color: white;
+      }
+
+      .photofall-img-hover {
+        -webkit-transition-duration: .5s;
+        -moz-transition-duration: .5s;
+        transition-duration: .5s;
+        opacity: 0;
+        background: rgba(0, 0, 0, .7);
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      .photofall-img-hover:hover {
+        opacity: 1;
+      }
+
+      .photofall-img-hover h3 {
+        margin: 10px;
+        position: absolute;
+        bottom: 0;
+      }
+
+    }
+    .galleryMeta {
+      height: 175px;
+      width: 300px;
+
+      // this is dirty
+      // since freewall makes either 90px or 120px because of the way it arranges tiles, we let freewall thing its 90
+      // then hardcode it to 100 to display 3 lines so its not cut off and then move it up a bit to give it some lower padding
+      @media @mq-only-xs {
+        height: 90px !important;
+        top: -5px !important;
+      }
+    }
+    .large-square {
+      width: 350px;
+      height: 350px;
+    }
+    .small-square {
+      width: 175px;
+      height: 175px;
+    }
+    .portrait {
+      width: 175px;
+      height: 350px;
+    }
+    .landscape {
+      width: 350px;
+      height: 175px;
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    @media @mq-only-xs {
+      .galleryMeta {
+        height: 175px;
+        width: 350px;
+      }
+
+      .large-square {
+        width: 180px;
+        height: 180px;
+      }
+
+      .small-square {
+        width: 90px;
+        height: 90px;
+      }
+
+      .portrait {
+        width: 90px;
+        height: 180px;
+      }
+
+      .landscape {
+        width: 180px;
+        height: 90px;
+      }
+    }
+  }
+}

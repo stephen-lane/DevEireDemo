@@ -1,0 +1,214 @@
+.jsg-scorecard {
+
+    .bsp-component-content {
+        position: relative;
+    }
+
+    .bsp-component-title {
+        font-weight: @font-weight-light;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: left;
+
+        .jsg-tournament-display & {
+            color: @white;
+        }
+    }
+
+    .bsp-table {
+        border: @border-style-black;
+        width: 100%;
+
+        th, td {
+            padding: @space-quarter;
+        }
+    }
+
+    th {
+        font-weight: @font-weight-base;
+    }
+
+    // far left column alignment
+    .col-0 {
+        text-align: left;
+    }
+
+    // far right column alignment
+    .col-19 {
+        text-align: center;
+    }
+
+    // striping of far left/right columns
+
+    // heading done separately
+    th {
+        &.col-0, &.col-19 {
+            background: @gray-light-1;
+        }
+    }
+
+    // stripe the far left/right columns in the body
+    tr:nth-of-type(even) td:nth-of-type(1) {
+        background: @gray-light-1;
+    }
+    tr:nth-of-type(even) td:nth-of-type(20) {
+        background: @gray-light-1;
+    }
+
+    .row-0, .row-2 {
+        background: @white;
+    }
+
+
+    // All 18 holes
+    .set-col-alignment(1, 18, center);
+
+    // bold font for the score row
+    .row-1 {
+        font-weight: @font-weight-bold;
+    }
+
+    // hole heasdings
+    .set-heading-cell-formatting (@background: @gray-dark-1, @color: @white, 1, 18);
+
+    // hole column borders
+    .set-column-borders (@border-style-black, @border-style-black, 1, 18);
+
+    // legend and score styling
+    .double-eagle {
+        background: @double-eagle-color;
+    }
+    .eagle {
+        background: @eagle-color;
+    }
+    .birdie {
+        background: @birdie-color;
+    }
+    .par {
+        background: @par-color;
+    }
+    .bogey {
+        background: @bogey-color;
+    }
+    .double-bogey {
+        background: @double-bogey-color;
+    }
+    .triple-bogey {
+        background: @triple-bogey-color;
+    }
+
+    .won {
+        background: @won-color;
+    }
+
+    .legend {
+        float: right;
+    }
+
+    .legend-item {
+        font-size: @ts-neg-2;
+        font-weight: @font-weight-semi-bold;
+        padding: 2px 6px;
+        margin: @space-half 0 @space-quarter;
+        text-transform: uppercase;
+    }
+
+    // match play scorecar specific styles
+    &.matchplay {
+
+        td {
+            line-height: 1.25;
+            vertical-align: bottom;
+        }
+
+        .row-1 {
+            background: @gray-light-1;
+            font-weight: @font-weight-base;
+        }
+
+        // mixin to create the different
+        // statuses needed for match play
+        .create-match-status();
+
+        .bsp-component-cta {
+            &.cta-top-right {
+                position: absolute;
+                font-size: @ts-neg-1;
+                top: 18px;
+                right: 5px
+            }
+        }
+
+        &.mobile {
+            .bsp-component {
+                padding-top: 2.5rem;
+            }
+        }
+    }
+
+
+    // mobile scorecard specific styles
+    &.mobile {
+
+        font-size: @ts-neg-1;
+
+        // striping of far left/right columns
+
+        // heading done separately
+        th {
+            &.col-0, &.col-10 {
+                background: @gray-light-1;
+                color: @brand-primary;
+            }
+        }
+
+        tr:nth-of-type(even) td:nth-of-type(11) {
+            background: @gray-light-1;
+        }
+
+        .slick-dots {
+            bottom: 0;
+        }
+
+        .bsp-component-cta {
+            &.cta-top-right {
+                top: -32px;
+                right: 5px
+            }
+        }
+
+        // adjustments for tournament display pages only
+        .jsg-tournament-display & {
+            .slick-dots {
+                bottom: -30px;
+                // need specificity to override exsisting color
+                li {
+                    button {
+                        &:before {
+                            color: @white;
+                        }
+                    }
+                }
+            }
+        }
+
+        // the cta is absolutely positioned outside of the
+        // component content. need to remove overflow hidden
+        // for it to be visible
+        .bsp-table-component {
+            > .bsp-component-content {
+                overflow: visible;
+            }
+        }
+
+        .legend {
+            line-height: 1;
+        }
+
+    }
+
+}
+
+
+
+

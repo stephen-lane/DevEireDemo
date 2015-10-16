@@ -1,0 +1,77 @@
+{{!-- a few minor changes local to jsg at first
+        will migrate to bsp base once finished  --}}
+
+<div class="bsp-component bsp-table-component{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}">
+
+    <div class="bsp-component-content">
+
+        {{#if title}}
+            <h3 class="bsp-component-title">{{title}}</h3>
+        {{/if}}
+
+        <div class="bsp-component-content">
+
+            <div class="bsp-table-wrapper">
+                <table class="bsp-table{{#with options}}{{#if this.textAlignment}} {{this.textAlignment}}{{/if}}{{#if this.fullWidth}} full-width{{/if}}{{#if this.fixedColWidth}} fixed-col-width{{/if}}{{#if this.verticalAlignment}} {{this.verticalAlignment}}{{/if}}{{#if this.verticalStripes}} vertical-stripes{{/if}}{{#if this.horizontalStripes}} horizontal-stripes{{/if}}{{#if this.theme}} {{this.theme}}{{/if}}{{/with}}">
+                    {{#if headings}}
+                        <thead>
+                            <tr>
+                            {{#each headings}}
+                                <th class="col-{{@index}}">
+                                    {{#if link.attributes}}
+                                        {{#with link}}
+                                            {{render this}}
+                                        {{/with}}
+                                    {{/if}}
+                                    {{#if text}}
+                                        {{{this.text}}}
+                                    {{/if}}
+                                </th>
+                            {{/each}}
+                            </tr>
+                        </thead>
+                    {{/if}}
+                    <tbody>
+                        {{#each rows}}
+                            <tr class="row-{{@index}}">
+                                {{#each row}}
+                                    <td class="col-{{@index}}{{#if status}} {{status}}{{/if}}">
+                                        {{#if link.attributes}}
+                                            {{#with link}}
+                                                {{render this}}
+                                            {{/with}}
+                                        {{/if}}
+                                        {{#if image}}
+                                            {{#with image}}
+                                                {{render this}}
+                                            {{/with}}
+                                        {{/if}}
+                                        {{#if text}}
+                                            {{{this.text}}}
+                                        {{/if}}
+                                        {{render this}}
+                                    </td>
+                                {{/each}}
+                            </tr>
+                        {{/each}}
+                    </tbody>
+
+                </table>
+            </div>
+
+            {{#with legend}}
+                {{render this}}
+            {{/with}}
+
+        </div>
+
+        {{#with cta}}
+            <div class="bsp-component-cta bs {{#if options.location}}cta-{{options.location}}{{/if}}">
+                {{render content}}
+            </div>
+        {{/with}}
+
+    </div>
+
+</div>
+

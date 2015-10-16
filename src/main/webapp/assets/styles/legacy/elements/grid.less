@@ -1,0 +1,51 @@
+// This will be our grid. We start out by creating our site container, which will determine the overall centered site width
+.bsp-container {
+    .container();
+}
+
+.bsp-row {
+	.make-row();
+}
+.bsp-promo-row {
+	.make-row(30px);
+}
+.bsp-column-main {
+	.make-md-column(8);
+}
+
+.bsp-column-aside {
+	.make-md-column(4);
+}
+
+.bsp-column-md-promo {
+	.make-md-column(6, 30px);
+	.make-sm-column(6, 30px);
+}
+.bsp-column-sm-promo {
+	.make-md-column(4, 30px);
+	.make-sm-column(4, 30px);
+}
+
+@media @mq-lg {
+    .bsp-container {
+        width: (1166px + @grid-gutter-lg-width);
+        padding-right: (@grid-gutter-lg-width/2);
+        padding-left: (@grid-gutter-lg-width/2);
+    }
+}
+
+@media @mq-xs-and-sm {
+    .bsp-column-lg-promo {
+        padding-top: @space;
+        padding-bottom: @space;
+    }
+
+    .bsp-column-md-promo {
+        padding-top: @space-double;
+        padding-bottom: @space-double;
+    }
+    .bsp-column-sm-promo {
+        padding-top: @space-double;
+        padding-bottom: @space-double;
+    }
+}

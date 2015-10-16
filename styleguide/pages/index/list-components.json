@@ -1,0 +1,448 @@
+{
+	"_template" : "components/bsp-list-promo",
+
+	"listItems" : [
+		{
+			"sections" : [
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/components/jsg-site-header/",
+							"title" : "Jordan Spieth Site Header"
+						},
+						"body" : {
+                            "_template" : "common/text",
+                            "text" : "Jordan Spieth Site Header"
+                        }
+					}
+				}
+			]
+		},
+
+		{
+			"sections" :[
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/components/jsg-site-footer/",
+							"title" : "Jordan Spieth Site Footer`"
+						},
+                        "body" : {
+                            "_template" : "common/text",
+						    "text"  : "Jordan Spieth Site Footer"
+                        }
+					}
+				}
+			]
+		},
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/bsp-page-title/",
+                            "title" : "Jordan Page Title"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Page Title"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-tab-navigation/",
+                            "title" : "Jordan Tab Navigation"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Tab Navigation"
+                        }
+                    }
+                }
+            ]
+        },
+		{
+			"sections" :[
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/components/jsg-super-promo/",
+							"title" : "Jordan Spieth Super Promo"
+						},
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Super Promo"
+                        }
+					}
+				}
+			]
+		},
+		{
+			"sections" :[
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/components/jsg-small-promo/",
+							"title" : "Jordan Spieth Small Promo"
+						},
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Small Promo"
+                        }
+					}
+				}
+			]
+		},
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-medium-promo/",
+                            "title" : "Jordan Spieth Medium Promo"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Medium Promo"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-large-promo/",
+                            "title" : "Jordan Spieth Large Promo"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Large Promo"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-callout/",
+                            "title" : "Jordan Spieth Callout"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Callout"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-blockquote/",
+                            "title" : "Jordan Spieth Blockquote"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Blockquote"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-gallery-grid/",
+                            "title" : "Jordan Spieth Gallery Grid"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Gallery Grid"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-image/",
+                            "title" : "Jordan Spieth Image"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Image"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-sponsor-carousel/",
+                            "title" : "Jordan Spieth Partner Carousel"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Partner Carousel"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-scorecard/",
+                            "title" : "Jordan Spieth Scorecard"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Scorecard"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-statistics/",
+                            "title" : "Jordan Spieth Statistics"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Statistics"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-tournament-schedule/",
+                            "title" : "Jordan Spieth Tournament Schedule"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Tournament Schedule"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-tourn-summary/",
+                            "title" : "Jordan Spieth Tournament Summary"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Spieth Tournament Summary"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-iframe/",
+                            "title" : "Jordan Iframe"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Iframe"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/bsp-social-share/",
+                            "title" : "Jordan Social Share"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Social Share"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-caption/",
+                            "title" : "Jordan Caption"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Caption"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-video/",
+                            "title" : "Jordan Video"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Video"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections" :[
+                {
+                    "_template" : "components/bsp-list-promo-item-handler",
+
+                    "link": {
+                        "_template" : "common/link",
+
+                        "attributes" : {
+                            "href"  : "/components/jsg-partner/",
+                            "title" : "Jordan Partner"
+                        },
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Jordan Partner"
+                        }
+                    }
+                }
+            ]
+        }
+
+	]
+}

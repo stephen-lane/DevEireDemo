@@ -1,0 +1,17 @@
+{
+	"_template" : "layouts/one-col",
+
+	"main" : {
+		"components" : [
+			{
+				"_dataUrl" : "partner.json"
+			},
+			{
+				"_dataUrl" : "partner.json"
+			},
+			{
+				"_dataUrl" : "partner.json"
+			}
+		]
+	}
+}

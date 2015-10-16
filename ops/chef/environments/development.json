@@ -1,0 +1,18 @@
+{
+  "name": "development",
+  "description": "Development Only Settings",
+  "default_attributes": {
+    "brightspot" : {
+      "context.xml" : {
+        "dari/imageEditor/dims/baseUrl" : "http://dev.jordanspieth.psdops.com/dims4/default",
+        "cms/tool/isAutoCreateUser" : "true"
+      }
+    },
+    "mod-dims" : {
+      "optimize-resize" : true
+    }
+  },
+
+  "json_class": "Chef::Environment",
+  "chef_type": "environment"
+}

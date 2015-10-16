@@ -1,0 +1,75 @@
+.jsg-tourn-summary {
+
+    font-family: @font-family-secondary;
+    padding-top: @space;
+    padding-bottom: @space-and-half;
+
+
+    .bsp-component-content {
+        text-align: center;
+    }
+
+    .bsp-list-inline {
+        margin-left: 0;
+    }
+
+    li {
+        margin: @space-half;
+
+        @media @mq-sm {
+            margin: @space;
+        }
+
+    }
+
+    .round-wrapper {
+        display: none;
+
+        @media @mq-sm {
+            display: inline-block;
+        }
+    }
+
+    p {
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .stat {
+        color: @white;
+        display: block;
+        height: 85px;
+        width: 85px;
+        margin: 0 auto;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        font-family: @font-family-base;
+        font-size: 36px;
+        line-height: 88px;
+
+        @media @mq-sm {
+            font-family: @font-family-secondary;
+        }
+
+
+
+    }
+
+    .position, .total {
+        background: @brand-accent;
+    }
+
+    .round {
+        background: @gray-light-4;
+    }
+
+    .strokes {
+        background: @black;
+    }
+
+}
+

@@ -1,0 +1,62 @@
+{
+	"_template" : "common/body",
+
+	"headerView" : {
+		"_template": "components/bsp-component-group",
+		"components": [
+			{ "_dataUrl" : "/components/jsg-site-header/jsg-header.json" },
+			{ "_dataUrl" : "pages/index/page-title.json" }
+		]
+	},
+
+	"mainView" : {
+
+		"_template" : "layouts/three-col-thirds",
+
+		"first" : {
+			"components" : [
+				{
+					"_template" : "components/bsp-section-title",
+
+					"sectionTitle" : "Elements"
+				},
+				{
+					"_dataUrl" : "pages/index/list-elements.json"
+				}
+			]
+		},
+
+		"second" : {
+			"components" : [
+				{
+					"_template" : "components/bsp-section-title",
+
+					"sectionTitle" : "Components"
+				},
+				{
+					"_dataUrl" : "pages/index/list-components.json"
+				}
+			]
+		},
+
+		"third" : {
+			"components" : [
+				{
+					"_template" : "components/bsp-section-title",
+
+					"sectionTitle" : "Pages"
+				},
+				{
+					"_dataUrl" : "pages/index/list-pages.json"
+				}
+			]
+		}
+
+
+	},
+
+	"footerView" : {
+		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+	}
+
+}

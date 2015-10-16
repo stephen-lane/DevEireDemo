@@ -1,0 +1,39 @@
+{
+  "id": "brightspot",
+  "debug_password": {
+    "encrypted_data": "Wm99jJZZVbbgfH6yBJQeRXT5eKnNTWdW2eCh7bC6LZru3iHuRoJ+sX7/7bCX\nvldpnF8vmQPkKrOn4QAk4IUMYQ==\n",
+    "iv": "K/BKG0EpPfr9lbVgwU9KHQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "tomcat_manager_password": {
+    "encrypted_data": "92vndRNII8x/+jN2wgEtXKnkvEytp7g8gJ0QGE9oo/5MksYv4QIEHNVcxuMj\nN5auRtotNHHnPJBMWSlHzetWAw==\n",
+    "iv": "zSKu3jeYKbrlFxSv178DVw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "mysql_password": {
+    "encrypted_data": "N5UJC989WeuuW7yZIErWSY+UrBdPqG1rw9HZtZTJwFKJ3Ag7sAEMCKTYtqhB\nKgL6QoA35SciZRIMWbHGTwsK0A==\n",
+    "iv": "pv/nkko0YtRpaIgV7shoxA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "aws_secret": {
+    "encrypted_data": "4U1e3zDlyb7jIxXamo5z9Zqm1fgCLhP9MTzQ4PKw++CMwsFsbA28qJZe2hPr\nknfW9UWjSdh15e+koYQWl6hNvA==\n",
+    "iv": "koz/tLkwZD+OEPZH6ZQCdg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "aws_access": {
+    "encrypted_data": "rcy7uvqTzdghAfRYG75y8FYw5yF26ZOu/hJ9M2wQXeQA46IdWpMLigqOF4Mn\npzGw\n",
+    "iv": "GLwWG+fAtrqEh9Ycmv0RxQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "dims_secret": {
+    "encrypted_data": "1xFSMS8bd4/O6QyplDfXY7uba2VnJNgPmkuawLxtqV8=\n",
+    "iv": "iwXCqec8Gt70Ad8L0nO7rw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

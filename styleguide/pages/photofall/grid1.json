@@ -1,0 +1,266 @@
+{
+	"_template" : "components/jsg-gallery-grid",
+
+    "galleryGridClassName" : "jsg-gallery-photofall-grid jsg-gallery-photofall-layout1",
+
+    "galleryGridNextThumbs": {
+    	"_template": "components/jsg-next-content",
+    	"linkText": "Load More",
+    	"url": "/pages/photofall/grid2.html"
+    },
+
+    "galleryGridThumbs" : [
+    	{
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-horizontal1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-horizontal1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-horizontal1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-horizontal1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-horizontal1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square2.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/square3.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    },
+	    {
+	        "attributes" : {
+	            "href" : "#"
+	        },
+	        "_template" : "common/link",
+	        "body" : {
+	            "attributes" : {
+	                "src" : "/assets/images/gallery-grid/rec-vert1.jpg"
+	            },
+	            "_template" : "common/image"
+	        }
+	    }
+    ]
+}

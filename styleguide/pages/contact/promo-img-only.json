@@ -1,0 +1,31 @@
+{
+	"_template" : "components/bsp-image-promo",
+
+    "options" : {
+       "modifierClass" : "super-promo-jsg"
+    },
+
+	"images" : [
+		{
+			"image" : {
+
+				"_template" : "common/link",
+
+				"attributes" : {
+					"href"  : "imageLink",
+					"title" : "Link Title"
+				},
+
+				"body" : {
+
+					"_template" : "common/image",
+
+					"attributes" : {
+						"alt" : "Image",
+						"data-lazy" : "/assets/images/contact/contact-promo-img.jpg"
+					}
+				}
+			}
+		}
+	]
+}

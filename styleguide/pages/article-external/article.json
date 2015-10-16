@@ -1,0 +1,90 @@
+{
+
+	"_template" : "components/bsp-article-lead-image-first",
+
+	"options" : {
+		"infinite" : false
+	},
+
+	"sharing" : {
+		"_dataUrl" : "/components/bsp-social-share/share-monochrome.json"
+	},
+
+	"permalink" : "/bsp-article/",
+
+	"title" : "Jordan Throws Out First Pitch at Fenway",
+
+	"authors" : [
+		{
+			"name" : "Team Spieth",
+			"link" : {
+				"_template" : "common/link",
+
+				"attributes" : {
+					"title" : "Team Spieth"
+				},
+				"body" : {
+                    "_template": "common/text",
+                    "text": "Team Spieth"
+                }
+			}
+		}
+	],
+
+
+    "leadImage" : {
+        "_dataUrl" : "/components/jsg-video/video.json"
+    },
+
+	"body" : [
+        {
+            "content" : {
+            	"_template" : "common/html",
+
+            	"text": "<p>Jordan Alexander Spieth was born on July 27, 1993, in Dallas, Texas. The first of three children of father Shawn, a former college baseball player who founded a media analytics startup, and mom Chris, a college basketball player turned computer engineer, Jordan inherited his parents' athletic capabilities. He grew up playing soccer, baseball, football and basketball, with golf eventually taking precedence in the pecking order.</p>"
+            }
+        },
+        {
+            "content" : {
+                "_template" : "common/html",
+
+                "text": "<p>Jordan Alexander Spieth was born on July 27, 1993, in Dallas, Texas. The first of three children of father Shawn, a former college baseball player who founded a media analytics startup, and mom Chris, a college basketball player turned computer engineer, Jordan inherited his parents' athletic capabilities. He grew up playing soccer, baseball, football and basketball, with golf eventually taking precedence in the pecking order.</p>"
+            }
+        },
+        {
+            "content" : {
+                "_template" : "common/html",
+
+                "text": "<p>Jordan Alexander Spieth was born on July 27, 1993, in Dallas, Texas. The first of three children of father Shawn, a former college baseball player who founded a media analytics startup, and mom Chris, a college basketball player turned computer engineer, Jordan inherited his parents' athletic capabilities. He grew up playing soccer, baseball, football and basketball, with golf eventually taking precedence in the pecking order.</p>"
+            }
+        },
+        {
+            "content" : {
+                "_template" : "common/html",
+
+                "text": "<p>Jordan Alexander Spieth was born on July 27, 1993, in Dallas, Texas. The first of three children of father Shawn, a former college baseball player who founded a media analytics startup, and mom Chris, a college basketball player turned computer engineer, Jordan inherited his parents' athletic capabilities. He grew up playing soccer, baseball, football and basketball, with golf eventually taking precedence in the pecking order.</p>"
+            }
+        },
+        {
+            "content" : {
+                "_template" : "common/html",
+
+                "text": "<p>Jordan Alexander Spieth was born on July 27, 1993, in Dallas, Texas. The first of three children of father Shawn, a former college baseball player who founded a media analytics startup, and mom Chris, a college basketball player turned computer engineer, Jordan inherited his parents' athletic capabilities. He grew up playing soccer, baseball, football and basketball, with golf eventually taking precedence in the pecking order.</p>"
+            }
+        }
+    ],
+
+    "cta" : {
+        "content" : {
+            "_template" : "common/link",
+            "attributes" : {
+                "href" : "#cta"
+            },
+            "body" : {
+                "_template" : "common/text",
+                "text" : "Continue Reading on Golf.com"
+            }
+        }
+    }
+
+}

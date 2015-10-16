@@ -1,0 +1,13 @@
+{ 
+    "_template" : "components/jsg-gallery-grid",
+
+    "galleryTitle" : "High Resolution Gallery",
+
+    "galleryCaption" : "High Resolution Gallery Caption",
+
+    "galleryGridClassName" : "jsg-gallery-grid-embedded",
+
+    "galleryGridThumbs" : {
+        "_dataUrl" : "/components/jsg-gallery-grid/grid-embedded-thumbs.json"
+    }
+}

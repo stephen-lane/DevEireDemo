@@ -1,0 +1,82 @@
+@caption-margin: 1rem 0 0 0;
+@caption-color: #7b7b7b;
+
+// default carousel should have 0 px of bottom margin. Overriding slick's default here
+.slick-slider {
+	margin-bottom: 0px;
+
+	// if we have the carousel dots theme, we need allow the space for dots
+	&.carousel-dots {
+		margin-bottom: 30px;
+	}
+}
+
+.bsp-carousel-slide {
+	// prevents the fouc until carousel inits
+	display: none;
+
+	&:first-of-type {
+		display: block;
+	}
+
+	&.slick-slide {
+		display: block;
+	}
+
+	// by default slide images are 100% of their container.
+	// Can't think of a use case where this isn't true, but we can always adjust if need be
+	img {
+		height: auto;
+		width: 100%;
+	}
+}
+
+// default caption goes under the image vs overlayed or anything fancy
+.bsp-carousel-caption {
+	color: @caption-color;
+	margin: @caption-margin;
+}
+
+.bsp-carousel .slick-prev,
+.bsp-carousel .slick-next {
+	width: auto;
+	height: auto;
+	margin-top: -40px;
+	.bsp-gallery & {
+		margin-top: -40px;
+	}
+	.bsp-art-enhancement &{
+		margin-top: -55px;
+	}
+}
+
+.bsp-carousel .slick-prev:before {
+	font-family: "FontAwesome";
+	font-size: 80px;
+	content: "\f104";
+}
+
+.bsp-carousel .slick-next:before {
+	font-family: "FontAwesome";
+	font-size: 80px;
+	content: "\f105";
+}
+
+@media @mq-only-xs {
+    .bsp-carousel-item {
+        .bsp-column-md-promo & {
+            margin-left: -(@grid-gutter-width/2);
+            margin-right: -(@grid-gutter-width/2);
+        }
+    }
+}
+
+@media @mq-xs-and-sm {
+
+    .bsp-carousel .slick-prev,
+    .bsp-carousel .slick-next {
+        .bsp-gallery & {
+            display: none !important;
+        }
+    }
+}

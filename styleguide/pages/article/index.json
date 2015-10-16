@@ -1,0 +1,25 @@
+{
+	"_template" : "common/body",
+
+	"headerView" : {
+		"_dataUrl" : "/components/jsg-site-header/jsg-header.json"
+	},
+
+	"mainView" : {
+
+		"_template" : "layouts/one-col",
+
+		"main" : {
+			"components" : [
+				{ "_dataUrl" : "article.json" },
+                { "_dataUrl" : "/components/jsg-sponsor-carousel/jsg-sponsor-carousel.json" }
+			]
+		}
+
+	},
+
+	"footerView" : {
+		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+	}
+
+}

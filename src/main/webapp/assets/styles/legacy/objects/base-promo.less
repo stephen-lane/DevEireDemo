@@ -1,0 +1,125 @@
+
+
+.bsp-promo {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+	&:extend(.clearfix all);
+
+	.bsp-promo-title {
+        font-size: @ts-2;
+
+		font-family: @font-family-2;
+		font-weight: 100;
+		margin: 0 0 15px 0;
+		padding: 0 0 20px 0;
+		line-height: @headings-line-height;
+		overflow: hidden;
+		a {
+			color: @dark-grey-4;
+		}
+	}
+	.bsp-promo-blurb {
+		color: @dark-grey-4;
+		font-size: @ts-0;
+		font-weight: 300;
+	}
+}
+
+.bsp-promo-img {
+	position: relative;
+	&:hover .bsp-gradient-bg {
+		opacity: 1;
+	}
+}
+
+.bsp-gradient-bg {
+	.transition(opacity @time-medium ease);
+	opacity: 0;
+	background: @overlay-color;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: @space-double;
+	height: 100%;
+	width: 100%;
+	&:before {
+	  content: " ";
+	  display: inline-block;
+	  height: 100%;
+	  width: 1%;
+	  vertical-align: middle;
+	}
+	.bsp-gradient-bg-inner{
+		position: relative;
+
+	}
+	.bsp-promo-blurb  {
+		width: 98%;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: @ts-0;
+		color: white;
+	}
+
+}
+
+.bsp-promo-title.bsp-promo-title-center {
+    text-align: center;
+     border-bottom: 1px solid #ccc;
+    .bsp-md-promo & {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media @mq-only-xs {
+    .bsp-md-promo .bsp-promo-title-center {
+        padding: 20px 15px;
+        padding-top: 10px;
+    }
+}
+
+@media @mq-xs-and-sm {
+    .bsp-promo {
+        .bsp-promo-blurb {
+            display: none !important;
+        }
+
+        .bsp-promo-img {
+            margin-left: -(@grid-gutter-width/2);
+            margin-right: -(@grid-gutter-width/2);
+        }
+    }
+
+    .bsp-gradient-bg {
+            display: none;
+    }
+
+    .bsp-promo-img {
+        .bsp-super-promo & {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+/* bsp-promo class is extended so kept internal*/
+@media @mq-md-and-lg {
+    .bsp-promo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .bsp-promo-title {
+            font-size: 28px;
+            padding: 0 0 20px 0;
+            margin: 0;
+        }
+    }
+}
+@media @mq-only-xs, @mq-only-sm, @mq-only-md {
+    .bsp-promo-img {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

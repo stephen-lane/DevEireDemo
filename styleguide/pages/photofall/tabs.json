@@ -1,0 +1,26 @@
+{
+	"_template": "components/jsg-tab-navigation",
+	"links": [
+		{
+			"_template": "common/link",
+			"attributes": {
+				"href": "/pages/gallery/"
+			},
+			"body": {
+				"_template": "common/text",
+				"text": "Collections"
+			}
+		},
+		{
+			"_template": "common/link",
+			"cssClass": "active",
+			"attributes": {
+				"href": "#"
+			},
+			"body": {
+				"_template": "common/text",
+				"text": "Photos"
+			}
+		}
+	]
+}

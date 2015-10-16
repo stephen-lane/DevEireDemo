@@ -1,0 +1,26 @@
+{
+	"_template" : "components/bsp-list-promo",
+
+	"listItems" : [
+		{
+			"sections" : [
+				{
+					"_template" : "components/bsp-list-promo-item-handler",
+
+					"link": {
+						"_template" : "common/link",
+
+						"attributes" : {
+							"href"  : "/elements/fonts/",
+							"title" : "Fonts"
+						},
+                        "body" : {
+                            "_template" : "common/text",
+                            "text"  : "Fonts"
+                        }
+					}
+				}
+			]
+		}
+	]
+}

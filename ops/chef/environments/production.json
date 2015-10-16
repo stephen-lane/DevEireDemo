@@ -1,0 +1,25 @@
+{
+  "name": "production",
+  "description": "Production Only Settings",
+  "default_attributes": {
+    "percona" : {
+      "server" : {
+        "role" : "cluster",
+        "memory_slice" : "2/10"
+      }
+    },
+    "brightspot" : {
+      "production" : true,
+      "context.xml" : {
+        "dari/imageEditor/dims/baseUrl" : "http://cdn.jordanspieth.psdops.com/dims4/default",
+        "dari/storage/psddevs3/baseUrl" : "http://cdn.jordanspieth.psdops.com"
+      }
+    },
+    "solr" : {
+      "memory_slice" : "2/10"
+    }
+  },
+
+  "json_class": "Chef::Environment",
+  "chef_type": "production"
+}

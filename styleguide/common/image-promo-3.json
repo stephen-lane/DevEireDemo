@@ -1,0 +1,45 @@
+{
+    "_template" : "components/bsp-image-promo",
+
+    "images" : [
+        {
+            "image" : {
+
+                "_template" : "common/link",
+
+                "attributes" : {
+                    "href"  : "imageLink",
+                    "title" : "Link Title"
+                },
+
+                "body" : {
+
+                    "_template" : "common/image",
+
+                    "attributes" : {
+                        "alt" : "Image",
+                        "src" : "/assets/images/super-promo/jordan-3.jpeg"
+                    }
+                }
+
+            },
+
+            "promoLinks" : [
+                {
+                    "_template" : "common/link",
+
+                    "attributes" : {
+                        "href"  : "promoLink",
+                        "title" : "Link"
+                    },
+
+                    "body" : {
+                        "_template" : "common/text",
+                        "text" : "Promo 3"
+                    }
+                }
+            ]
+        }
+    ]
+
+}

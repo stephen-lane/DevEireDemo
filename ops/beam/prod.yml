@@ -1,0 +1,84 @@
+
+network: network.yml
+
+layers:
+
+  - name: frontend
+    image: jordanspieth serial-2 [frontend] hvm [8]
+    instanceType: t2.medium
+    rolePolicies:
+      - s3-full-access
+
+    deployment:
+      buildNumber: 320
+      jenkinsBucket: jordanspieth-ops
+      jenkinsBuildPath: jobs/base
+      jenkinsWarfile: jordanspiethgolf-2.0.0-SNAPSHOT.war
+
+    securityRules:
+      - production-frontend
+
+    provisioners:
+      - type: knife-solo
+        cookbookPath: ../chef
+        recipe: jordanspieth::frontend
+
+    placements:
+      - subnetType: private
+        autoscale:
+          loadBalancers: 
+            - web
+          minPerSubnet: 1
+          maxPerSubnet: 6
+          policies:
+            - name: high-cpu-scale-up
+              instancesPerSubnet: 1
+              cooldown: 120
+              alarm:
+                metric: cpu
+                greater: 60
+                period: 60
+
+            - name: high-cpu-scale-down
+              instancesPerSubnet: -1
+              cooldown: 300
+              alarm:
+                metric: cpu
+                less: 20
+                period: 300
+
+  - name: backend
+    image: jordanspieth serial-2 [backend] hvm [3]
+    instanceType: t2.medium
+    rolePolicies:
+      - s3-full-access
+
+    securityRules:
+      - production-backend
+
+    provisioners:
+      - type: knife-solo
+        cookbookPath: ../chef
+        recipe: jordanspieth::backend
+
+    placements:
+      - subnetType: private
+        sizePerSubnet: 1
+
+  - name: master
+    image: jordanspieth serial-2 [backend] hvm [3]
+    instanceType: t2.medium
+    rolePolicies:
+      - s3-full-access
+
+    securityRules:
+      - production-master
+
+    provisioners:
+      - type: knife-solo
+        cookbookPath: ../chef
+        recipe: jordanspieth::backend
+
+    placements:
+      - subnetType: master
+        sizePerSubnet: 1

@@ -1,0 +1,11 @@
+{
+	"_template" : "components/bsp-page-title",
+
+	"pageTitle" : {
+
+		"_template" : "common/text",
+
+		"text" : "News"
+		
+	}
+}

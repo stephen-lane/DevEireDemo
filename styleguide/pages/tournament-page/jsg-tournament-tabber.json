@@ -1,0 +1,48 @@
+{
+    "_template": "components/bsp-tabber",
+    "modifierClass" : "jsg-tab-navigation",
+
+    "tabs": [
+        {
+            "label" : "Scorecard",
+            "_notes" : "modifier class below is used to show this tab",
+            "options" : {
+                "modifierClass" : "active"
+            },
+
+
+            "component": [
+                {"_dataUrl" : "/components/jsg-scorecard/jsg-scorecard.json"},
+                {"_dataUrl" : "/components/jsg-scorecard/jsg-scorecard-2.json"},
+                { "_dataUrl": "/components/jsg-scorecard/jsg-scorecard-match-3.json" }
+            ]
+        },
+        {
+            "label": "Statistics",
+
+            "component": [{
+                    "_dataUrl" : "/components/jsg-statistics/jsg-statistics.json"
+            }]
+        },
+        {
+            "label": "News",
+
+            "component": [
+                {"_dataUrl" : "promos.json"},
+                {"_dataUrl" : "promos.json"},
+                {
+                    "_template" : "components/jsg-next-content",
+                    "url" : "/pages/news/load-more.html"
+                }
+            ]
+        },
+        {
+            "label": "Photos",
+            "component": [{
+                "_dataUrl" : "/components/jsg-gallery-grid/gallery-low-res.json"
+
+            }]
+        }
+    ]
+
+}

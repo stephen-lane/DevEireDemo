@@ -1,0 +1,10 @@
+{
+    "_template" : "layouts/one-col",
+
+    "main" : {
+        "components" : [
+            { "_dataUrl" : "/components/jsg-gallery-grid/gallery-low-res.json" },
+            { "_dataUrl" : "/components/jsg-gallery-grid/gallery-high-res.json" }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "_template" : "components/bsp-page-title",
+    "style" : "background: #fa7d29",
+
+    "pageTitle" : {
+
+        "_template" : "common/text",
+        "style" : "color: #fff",
+
+        "text" : "Tournaments"
+
+    }
+}

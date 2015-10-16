@@ -1,0 +1,50 @@
+.bsp-super-promo {
+	&:extend(.bsp-container);
+	position: relative;
+	background-color: #FFF;
+	text-align: center;
+	padding: 0;
+
+	.bsp-section-tag {
+		margin-bottom: 15px;
+	}
+}
+
+.bsp-super-promo-caption {
+    background-color: @dark-grey-4;
+    position: relative;
+    padding: @space-double;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    line-height: normal;
+    font-size: 16px;
+    color: white;
+}
+
+.bsp-super-promo-description {
+	.transition(all @time-long ease);
+    padding-top: @space;
+	font-weight: 300;
+	overflow: hidden;
+    border-top: @default-border;
+	hr {
+		border-top: @default-border;
+	}
+}
+
+.bsp-super-promo-title {
+	font-family: @font-family-2;
+	font-weight: @font-weight-thin;
+	font-size: @ts-2;
+	color: #FA7D29;
+	display: block;
+	margin-bottom: 15px;
+}
+
+
+@media @mq-only-xs, @mq-only-sm, @mq-only-md {
+    .bsp-super-promo {
+        padding: 0;
+    }
+}
