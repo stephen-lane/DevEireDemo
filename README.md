@@ -16,7 +16,7 @@ How to use it
 *   Build Project (Dont run as of yet)
 *   Open console/terminal
 *   Navigate to the root of this project. E.g cd /Users/{username}/Documents/github/DevEireDemo
-*   Run this from the command line - ./node/node styleguide/server.js (Note - by default, the project will occupy port 3000, this can be changed by entering ./node/node styleguide/server.js —port 3001 at runtime. You can have multiple projects running at any one time)
+*   Run this from the command line - ./node/node styleguide/server.js (Note - by default, the project will occupy port 3000, this can be changed by entering ./node/node styleguide/server.js --port=3001 at runtime. You can have multiple projects running at any one time)
 *   The styleguide will then be accessible at http://localhost:3000.
 
 System requirements
