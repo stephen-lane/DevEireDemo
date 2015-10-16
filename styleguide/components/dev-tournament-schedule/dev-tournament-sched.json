@@ -1,0 +1,25 @@
+{
+    "_template": "components/dev-tourn-schedule",
+    "_notes": "data URL looks like: {prefix}{value}{suffix}, so you can drop the suffix if you need to/want to",
+    "sortFilters": {
+        "filters": [{
+            "text": "2015 Season",
+            "value": "/components/dev-tournament-schedule/table2015.html"
+        },
+        {
+            "text": "2014 Season",
+            "value": "/components/dev-tournament-schedule/table2014.html"
+        },
+        {
+            "text": "2013 Season",
+            "value": "/components/dev-tournament-schedule/table2013.html"
+        }],
+        "label": ""
+    },
+    "heading" : {
+        "_dataUrl" : "/components/dev-tournament-schedule/dev-tournament-sched-title.json"
+    },
+    "schedule" : {
+        "_dataUrl" : "/components/dev-tournament-schedule/table2015.json"
+    }
+}

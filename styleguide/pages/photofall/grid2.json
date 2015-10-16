@@ -1,10 +1,10 @@
 {
-	"_template" : "components/jsg-gallery-grid",
+	"_template" : "components/dev-gallery-grid",
 
-    "galleryGridClassName" : "jsg-gallery-photofall-grid jsg-gallery-photofall-layout2",
+    "galleryGridClassName" : "dev-gallery-photofall-grid dev-gallery-photofall-layout2",
 
     "galleryGridNextThumbs": {
-    	"_template": "components/jsg-next-content",
+    	"_template": "components/dev-next-content",
     	"linkText": "Load More",
     	"url": "/pages/photofall/grid1.html"
     },

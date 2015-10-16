@@ -2,7 +2,7 @@
     "_template" : "components/bsp-list-promo",
 
     "options" : {
-        "modifierClass" : "error-jsg"
+        "modifierClass" : "error-dev"
     },
 
 

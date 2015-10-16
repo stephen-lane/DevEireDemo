@@ -2,26 +2,26 @@
 	"_template" : "common/body",
 
 	"headerView" : {
-		"_dataUrl" : "/components/jsg-site-header/jsg-header.json"
+		"_dataUrl" : "/components/dev-site-header/dev-header.json"
 	},
 
 	"mainView" : {
 		"_template": "layouts/full-page",
 		"main": {
 			"components": [
-				{ "_dataUrl": "/components/jsg-super-promo/super-promo-carousel.json" },
-				{ "_dataUrl": "/components/jsg-small-promo/jsg-small-promo.json" },
-				{ "_dataUrl": "/components/jsg-small-promo/jsg-small-promo-grey.json" },
-				{ "_dataUrl": "/components/jsg-callout/jsg-callout-component.json" },
-				{ "_dataUrl": "/components/jsg-large-promo/jsg-large-promo.json" },
-				{ "_dataUrl": "/components/jsg-medium-promo/jsg-medium-promo.json" },
-				{ "_dataUrl": "/components/jsg-sponsor-carousel/jsg-sponsor-carousel.json" }
+				{ "_dataUrl": "/components/dev-super-promo/super-promo-carousel.json" },
+				{ "_dataUrl": "/components/dev-small-promo/dev-small-promo.json" },
+				{ "_dataUrl": "/components/dev-small-promo/dev-small-promo-grey.json" },
+				{ "_dataUrl": "/components/dev-callout/dev-callout-component.json" },
+				{ "_dataUrl": "/components/dev-large-promo/dev-large-promo.json" },
+				{ "_dataUrl": "/components/dev-medium-promo/dev-medium-promo.json" },
+				{ "_dataUrl": "/components/dev-sponsor-carousel/dev-sponsor-carousel.json" }
 			]
 		}
 	},
 
 	"footerView" : {
-		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+		"_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
 	}
 
 }

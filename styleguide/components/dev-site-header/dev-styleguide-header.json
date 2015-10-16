@@ -1,0 +1,30 @@
+{
+	"_template" : "components/bsp-site-header-simple",
+
+	"siteName" : "DevEire Styleguide",
+
+	"siteLogo" : {
+
+		"link" : {
+
+			"_template" : "common/link",
+
+			"attributes" : {
+				"href"  : "/",
+				"title" : "DevEire Styleguide"
+			},
+
+			"body" : {
+
+				"_template" : "common/image",
+
+				"attributes" : {
+					"alt" : "DevEire",
+					"src" : "/assets/images/jsp-header-logo.png"
+				}
+			}
+
+		}
+
+	}
+}

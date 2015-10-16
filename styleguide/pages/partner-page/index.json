@@ -2,7 +2,7 @@
 	"_template" : "common/body",
 
 	"headerView" : {
-		"_dataUrl" : "/components/jsg-site-header/jsg-header.json"
+		"_dataUrl" : "/components/dev-site-header/dev-header.json"
 	},
 
 	"mainView" : {
@@ -10,16 +10,16 @@
 		"main": {
 			"components": [
 				{ "_dataUrl": "page-title.json" },
-				{ "_dataUrl": "/components/jsg-super-promo/super-promo-single-no-tag.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-super-promo/super-promo-single-no-tag.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
 				{
-					"_template" : "components/jsg-section-inline-title",
+					"_template" : "components/dev-section-inline-title",
 					"options" : {
-						"modifierClass" : "light-gray-back-jsg"
+						"modifierClass" : "light-gray-back-dev"
 					},
 					"title" : {
 						"_template" : "common/text",
@@ -30,18 +30,18 @@
 						"text" : "Turducken filet mignon ball tip, meatball shankle ribeye sirloin venison leberkas ground."
 					}
 				},
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" },
-				{ "_dataUrl": "/components/jsg-partner/partner.json" }
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" },
+				{ "_dataUrl": "/components/dev-partner/partner.json" }
 
 			]
 		}
 	},
 
 	"footerView" : {
-		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+		"_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
 	}
 
 }

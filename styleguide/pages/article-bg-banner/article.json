@@ -64,7 +64,7 @@
             }
         },
         {
-        	"content" : { "_dataUrl" : "/components/jsg-sponsor-carousel/jsg-sponsor-carousel.json" }
+        	"content" : { "_dataUrl" : "/components/dev-sponsor-carousel/dev-sponsor-carousel.json" }
         }
     ]
 

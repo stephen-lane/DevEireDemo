@@ -2,7 +2,7 @@
 	"_template": "components/bsp-component-group",
 	"components" : [
 		{
-			"_template" : "components/jsg-section-title",
+			"_template" : "components/dev-section-title",
 			"options" : {
 				"modifierClass" : "sg-font-family-base-title"
 			},

@@ -2,7 +2,7 @@
     "_template" : "common/body",
 
     "headerView" : {
-        "_dataUrl" : "/components/jsg-site-header/jsg-header.json"
+        "_dataUrl" : "/components/dev-site-header/dev-header.json"
     },
 
     "mainView" : {
@@ -20,7 +20,7 @@
     },
 
     "footerView" : {
-        "_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+        "_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
     }
 
 }

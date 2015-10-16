@@ -4,7 +4,7 @@
 	"headerView" : {
 		"_template": "components/bsp-component-group",
 		"components": [
-			{ "_dataUrl" : "/components/jsg-site-header/jsg-header.json" },
+			{ "_dataUrl" : "/components/dev-site-header/dev-header.json" },
 			{ "_dataUrl" : "tournaments-title.json" }
 		]
 	},
@@ -15,16 +15,16 @@
 
 		"main" : {
 			"components" : [
-				{ "_dataUrl": "/components/jsg-super-promo/super-promo-tourn.json" },
-				{ "_dataUrl": "/components/jsg-tourn-summary/jsg-tourn-summary.json" },
-				{ "_dataUrl": "/components/jsg-tournament-schedule/jsg-tournament-sched.json" }
+				{ "_dataUrl": "/components/dev-super-promo/super-promo-tourn.json" },
+				{ "_dataUrl": "/components/dev-tourn-summary/dev-tourn-summary.json" },
+				{ "_dataUrl": "/components/dev-tournament-schedule/dev-tournament-sched.json" }
 			]
 		}
 
 	},
 
 	"footerView" : {
-		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+		"_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
 	}
 
 }

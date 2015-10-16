@@ -11,12 +11,12 @@
 						"_template" : "common/link",
 
 						"attributes" : {
-							"href"  : "/components/jsg-site-header/",
-							"title" : "Jordan Spieth Site Header"
+							"href"  : "/components/dev-site-header/",
+							"title" : "DevEire Site Header"
 						},
 						"body" : {
                             "_template" : "common/text",
-                            "text" : "Jordan Spieth Site Header"
+                            "text" : "DevEire Site Header"
                         }
 					}
 				}
@@ -32,12 +32,12 @@
 						"_template" : "common/link",
 
 						"attributes" : {
-							"href"  : "/components/jsg-site-footer/",
-							"title" : "Jordan Spieth Site Footer`"
+							"href"  : "/components/dev-site-footer/",
+							"title" : "DevEire Site Footer`"
 						},
                         "body" : {
                             "_template" : "common/text",
-						    "text"  : "Jordan Spieth Site Footer"
+						    "text"  : "DevEire Site Footer"
                         }
 					}
 				}
@@ -53,11 +53,11 @@
 
                         "attributes" : {
                             "href"  : "/components/bsp-page-title/",
-                            "title" : "Jordan Page Title"
+                            "title" : "DevEire Page Title"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Page Title"
+                            "text"  : "DevEire Page Title"
                         }
                     }
                 }
@@ -72,12 +72,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-tab-navigation/",
-                            "title" : "Jordan Tab Navigation"
+                            "href"  : "/components/dev-tab-navigation/",
+                            "title" : "DevEire Tab Navigation"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Tab Navigation"
+                            "text"  : "DevEire Tab Navigation"
                         }
                     }
                 }
@@ -92,12 +92,12 @@
 						"_template" : "common/link",
 
 						"attributes" : {
-							"href"  : "/components/jsg-super-promo/",
-							"title" : "Jordan Spieth Super Promo"
+							"href"  : "/components/dev-super-promo/",
+							"title" : "DevEire Super Promo"
 						},
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Super Promo"
+                            "text"  : "DevEire Super Promo"
                         }
 					}
 				}
@@ -112,12 +112,12 @@
 						"_template" : "common/link",
 
 						"attributes" : {
-							"href"  : "/components/jsg-small-promo/",
-							"title" : "Jordan Spieth Small Promo"
+							"href"  : "/components/dev-small-promo/",
+							"title" : "DevEire Small Promo"
 						},
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Small Promo"
+                            "text"  : "DevEire Small Promo"
                         }
 					}
 				}
@@ -132,12 +132,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-medium-promo/",
-                            "title" : "Jordan Spieth Medium Promo"
+                            "href"  : "/components/dev-medium-promo/",
+                            "title" : "DevEire Medium Promo"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Medium Promo"
+                            "text"  : "DevEire Medium Promo"
                         }
                     }
                 }
@@ -152,12 +152,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-large-promo/",
-                            "title" : "Jordan Spieth Large Promo"
+                            "href"  : "/components/dev-large-promo/",
+                            "title" : "DevEire Large Promo"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Large Promo"
+                            "text"  : "DevEire Large Promo"
                         }
                     }
                 }
@@ -172,12 +172,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-callout/",
-                            "title" : "Jordan Spieth Callout"
+                            "href"  : "/components/dev-callout/",
+                            "title" : "DevEire Callout"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Callout"
+                            "text"  : "DevEire Callout"
                         }
                     }
                 }
@@ -192,12 +192,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-blockquote/",
-                            "title" : "Jordan Spieth Blockquote"
+                            "href"  : "/components/dev-blockquote/",
+                            "title" : "DevEire Blockquote"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Blockquote"
+                            "text"  : "DevEire Blockquote"
                         }
                     }
                 }
@@ -212,12 +212,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-gallery-grid/",
-                            "title" : "Jordan Spieth Gallery Grid"
+                            "href"  : "/components/dev-gallery-grid/",
+                            "title" : "DevEire Gallery Grid"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Gallery Grid"
+                            "text"  : "DevEire Gallery Grid"
                         }
                     }
                 }
@@ -232,12 +232,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-image/",
-                            "title" : "Jordan Spieth Image"
+                            "href"  : "/components/dev-image/",
+                            "title" : "DevEire Image"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Image"
+                            "text"  : "DevEire Image"
                         }
                     }
                 }
@@ -252,12 +252,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-sponsor-carousel/",
-                            "title" : "Jordan Spieth Partner Carousel"
+                            "href"  : "/components/dev-sponsor-carousel/",
+                            "title" : "DevEire Partner Carousel"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Partner Carousel"
+                            "text"  : "DevEire Partner Carousel"
                         }
                     }
                 }
@@ -272,12 +272,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-scorecard/",
-                            "title" : "Jordan Spieth Scorecard"
+                            "href"  : "/components/dev-scorecard/",
+                            "title" : "DevEire Scorecard"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Scorecard"
+                            "text"  : "DevEire Scorecard"
                         }
                     }
                 }
@@ -292,12 +292,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-statistics/",
-                            "title" : "Jordan Spieth Statistics"
+                            "href"  : "/components/dev-statistics/",
+                            "title" : "DevEire Statistics"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Statistics"
+                            "text"  : "DevEire Statistics"
                         }
                     }
                 }
@@ -312,12 +312,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-tournament-schedule/",
-                            "title" : "Jordan Spieth Tournament Schedule"
+                            "href"  : "/components/dev-tournament-schedule/",
+                            "title" : "DevEire Tournament Schedule"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Tournament Schedule"
+                            "text"  : "DevEire Tournament Schedule"
                         }
                     }
                 }
@@ -332,12 +332,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-tourn-summary/",
-                            "title" : "Jordan Spieth Tournament Summary"
+                            "href"  : "/components/dev-tourn-summary/",
+                            "title" : "DevEire Tournament Summary"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Spieth Tournament Summary"
+                            "text"  : "DevEire Tournament Summary"
                         }
                     }
                 }
@@ -352,12 +352,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-iframe/",
-                            "title" : "Jordan Iframe"
+                            "href"  : "/components/dev-iframe/",
+                            "title" : "DevEire Iframe"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Iframe"
+                            "text"  : "DevEire Iframe"
                         }
                     }
                 }
@@ -373,11 +373,11 @@
 
                         "attributes" : {
                             "href"  : "/components/bsp-social-share/",
-                            "title" : "Jordan Social Share"
+                            "title" : "DevEire Social Share"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Social Share"
+                            "text"  : "DevEire Social Share"
                         }
                     }
                 }
@@ -392,12 +392,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-caption/",
-                            "title" : "Jordan Caption"
+                            "href"  : "/components/dev-caption/",
+                            "title" : "DevEire Caption"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Caption"
+                            "text"  : "DevEire Caption"
                         }
                     }
                 }
@@ -412,12 +412,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-video/",
-                            "title" : "Jordan Video"
+                            "href"  : "/components/dev-video/",
+                            "title" : "DevEire Video"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Video"
+                            "text"  : "DevEire Video"
                         }
                     }
                 }
@@ -432,12 +432,12 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/components/jsg-partner/",
-                            "title" : "Jordan Partner"
+                            "href"  : "/components/dev-partner/",
+                            "title" : "DevEire Partner"
                         },
                         "body" : {
                             "_template" : "common/text",
-                            "text"  : "Jordan Partner"
+                            "text"  : "DevEire Partner"
                         }
                     }
                 }

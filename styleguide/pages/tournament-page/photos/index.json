@@ -1,23 +1,23 @@
 {
 	"_template": "common/body",
 
-	"headerView": { "_dataUrl": "/components/jsg-site-header/jsg-header.json" },
+	"headerView": { "_dataUrl": "/components/dev-site-header/dev-header.json" },
 
 	"mainView": {
 		"_template": "layouts/full-page",
 		"main": {
 			"components": [
-				{ "_dataUrl": "/components/jsg-super-promo/super-promo-tourn-overview.json" },
-				{ "_dataUrl": "/components/jsg-tourn-summary/jsg-tourn-summary.json" },
+				{ "_dataUrl": "/components/dev-super-promo/super-promo-tourn-overview.json" },
+				{ "_dataUrl": "/components/dev-tourn-summary/dev-tourn-summary.json" },
 				{ "_dataUrl": "tabs.json" },
 				{
 					"_template": "layouts/full-page",
 					"options": {
-						"modifierClass": "jsg-tournament-display"
+						"modifierClass": "dev-tournament-display"
 					},
 					"main": {
 						"components": [
-							{ "_dataUrl": "/components/jsg-gallery-grid/gallery-low-res.json" }
+							{ "_dataUrl": "/components/dev-gallery-grid/gallery-low-res.json" }
 						]
 					}
 				}
@@ -25,5 +25,5 @@
 		}
 	},
 
-	"footerView": { "_dataUrl": "/components/jsg-site-footer/jsg-site-footer.json" }
+	"footerView": { "_dataUrl": "/components/dev-site-footer/dev-site-footer.json" }
 }
