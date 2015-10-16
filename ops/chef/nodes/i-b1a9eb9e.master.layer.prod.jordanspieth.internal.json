@@ -1,9 +1,0 @@
-{
-  "run_list": [
-
-  ],
-  "environment": "production",
-  "automatic": {
-    "ipaddress": "i-b1a9eb9e.master.layer.prod.jordanspieth.internal"
-  }
-}

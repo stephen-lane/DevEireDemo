@@ -1,5 +1,0 @@
-{
-  "source_ami": "ami-02a0e66a",
-  "recipe": "recipe[jordanspieth::qa]",
-  "layer": "qa"
-}

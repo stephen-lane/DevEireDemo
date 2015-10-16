@@ -1,9 +1,0 @@
-{
-  "id":"system",
-  "debian-sys-maint":{
-    "iv":"h8G6qqQOMhssuaOHFMk3qA==",
-    "cipher":"aes-256-cbc",
-    "encrypted_data":"zvYrx1AN79zT9wZiUPc3YoXB6M2waJuwVEk6AIPDQEWdUyGHREIFN7VEEimXeNkC1nYaVNON0KmbaBWMmWls7Q==",
-    "version":1
-  }
-}
