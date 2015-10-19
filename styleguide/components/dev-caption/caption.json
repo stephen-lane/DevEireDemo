@@ -1,17 +1,17 @@
 {
-	"_template": "components/dev-caption",
-	"options": {
-		"width" : 200
-	},
-	"content": {
-		"_dataUrl" : "/common/image-200x300.json"
-	},
-	"text": {
-		"_template" : "common/text",
-		"text" : "At 20, DevEire will be the youngest American to compete in The Presidents Cup"
-	},
-	"credit": {
-		"_template" : "common/text",
-		"text" : "Credit Erik S. Lesser/European Pressphoto Agency"
-	}
+    "_template": "components/dev-caption",
+    "options": {
+        "width": 200
+    },
+    "content": {
+        "_dataUrl": "/common/image-200x300.json"
+    },
+    "text": {
+        "_template": "common/text",
+        "text": "This is Caption Text, This is Caption Text, This is Caption Text, "
+    },
+    "credit": {
+        "_template": "common/text",
+        "text": "This is Caption Credit "
+    }
 }

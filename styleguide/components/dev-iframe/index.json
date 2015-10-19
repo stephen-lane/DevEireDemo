@@ -1,26 +1,25 @@
 {
-	"_template" : "layouts/one-col",
-
-	"main" : {
-		"components" : [
-			{
-				"_dataUrl" : "/components/dev-iframe/twitter.json"
-			},
-			{
-				"_dataUrl" : "/components/dev-iframe/youtube.json"
-			},
-			{
-				"_dataUrl" : "/components/dev-iframe/youtube-with-title.json"
-			},
-			{
-				"_dataUrl" : "/components/dev-iframe/youtube-with-title-and-stage.json"
-			},
-			{
-				"_dataUrl" : "/components/dev-iframe/youtube-stretch.json"
-			},
-			{
-				"_dataUrl" : "/components/dev-iframe/hide-mobile.json"
-			}
-		]
-	}
+    "_template": "layouts/one-col",
+    "main": {
+        "components": [
+            {
+                "_dataUrl": "/components/dev-iframe/twitter.json"
+            },
+            {
+                "_dataUrl": "/components/dev-iframe/youtube.json"
+            },
+            {
+                "_dataUrl": "/components/dev-iframe/youtube-with-title.json"
+            },
+            {
+                "_dataUrl": "/components/dev-iframe/youtube-with-title-and-stage.json"
+            },
+            {
+                "_dataUrl": "/components/dev-iframe/youtube-stretch.json"
+            },
+            {
+                "_dataUrl": "/components/dev-iframe/hide-mobile.json"
+            }
+        ]
+    }
 }
