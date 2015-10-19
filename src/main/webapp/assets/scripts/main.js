@@ -23,7 +23,6 @@ import bsp_toggle_plugin from 'bsp-toggle-item-plugin';
 // TODO: we are moving to bsp-template for Node, so this will not be needed anymore after that
 import bsp_template_plugin from 'bsp-template-plugin';
 
-import jsg_gallery_grid_plugin from 'plugins/jsg-gallery-grid-plugin';
-import jsg_next_content from 'plugins/jsg-next-content';
-import jsg_tournament_schedule_plugin from 'plugins/jsg-tournament-schedule-plugin';
-import jsg_tabber_plugin from 'plugins/jsg-tabber-plugin';
+import deveire_gallery_grid_plugin from 'plugins/deveire-gallery-grid-plugin';
+import deveire_next_content from 'plugins/deveire-next-content'; 
+import deveire_tabber_plugin from 'plugins/deveire-tabber-plugin';

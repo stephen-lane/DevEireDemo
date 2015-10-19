@@ -1,0 +1,46 @@
+{
+    "_template": "common/body",
+    "headerView": {
+        "_dataUrl": "/components/dev-site-header/dev-header.json"
+   },
+    "mainView": {
+        "_template": "layouts/one-col",
+        "main": {
+            "components": [
+                {
+                    "_template": "common/text",
+                    "options": {
+                        "modifierClass": "styleguide-page-description"
+                    },
+                    "text": "<p>Page Title Documentation to go here</p>"
+                },
+                {
+                    "_template": "components/bsp-page-title",
+                    "pageTitle": {
+                        "_template": "common/text",
+                        "text": "Test Page"
+
+                    }
+                },
+                {
+                    "_template": "components/bsp-page-title",
+                    "pageTitle": {
+                        "_template": "common/text",
+                        "text": "Long Title for Test Page"
+
+                    }
+                },
+                {
+                    "_template": "components/bsp-page-title",
+                    "pageTitle": {
+                        "_template": "common/text",
+                        "text": "Super Duper Super Duper Super Duper Super Duper Long Title for Test Page"
+                    }
+                }
+            ]
+        }
+    },
+    "footerView": {
+        "_dataUrl": "/components/dev-site-footer-simple/dev-site-footer.json"
+    }
+}

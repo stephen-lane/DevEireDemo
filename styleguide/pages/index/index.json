@@ -1,62 +1,56 @@
 {
-	"_template" : "common/body",
-
-	"headerView" : {
-		"_template": "components/bsp-component-group",
-		"components": [
-			{ "_dataUrl" : "/components/dev-site-header/dev-header.json" },
-			{ "_dataUrl" : "pages/index/page-title.json" }
-		]
-	},
-
-	"mainView" : {
-
-		"_template" : "layouts/three-col-thirds",
-
-		"first" : {
-			"components" : [
-				{
-					"_template" : "components/bsp-section-title",
-
-					"sectionTitle" : "Elements"
-				},
-				{
-					"_dataUrl" : "pages/index/list-elements.json"
-				}
-			]
-		},
-
-		"second" : {
-			"components" : [
-				{
-					"_template" : "components/bsp-section-title",
-
-					"sectionTitle" : "Components"
-				},
-				{
-					"_dataUrl" : "pages/index/list-components.json"
-				}
-			]
-		},
-
-		"third" : {
-			"components" : [
-				{
-					"_template" : "components/bsp-section-title",
-
-					"sectionTitle" : "Pages"
-				},
-				{
-					"_dataUrl" : "pages/index/list-pages.json"
-				}
-			]
-		}
+    "_template": "common/body",
+    "headerView": {
+        "_template": "components/bsp-component-group",
+        "components": [
+            {
+                "_dataUrl": "/components/dev-site-header/dev-header.json"
+            },
+            {
+                "_dataUrl": "pages/index/page-title.json"
+            }
+        ]
+    },
+    "mainView": {
+        "_template": "layouts/three-col-thirds",
+        "first": {
+            "components": [
+                {
+                    "_template": "components/bsp-section-title",
+                    "sectionTitle": "Elements"
+                },
+                {
+                    "_dataUrl": "pages/index/list-elements.json"
+                }
+            ]
+        },
+        "second": {
+            "components": [
+                {
+                    "_template": "components/bsp-section-title",
+                    "sectionTitle": "Components"
+                },
+                {
+                    "_dataUrl": "pages/index/list-components.json"
+                }
+            ]
+        },
+        "third": {
+            "components": [
+                {
+                    "_template": "components/bsp-section-title",
+                    "sectionTitle": "Pages"
+                },
+                {
+                    "_dataUrl": "pages/index/list-pages.json"
+                }
+            ]
+        }
 
 
-	},
-
-	"footerView" : {
-		"_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
-	}
+    },
+    "footerView": {
+        "_dataUrl": "/components/dev-site-footer-simple/dev-site-footer.json"
+    }
 
 }
