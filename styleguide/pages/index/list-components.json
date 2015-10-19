@@ -80,7 +80,7 @@
                     "link": {
                         "_template": "common/link",
                         "attributes": {
-                            "href": "/components/bsp-page-title/",
+                            "href": "/components/dev-page-title/",
                             "title": "DevEire Page Title"
                         },
                         "body": {

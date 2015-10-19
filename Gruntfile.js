@@ -80,6 +80,19 @@ module.exports = function(grunt) {
                     }
                 ],
 
+                'truncate': [
+                    {
+                        src: 'src/css/bsp-tabber.css',
+                        dest: '../styles/bower/bsp-tabber.css'
+                    },
+                    {
+                        cwd: 'src/js/',
+                        src: '*.js',
+                        dest: '',
+                        expand: true
+                    }
+                ],
+
                 'datetimepicker': [
                     {
                         src: 'jquery.datetimepicker.js',
