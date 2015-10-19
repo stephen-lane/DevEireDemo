@@ -1,109 +1,78 @@
 {
-    "_template" : "components/bsp-list-promo",
-
-    "options" : {
-        "horizontalSplit" : "half",
-        "modifierClass" : "medium-promo"
+    "_template": "components/bsp-list-promo",
+    "options": {
+        "horizontalSplit": "half",
+        "modifierClass": "medium-promo"
     },
-
-    "heading" : {
-
-        "_template" : "components/bsp-component-group",
-
-        "components" : [
+    "heading": {
+        "_template": "components/bsp-component-group",
+        "components": [
             {
-                "_template" : "common/link",
-
-                "attributes" : {
-                   "href"  : "link",
-                    "title" : "Link Title"
+                "_template": "common/link",
+                "attributes": {
+                    "href": "link",
+                    "title": "Link Title"
                 },
-
-                "body" : {
-                    "_template" : "common/text",
-                    "text" : "Top Tournaments"
+                "body": {
+                    "_template": "common/text",
+                    "text": "Title Here"
                 }
             },
             {
-
-                "_template" : "common/text",
-
-                "options" : {
-                    "modifierClass" : "bsp-sub-title"
+                "_template": "common/text",
+                "options": {
+                    "modifierClass": "bsp-sub-title"
                 },
-
-                "text" : "Bacon ipsum dolor amet drumstick pork belly pork chop, doner meatloaf venison picanha landjaeger salami kevin leberkas alcatra strip steak cupim."
+                "text": "Bacon ipsum dolor amet drumstick pork belly pork chop, doner meatloaf venison picanha landjaeger salami kevin leberkas alcatra strip steak cupim."
 
             }
         ]
 
     },
-
-    "listItems" : [
+    "listItems": [
         {
-            "sections" : [
+            "sections": [
                 {
-
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "name" : "text-above",
-
-                    "title" : {
-
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "link",
-                            "title" : "Link Title"
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "text-above",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
                         },
-
-                        "body" : {
-                            "_template" : "common/text",
-                            "text" : "John Deere Classic 2015"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "I am a tag"
                         }
                     }
                 },
                 {
-
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "name" : "image",
-
-                    "image" : {
-
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "link",
-                            "title" : "Link Title"
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
                         },
-
-                        "body" : {
-
-                            "_template" : "common/image",
-
-                            "attributes" : {
-                                "alt" : "Test Alt",
-                                "src" : "/assets/images/medium-promo/medium-promo-1.jpeg"
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/medium-promo/medium-promo-1.jpeg"
                             }
                         },
-
-                        "overlayLinked" : {
-
-                            "_template" : "components/dev-overlay-linked",
-
-                            "link" : {
-
-                                "attributes" : {
-                                    "_template" : "common/attributes",
-
-                                    "href"  : "link",
-                                    "title" : "Link Title"
+                        "overlayLinked": {
+                            "_template": "components/dev-overlay-linked",
+                            "link": {
+                                "attributes": {
+                                    "_template": "common/attributes",
+                                    "href": "link",
+                                    "title": "Link Title"
                                 },
-
-                                "description" : "The groundwork was set into motion in the Fall of 2013 following Jordan's participation on the United States President's Cup Team. Jordan’s experiences on and off the course have shaped his outlook toward service. The DevEire Charitable Fund is his platform to lend time, awareness, and financial assistance to three areas of philanthropic concern: Special needs youth, military families, and junior golf.",
-
-                                "ctaText" : "Read More"
+                                "description": "Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. ",
+                                "ctaText": "CTA Link"
 
                             }
                         }
@@ -111,93 +80,69 @@
 
                 },
                 {
-
-                    "_template" : "common/text",
-                    "options" : {
-                        "modifierClass" : "bsp-list-promo-desc"
+                    "_template": "common/text",
+                    "options": {
+                        "modifierClass": "bsp-list-promo-desc"
                     },
-                    "text" : "Jordan wins in a two-hole playoff -- his second win at the John Deere in three years"
+                    "text": "Subtext goes here. Subtext goes here. Subtext goes here. Subtext goes here. "
                 }
             ]
         },
-
         {
-            "sections" : [
+            "sections": [
                 {
-
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "title" : {
-
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "link",
-                            "title" : "Link Title"
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
                         },
-
-                        "body" : {
-                            "_template" : "common/text",
-                            "text" : "Masters Tournament"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "I am a tag"
                         }
 
                     }
 
                 },
-
                 {
-
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "name" : "image",
-
-                    "image" : {
-
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "link",
-                            "title" : "Link Title"
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
                         },
-
-                        "body" : {
-
-                            "_template" : "common/image",
-
-                            "attributes" : {
-                                "alt" : "Test Alt",
-                                "src" : "/assets/images/medium-promo/medium-promo-2.jpeg"
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/medium-promo/medium-promo-2.jpeg"
                             }
                         },
-
-                        "overlayLinked" : {
-
-                            "_template" : "components/dev-overlay-linked",
-
-                            "link" : {
-
-                                "attributes" : {
-                                    "_template" : "common/attributes",
-
-                                    "href"  : "link",
-                                    "title" : "Link Title"
+                        "overlayLinked": {
+                            "_template": "components/dev-overlay-linked",
+                            "link": {
+                                "attributes": {
+                                    "_template": "common/attributes",
+                                    "href": "link",
+                                    "title": "Link Title"
                                 },
-
-                                "description" : "The groundwork was set into motion in the Fall of 2013 following Jordan's participation on the United States President's Cup Team. Jordan’s experiences on and off the course have shaped his outlook toward service. The DevEire Charitable Fund is his platform to lend time, awareness, and financial assistance to three areas of philanthropic concern: Special needs youth, military families, and junior golf.",
-
-                                "ctaText" : "Read More"
+                                "description": "Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. ",
+                                "ctaText": "CTA Link"
 
                             }
                         }
                     }
                 },
                 {
-
-                    "_template" : "common/text",
-                    "options" : {
-                        "modifierClass" : "bsp-list-promo-desc"
+                    "_template": "common/text",
+                    "options": {
+                        "modifierClass": "bsp-list-promo-desc"
                     },
-                    "text" : "Jordan talks to the press and fans after his win at the 2015 John Deere Classic"
+                    "text": "Subtext goes here. Subtext goes here. Subtext goes here. Subtext goes here. "
                 }
             ]
         }
