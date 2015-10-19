@@ -1,20 +1,19 @@
 {
-	"_template" : "layouts/one-col",
-
-	"main" : {
-		"components" : [
-			{
-				"_template" : "components/dev-blockquote",
-    			"author": "DevEire",
-    			"content": "It seems unreal, yet I couldn't be happier to have so many people across the country rooting for me to succeed. It is a very humbling thing to see friends and strangers pulling for you to achieve your dreams. I am very grateful for the words of encouragement week in and week out."
-			},
-			{
-				"_template" : "components/dev-blockquote",
-    			"author": "DevEire",
-    			"authorColor" : "#339933",
-    			"content": "(color override) It seems unreal, yet I couldn't be happier to have so many people across the country rooting for me to succeed. It is a very humbling thing to see friends and strangers pulling for you to achieve your dreams. I am very grateful for the words of encouragement week in and week out.",
-    			"contentColor" : "#3366FF"
-			}
-		]
-	}
+    "_template": "layouts/one-col",
+    "main": {
+        "components": [
+            {
+                "_template": "components/dev-blockquote",
+                "author": "I am an author",
+                "content": "i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, "
+            },
+            {
+                "_template": "components/dev-blockquote",
+                "author": "I am an author",
+                "authorColor": "#339933",
+                "content": "(color override) i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, i am a blockquote, ",
+                "contentColor": "#3366FF"
+            }
+        ]
+    }
 }
