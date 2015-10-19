@@ -24,3 +24,13 @@ System requirements
 *	[Java](https://java.com) and [Maven](https://maven.apache.org/). See [Brightspot documentation](http://www.brightspot.com/docs/3.0/overview/installation) for more specific information about which versions to install.
 *	[NodeJS](https://nodejs.org)
 *	Karma test runner (run `npm install -g karma` after NodeJS is installed)
+
+Useful Info
+---------------
+*   Handlebars Syntax example - http://handlebarsjs.com/expressions.html
+*   ES6 Example - https://github.com/JustinDrake/node-es6-examples
+
+PSD Projects using handlebars
+----------------
+*   Jordan Speith - https://github.com/perfectsense/jordanspieth
+*   BSP Base - https://github.com/perfectsense/brightspot-base
