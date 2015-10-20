@@ -72,7 +72,7 @@
 
                         "overlayLinked" : {
 
-                            "_template" : "components/jsg-overlay-linked",
+                            "_template" : "components/dev-overlay-linked",
 
                             "link" : {
 
@@ -154,7 +154,7 @@
 
                         "overlayLinked" : {
 
-                            "_template" : "components/jsg-overlay-linked",
+                            "_template" : "components/dev-overlay-linked",
 
                             "link" : {
 
@@ -231,7 +231,7 @@
 
                         "overlayLinked" : {
 
-                            "_template" : "components/jsg-overlay-linked",
+                            "_template" : "components/dev-overlay-linked",
 
                             "link" : {
 
@@ -313,7 +313,7 @@
 
                         "overlayLinked" : {
 
-                            "_template" : "components/jsg-overlay-linked",
+                            "_template" : "components/dev-overlay-linked",
 
                             "link" : {
 

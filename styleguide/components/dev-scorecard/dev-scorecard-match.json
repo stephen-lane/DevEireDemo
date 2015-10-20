@@ -1,0 +1,242 @@
+{
+    "_template" : "components/bsp-table/bsp-table",
+
+    "options" : {
+        "modifierClass" : "dev-scorecard matchplay"
+    },
+
+    "title" : "Round 1",
+
+    "headings" : [
+        {"text" : "Hole"},
+        {"text" : "1"},
+        {"text" : "2"},
+        {"text" : "3"},
+        {"text" : "4"},
+        {"text" : "5"},
+        {"text" : "6"},
+        {"text" : "7"},
+        {"text" : "8"},
+        {"text" : "9"},
+        {"text" : "10"},
+        {"text" : "11"},
+        {"text" : "12"},
+        {"text" : "13"},
+        {"text" : "14"},
+        {"text" : "15"},
+        {"text" : "16"},
+        {"text" : "17"},
+        {"text" : "18"}
+    ],
+
+    "rows" : [
+        {
+            "row" : [
+                {"text" : "Par"},
+                {"text" : "4"},
+                {"text" : "5"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "4"},
+                {"text" : "5"},
+                {"text" : "4"},
+                {"text" : "4"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "4"},
+                {"text" : "5"},
+                {"text" : "4"},
+                {"text" : "4"},
+                {"text" : "3"},
+                {"text" : "5"}
+            ]
+        },
+        {
+            "row" : [
+                {"text" : "J. Spieth"},
+                {
+                    "text" : "4",
+                    "status" : "status-1-u won"
+                },
+                {
+                    "text" : "3",
+                    "status" : "status-2-u won"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-2-u"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-2-u"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-2-u"
+                },
+                {
+                    "text" : "5",
+                    "status" : "status-1-u"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-1-u"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-1-u"
+                },
+                {
+                    "text" : "3",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "5",
+                    "status" : ""
+                },
+                {
+                    "text" : "3",
+                    "status" : "status-as won"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "3",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "3",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "5",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "3",
+                    "status" : ""
+                },
+                {
+                    "text" : "2",
+                    "status" : ""
+                }
+            ]
+        },
+        {
+            "row" : [
+                {"text" : "L. Westwood"},
+                {
+                    "text" : "5",
+                    "status" : ""
+                },
+                {
+                    "text" : "4",
+                    "status" : ""
+                },
+                {
+                    "text" : "4",
+                    "status" : ""
+                },
+                {
+                    "text" : "4",
+                    "status" : ""
+                },
+                {
+                    "text" : "4",
+                    "status" : ""
+                },
+                {
+                    "text" : "4",
+                    "status" : "won"
+                },
+                {   "text" : "4",
+                    "status" : ""
+                },
+                {
+                    "text" : "4",
+                    "status" : ""
+                },
+                {
+                    "text" : "2",
+                    "status" : "status-as won"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-1-u won"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-as"
+                },
+                {   "text" : "3",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "3",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-as"
+                },
+                {
+                    "text" : "2",
+                    "status" : "status-1-u won"
+                },
+                {
+                    "text" : "4",
+                    "status" : "status-2-u won"
+                }
+            ]
+        }
+    ],
+
+    "legend" : {
+
+        "_template" : "components/dev-scorecard-legend",
+
+        "legendItems" : [
+            {
+                "title" : "AS = ALL ASQUARE",
+                "className" : "match-legend"
+            },
+            {
+                "title" : "#U = # OF HOLE(S) UP IN MATCH",
+                "className" : "match-legend"
+            },
+            {
+                "title" : "C = CONCEDED HOLE",
+                "className" : "match-legend"
+            }
+        ]
+
+    },
+
+    "cta" : {
+            "options" : {
+                "location" : "top-right"
+            },
+
+            "content" : {
+               "_template" : "common/text",
+
+                "text" : "Result L. Westwood Wins 2 Up"
+            }
+    }
+}

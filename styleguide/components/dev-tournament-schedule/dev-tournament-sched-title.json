@@ -1,0 +1,11 @@
+{
+    "_template" : "components/dev-section-title",
+
+    "title" : {
+
+        "_template" : "common/text",
+
+        "text" : "Full Tour Schedule"
+
+    }
+}

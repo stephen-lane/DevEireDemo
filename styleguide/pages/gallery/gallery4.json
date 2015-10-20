@@ -1,7 +1,7 @@
 {
-	"_template" : "components/jsg-gallery-grid",
+	"_template" : "components/dev-gallery-grid",
 
-    "galleryGridClassName" : "jsg-gallery-page-grid jsg-gallery-page-grid-layout4",
+    "galleryGridClassName" : "dev-gallery-page-grid dev-gallery-page-grid-layout4",
 
     "galleryGridThumbs" : [
     	{

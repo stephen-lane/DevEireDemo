@@ -1,0 +1,15 @@
+{ 
+    "_template" : "components/dev-gallery-grid",
+
+    "galleryTitle" : "Single Image",
+
+    "gallerySlides" : [
+        { 
+            "_dataUrl" : "/common/image-promo-1.json"            
+        }
+    ],
+
+    "galleryGridClassName" : "dev-gallery-grid-embedded",
+
+    "showImagesAsList" : true
+}

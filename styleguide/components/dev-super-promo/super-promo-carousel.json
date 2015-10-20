@@ -1,0 +1,27 @@
+{
+    "_template" : "components/bsp-gallery-module",
+
+    "options" : {
+        "carouselDots" : false,
+        "modifierClass" : "super-promo-dev"
+    },
+
+    "gallerySlides" : [
+        {
+            "_dataUrl" : "/components/dev-super-promo/list-promo-1.json"
+        },
+        {
+            "_dataUrl" : "/components/dev-super-promo/list-promo-1.json"
+        },
+        {
+            "_dataUrl" : "/components/dev-super-promo/list-promo-1.json"
+        },
+        {
+            "_dataUrl" : "/components/dev-super-promo/list-promo-1.json"
+        },
+        {
+            "_dataUrl" : "/components/dev-super-promo/list-promo-1.json"
+        }
+    ]
+
+}

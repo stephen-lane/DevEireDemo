@@ -2,7 +2,7 @@
 	"_template" : "components/bsp-image-promo",
 
     "options" : {
-       "modifierClass" : "super-promo-jsg"
+       "modifierClass" : "super-promo-dev"
     },
 
 	"images" : [

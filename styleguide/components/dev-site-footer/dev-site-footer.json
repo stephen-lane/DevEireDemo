@@ -1,0 +1,200 @@
+{
+    "_template":"components/bsp-site-footer",
+    "firstCol":{
+
+        "heading":"Footer Heading",
+        "listItems":[
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            }
+        ]
+    },
+
+    "secondCol":{
+
+        "heading":"Footer Heading 1",
+        "listItems":[
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            },
+
+            {
+                "_template":"common/link",
+                "attributes":{
+
+                    "href":"link",
+                    "title":"Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text":"Footer Item"
+                }
+            }
+        ]
+    },
+
+    "thirdCol":{
+
+        "social":"Follow DevEire",
+        "sharing":{
+
+            "links":[
+                {
+                    "_template":"common/link",
+                    "icon":"facebook",
+                    "attributes":{
+
+                        "href":"http://www.facebook.com",
+                        "title":"Facebook",
+                        "target":"_blank"
+                    }
+                },
+
+                {
+                    "_template":"common/link",
+                    "icon":"twitter",
+                    "attributes":{
+
+                        "href":"http://www.twitter.com",
+                        "title":"Twitter",
+                        "target":"_blank"
+                    }
+                },
+
+                {
+                    "_template":"common/link",
+                    "icon":"pinterest",
+                    "attributes":{
+
+                        "href":"http://www.pinterest.com",
+                        "title":"Pinterest",
+                        "target":"_blank"
+                    }
+                },
+
+                {
+                    "_template":"common/link",
+                    "icon":"linkedin",
+                    "attributes":{
+
+                        "href":"http://www.linkedin.com",
+                        "title":"LinkedIn",
+                        "target":"_blank"
+                    }
+                }
+            ]
+        }
+    },
+
+    "disclaimer":"Copyright © DevEire",
+    "prefix":"Powered by",
+    "logo":{
+
+        "_dataUrl":"/common/link-image-logo-site-footer.json"
+    }
+}

@@ -1,5 +1,5 @@
 {
-	"_template": "components/jsg-tab-navigation",
+	"_template": "components/dev-tab-navigation",
 	"links": [
 		{
 			"_template": "common/link",

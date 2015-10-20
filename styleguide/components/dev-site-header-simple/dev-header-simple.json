@@ -1,0 +1,88 @@
+{
+	"_template" : "components/bsp-site-header-simple",
+
+	"siteName" : "DevEire",
+
+	"siteLogo" : {
+
+		"link" : {
+
+			"_template" : "common/link",
+
+			"attributes" : {
+				"href"  : "/",
+				"title" : "DevEire"
+			},
+
+			"body" : {
+
+				"_template" : "common/image",
+
+				"attributes" : {
+					"alt" : "DevEire",
+					"src" : "/assets/images/dev-header-logo.png"
+				}
+			}
+
+		}
+
+	},
+	"navLinks" : [
+		{
+
+				"_template" : "common/link",
+
+				"attributes" : {
+					"href"  : "/#navitem1",
+					"title" : "NavItem1"
+				},
+				"body" : {
+                    "_template" : "common/text",
+                    "text"  : "Nav Item"
+                }
+
+		},
+		{
+
+				"_template" : "common/link",
+
+				"attributes" : {
+					"href"  : "/#navitem2",
+					"title" : "NavItem2"
+				},
+				"body" : {
+                    "_template" : "common/text",
+                    "text"  : "Nav Item"
+                }
+
+		},
+		{
+
+				"_template" : "common/link",
+
+				"attributes" : {
+					"href"  : "/#navitem3",
+					"title" : "NavItem3"
+				},
+				"body" : {
+                    "_template" : "common/text",
+                    "text"  : "Nav Item"
+                }
+
+		},
+		{
+
+				"_template" : "common/link",
+
+				"attributes" : {
+					"href"  : "/#navitem4",
+					"title" : "NavItem4"
+				},
+				"body" : {
+                    "_template" : "common/text",
+                    "text"  : "Nav Item"
+                }
+
+		}
+	]
+}

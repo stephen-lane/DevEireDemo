@@ -1,0 +1,113 @@
+.small-promo-with-cta {
+
+    padding-left: @space;
+    padding-right: @space;
+
+    .bsp-column-third {
+        padding-left: @space-three-quarter;
+        padding-right: @space-three-quarter
+    }
+
+    .bsp-component-title {
+        line-height: 0;
+        padding: 0 ;
+        text-align: center;
+
+        @media @mq-sm {
+            margin-bottom: @space-double;
+        }
+
+        a {
+            .dev-tag;
+            color: @brand-accent;
+            font-size: @ts-neg-3;
+            background: transparent;
+            padding: @space-half 0;
+            letter-spacing: 1px;
+
+            @media @mq-sm {
+                color: @white;
+                font-size: @ts-neg-1;
+                background: @brand-accent;
+                padding: 13px;
+            }
+        }
+    }
+
+    .bsp-list-promo-title {
+        .type-scale(3, @lh:@line-height-headings);
+        font-family: @font-family-secondary;
+        font-weight: @font-weight-light;
+        margin-bottom: @space;
+    }
+
+    .bsp-list-promo-desc {
+        .type-scale(-2, @lh: 1.4);
+        font-family: @font-family-base;
+        padding-bottom: @space;
+
+        @media @mq-sm {
+            font-size: @ts-0;
+            padding-bottom: 0;
+        }
+    }
+
+    .bsp-component-cta {
+        .type-scale(-2, @font-weight-bold);
+        font-family: @font-family-secondary;
+        text-transform: uppercase;
+        margin-top: -@space;
+
+        @media @mq-sm {
+            margin-top: 0;
+        }
+
+        a {
+            background: transparent;
+            color: @brand-accent;
+            text-align: left;
+
+            @media @mq-sm {
+                text-align: center;
+            }
+
+            &:hover {
+                color: @black;
+            }
+
+            &::after {
+                // not sure about this need to see
+                // if there is a better way
+                .fa-icon();
+                content: @fa-var-angle-right;
+                padding-left: 5px;
+            }
+        }
+
+    }
+
+    @media @mq-lg {
+        .bsp-component-title, .bsp-component-content, .bsp-component-cta {
+            margin-left: auto;
+            margin-right: auto;
+            width: @screen-lg-min;
+        }
+
+
+    }
+
+    @media @mq-only-md {
+        .bsp-component-title, .bsp-component-content, .bsp-component-cta {
+            margin-left: auto;
+            margin-right: auto;
+            width: @screen-md-min;
+        }
+    }
+
+    @media @mq-only-md {
+        .bsp-list-promo-title {
+            font-size: @ts-2;
+        }
+    }
+
+}

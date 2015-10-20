@@ -56,7 +56,7 @@
             },
 
             "content" : {
-                "_dataUrl" : "/components/jsg-caption/caption.json"
+                "_dataUrl" : "/components/dev-caption/caption.json"
             }
         },
         {
@@ -89,7 +89,7 @@
         },
         {
             "content" : {
-            	"_template" : "components/jsg-blockquote",
+            	"_template" : "components/dev-blockquote",
                 "author": "Jordan Spieth",
             	"content": "My Dad told me growing up, \"You've got to start setting goals.\" That's been my philosophy, set goals and work hard, stay focused, and reach them as soon as possible. At each level, I always re-evaluate my goals and establish new ones. I never want to become complacent, but always push myself further."
             }
@@ -110,7 +110,7 @@
         },
         {
             "content" : {
-                "_dataUrl" : "/components/jsg-video/video.json"
+                "_dataUrl" : "/components/dev-video/video.json"
             }
         },
         {
@@ -136,7 +136,7 @@
         },
         {
             "content" : {
-                "_template" : "components/jsg-blockquote",
+                "_template" : "components/dev-blockquote",
                 "author": "Jordan Spieth",
             	"content": "It seems unreal, yet I couldn't be happier to have so many people across the country rooting for me to succeed. It is a very humbling thing to see friends and strangers pulling for you to achieve your dreams. I am very grateful for the words of encouragement week in and week out."
             }
@@ -157,7 +157,7 @@
         },
         {
             "content" : {
-                "_dataUrl" : "/components/jsg-gallery-grid/gallery-low-res.json"
+                "_dataUrl" : "/components/dev-gallery-grid/gallery-low-res.json"
             }
         },
         {
@@ -169,7 +169,7 @@
         },
         {
             "content" : {
-                "_dataUrl" : "/components/jsg-iframe/twitter.json"
+                "_dataUrl" : "/components/dev-iframe/twitter.json"
             }
         },
         {
@@ -181,7 +181,7 @@
         },
         {
             "content" : {
-                "_dataUrl" : "/components/jsg-gallery-grid/gallery-high-res.json"
+                "_dataUrl" : "/components/dev-gallery-grid/gallery-high-res.json"
             }
         },
         {
@@ -193,7 +193,7 @@
         },
         {
             "content" : {
-            	"_template" : "components/jsg-blockquote",
+            	"_template" : "components/dev-blockquote",
                 "author": "Jordan Spieth",
 
             	"content": "To be able to have winning in your blood growing up, whether it was pounding my little brother or trying to beat my dad in something, or just competing on teams with my friends, it was nonstop. And I think that's what shaped me to desire to have that each week. And it's why I believe in golf, even when things seem impossible, that I can always get it done."
@@ -208,7 +208,7 @@
         },
         {
             "content" : {
-                "_dataUrl" : "/components/jsg-scorecard/jsg-scorecard.json"
+                "_dataUrl" : "/components/dev-scorecard/dev-scorecard.json"
             }
         },
         {
@@ -220,7 +220,7 @@
         },
         {
             "content" : {
-                "_dataUrl" : "/components/jsg-image/image.json"
+                "_dataUrl" : "/components/dev-image/image.json"
             }
         },
         {

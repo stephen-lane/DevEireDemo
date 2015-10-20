@@ -25,16 +25,16 @@
 }
 
 /* a few jordan spieth style guide fixes */
-.jsp-styleguide-toc .bsp-list-promo-section {
+.deveire-styleguide-toc .bsp-list-promo-section {
     font-size: 18px;
 }
 
-.jsp-styleguide-toc .bsp-page-title-wrapper {
+.deveire-styleguide-toc .bsp-page-title-wrapper {
     margin-top: 0;
     margin-bottom: 2em;
 }
 
-.jsp-styleguide-component .subhead {
+.deveire-styleguide-component .subhead {
     text-align: center;
 }
 

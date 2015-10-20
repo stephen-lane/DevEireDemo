@@ -1,0 +1,36 @@
+{
+    "_template": "components/bsp-callout",
+    "_notes": "Used to change the backround color of the callout. Format must be 'background : <color> where <color>'' = any hex color value. Theoretically, any number of valid css properties and values could be specified here (e.g. color: #fff; font-weight: 700;",
+    "style": "background: #ccc",
+    "calloutText": {
+        "plainText": {
+            "_template": "common/text",
+            "text": "This is an example of "
+
+        },
+        "accentText": {
+            "_template": "components/bsp-callout-accent",
+            "_notes": "Used to change the text color of the highlighted text. Format must be 'color : <color> where <color>'' = any hex color value. Theoretically, any number of valid css properties and values could be specified here (e.g. color: #fff; font-weight: 700;",
+            "style": "color : #5a6c47",
+            "body": {
+                "_template": "common/text",
+                "text": "a callout module"
+            }
+        }
+    },
+    "cta": {
+        "_template": "common/link",
+        "attributes": {
+            "href": "link",
+            "title": "Link Title",
+            "style": "color: #fff; background: #5a6c47;"
+        },
+        "body": {
+            "_template": "common/text",
+            "text": "CTA Btn Text"
+        }
+
+    }
+
+
+}

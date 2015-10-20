@@ -1,0 +1,17 @@
+{
+    "_template": "components/dev-caption",
+    "options": {
+        "width": 200
+    },
+    "content": {
+        "_dataUrl": "/common/image-200x300.json"
+    },
+    "text": {
+        "_template": "common/text",
+        "text": "This is Caption Text, This is Caption Text, This is Caption Text, "
+    },
+    "credit": {
+        "_template": "common/text",
+        "text": "This is Caption Credit "
+    }
+}

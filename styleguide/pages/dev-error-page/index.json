@@ -1,0 +1,26 @@
+{
+    "_template" : "common/body",
+
+    "headerView" : {
+        "_dataUrl" : "/components/dev-site-header/dev-header.json"
+    },
+
+    "mainView" : {
+
+        "_template" : "layouts/full-page",
+
+        "main" : {
+            "components" : [
+                {
+                    "_dataUrl": "error-page.json"
+                }
+            ]
+        }
+
+    },
+
+    "footerView" : {
+        "_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
+    }
+
+}

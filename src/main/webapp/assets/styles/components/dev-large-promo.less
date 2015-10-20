@@ -1,0 +1,32 @@
+.large-promo-hover-overlay {
+
+    .bsp-component-title {
+        text-align: center;
+        .type-scale (3, @lh: @line-height-headings);
+        font-weight: @font-weight-light;
+
+        a {
+            &:hover {
+                color: @brand-accent;
+            }
+        }
+
+        .bsp-sub-title {
+            .type-scale(-2, @lh: 1.4);
+            font-family: @font-family-base;
+
+            @media @mq-sm {
+                font-size: @ts-0;
+            }
+        }
+    }
+
+    .bsp-list-promo-section-image {
+        position: relative;
+    }
+
+    .dev-overlay {
+        .dev-overlay-promo();
+    }
+
+}

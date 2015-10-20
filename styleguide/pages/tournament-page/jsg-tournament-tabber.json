@@ -1,6 +1,6 @@
 {
     "_template": "components/bsp-tabber",
-    "modifierClass" : "jsg-tab-navigation",
+    "modifierClass" : "dev-tab-navigation",
 
     "tabs": [
         {
@@ -12,16 +12,16 @@
 
 
             "component": [
-                {"_dataUrl" : "/components/jsg-scorecard/jsg-scorecard.json"},
-                {"_dataUrl" : "/components/jsg-scorecard/jsg-scorecard-2.json"},
-                { "_dataUrl": "/components/jsg-scorecard/jsg-scorecard-match-3.json" }
+                {"_dataUrl" : "/components/dev-scorecard/dev-scorecard.json"},
+                {"_dataUrl" : "/components/dev-scorecard/dev-scorecard-2.json"},
+                { "_dataUrl": "/components/dev-scorecard/dev-scorecard-match-3.json" }
             ]
         },
         {
             "label": "Statistics",
 
             "component": [{
-                    "_dataUrl" : "/components/jsg-statistics/jsg-statistics.json"
+                    "_dataUrl" : "/components/dev-statistics/dev-statistics.json"
             }]
         },
         {
@@ -31,7 +31,7 @@
                 {"_dataUrl" : "promos.json"},
                 {"_dataUrl" : "promos.json"},
                 {
-                    "_template" : "components/jsg-next-content",
+                    "_template" : "components/dev-next-content",
                     "url" : "/pages/news/load-more.html"
                 }
             ]
@@ -39,7 +39,7 @@
         {
             "label": "Photos",
             "component": [{
-                "_dataUrl" : "/components/jsg-gallery-grid/gallery-low-res.json"
+                "_dataUrl" : "/components/dev-gallery-grid/gallery-low-res.json"
 
             }]
         }

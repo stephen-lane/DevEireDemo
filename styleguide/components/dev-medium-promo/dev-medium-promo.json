@@ -1,0 +1,150 @@
+{
+    "_template": "components/bsp-list-promo",
+    "options": {
+        "horizontalSplit": "half",
+        "modifierClass": "medium-promo"
+    },
+    "heading": {
+        "_template": "components/bsp-component-group",
+        "components": [
+            {
+                "_template": "common/link",
+                "attributes": {
+                    "href": "link",
+                    "title": "Link Title"
+                },
+                "body": {
+                    "_template": "common/text",
+                    "text": "Title Here"
+                }
+            },
+            {
+                "_template": "common/text",
+                "options": {
+                    "modifierClass": "bsp-sub-title"
+                },
+                "text": "Bacon ipsum dolor amet drumstick pork belly pork chop, doner meatloaf venison picanha landjaeger salami kevin leberkas alcatra strip steak cupim."
+
+            }
+        ]
+
+    },
+    "listItems": [
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "text-above",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "I am a tag"
+                        }
+                    }
+                },
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/medium-promo/medium-promo-1.jpeg"
+                            }
+                        },
+                        "overlayLinked": {
+                            "_template": "components/dev-overlay-linked",
+                            "link": {
+                                "attributes": {
+                                    "_template": "common/attributes",
+                                    "href": "link",
+                                    "title": "Link Title"
+                                },
+                                "description": "Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. ",
+                                "ctaText": "CTA Link"
+
+                            }
+                        }
+                    }
+
+                },
+                {
+                    "_template": "common/text",
+                    "options": {
+                        "modifierClass": "bsp-list-promo-desc"
+                    },
+                    "text": "Subtext goes here. Subtext goes here. Subtext goes here. Subtext goes here. "
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "I am a tag"
+                        }
+
+                    }
+
+                },
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/medium-promo/medium-promo-2.jpeg"
+                            }
+                        },
+                        "overlayLinked": {
+                            "_template": "components/dev-overlay-linked",
+                            "link": {
+                                "attributes": {
+                                    "_template": "common/attributes",
+                                    "href": "link",
+                                    "title": "Link Title"
+                                },
+                                "description": "Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. Overlay text goes here. ",
+                                "ctaText": "CTA Link"
+
+                            }
+                        }
+                    }
+                },
+                {
+                    "_template": "common/text",
+                    "options": {
+                        "modifierClass": "bsp-list-promo-desc"
+                    },
+                    "text": "Subtext goes here. Subtext goes here. Subtext goes here. Subtext goes here. "
+                }
+            ]
+        }
+    ]
+}

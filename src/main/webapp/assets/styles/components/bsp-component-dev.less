@@ -1,0 +1,36 @@
+.bsp-component-title {
+    &:extend(.ts-3);
+    font-family: @font-family-secondary;
+    text-align: center;
+}
+
+.bsp-component {
+    padding-top: @space-double;
+    padding-bottom: @space-double;
+
+    @media @mq-sm {
+        padding-top: @bsp-component-top-padding;
+        padding-bottom: @bsp-component-bottom-padding;
+    }
+}
+
+// component background options
+.bsp-component {
+
+    &.black-back-dev {
+        background: @black;
+    }
+
+    &.light-gray-back-dev {
+        background: @brand-light;
+    }
+
+    &.dark-gray-back-dev {
+        background: @gray-dark-5;
+    }
+
+    &.white-back-dev {
+        background: @white;
+    }
+
+}

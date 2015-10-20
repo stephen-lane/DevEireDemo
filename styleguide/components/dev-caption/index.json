@@ -1,0 +1,11 @@
+{
+	"_template" : "layouts/one-col",
+
+	"main" : {
+		"components" : [
+			{
+				"_dataUrl" : "/components/dev-caption/caption.json"
+			}
+		]
+	}
+}

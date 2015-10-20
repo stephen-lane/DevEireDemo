@@ -1,0 +1,20 @@
+<div class="bsp-component dev-tournament-sched-wrapper{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}" data-dev-tournament-schedule data-dev-tournament-schedule-options='{{> common/options options }}'>
+	{{#with heading}}
+		{{render this}}
+		{{#with ../sortFilters}}
+			<span class="dev-tournament-sched-filters">
+				{{label}}
+				<select name="dev-tournament-sched-filters">
+				{{#each filters}}
+					<option value="{{value}}">{{text}}</option>
+				{{/each}}
+				</select>
+			</span>
+		{{/with}}
+	{{/with}}
+    <div class="bsp-component-content dev-tournament-sched-content">
+    	{{#with schedule}}
+    		{{render this}}
+    	{{/with}}
+    </div>
+</div>

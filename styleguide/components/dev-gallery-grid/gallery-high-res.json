@@ -1,0 +1,13 @@
+{ 
+    "_template" : "components/dev-gallery-grid",
+
+    "galleryTitle" : "High Resolution Gallery",
+
+    "galleryCaption" : "High Resolution Gallery Caption",
+
+    "galleryGridClassName" : "dev-gallery-grid-embedded",
+
+    "galleryGridThumbs" : {
+        "_dataUrl" : "/components/dev-gallery-grid/grid-embedded-thumbs.json"
+    }
+}

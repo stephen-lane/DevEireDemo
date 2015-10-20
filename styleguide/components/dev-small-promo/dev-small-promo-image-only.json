@@ -1,0 +1,79 @@
+{
+    "_template": "components/bsp-list-promo",
+    "options": {
+        "horizontalSplit": "third",
+        "modifierClass": "small-promo-with-cta"
+    },
+    "listItems": [
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/small-promo/small-promo-1.jpeg"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/small-promo/small-promo-2.jpeg"
+                            }
+                        }
+
+                    }
+
+                }
+            ]
+
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/small-promo/small-promo-3.jpeg"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+
+}

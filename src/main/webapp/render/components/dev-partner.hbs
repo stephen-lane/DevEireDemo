@@ -1,0 +1,33 @@
+<div class="bsp-component dev-partner{{#if options.modifierClass}} {{options.modifierClass}}{{/if}}">
+
+	<div class="dev-partner-module-container">
+
+		{{#with logo}}
+			<div class="dev-partner-logo">
+				{{render this}}
+			</div>
+		{{/with}}
+
+		<div class="dev-partner-content-wrapper">
+			{{#if title}}
+				<div class="bsp-component-title">
+					{{title}}
+				</div>
+			{{/if}}
+
+			{{#with content}}
+				<div class="bsp-component-content">
+					{{render this}}
+				</div>
+			{{/with}}
+
+			{{#with links}}
+				<div class="dev-partner-links">
+					{{render this}}
+				</div>
+			{{/with}}
+		</div>
+
+	</div>
+
+</div>

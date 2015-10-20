@@ -5,7 +5,7 @@
 			"_dataUrl" : "promos.json"
 		},
 		{
-			"_template" : "components/jsg-next-content",
+			"_template" : "components/dev-next-content",
 			"url" : "/pages/news/load-more.html"
 		}
 	]

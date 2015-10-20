@@ -1,0 +1,62 @@
+{
+    "_template": "components/bsp-list-promo",
+    "options": {
+        "modifierClass": "large-promo-hover-overlay"
+    },
+    "heading": {
+        "_template": "components/bsp-component-group",
+        "components": [
+            {
+                "_template": "common/link",
+                "attributes": {
+                    "href": "link",
+                    "title": "Link Title"
+                },
+                "body": {
+                    "_template": "common/text",
+                    "text": "Large Promo Title Here"
+                }
+            },
+            {
+                "_template": "common/text",
+                "options": {
+                    "modifierClass": "bsp-sub-title"
+                },
+                "text": "Bacon ipsum dolor amet drumstick pork belly pork chop, doner meatloaf venison picanha landjaeger salami kevin leberkas alcatra strip steak cupim."
+
+            }
+        ]
+
+    },
+    "listItems": [
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
+                        "_template": "common/image",
+                        "attributes": {
+                            "alt": "Test Alt",
+                            "src": "/assets/images/large-promo/large-promo.jpeg"
+                        },
+                        "overlayLinked": {
+                            "_template": "components/dev-overlay-linked",
+                            "link": {
+                                "attributes": {
+                                    "_template": "common/attributes",
+                                    "href": "link",
+                                    "title": "Link Title"
+                                },
+                                "description": "This is large promo description. This is large promo description. This is large promo description. This is large promo description. ",
+                                "ctaText": "CTA Link"
+
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+
+}

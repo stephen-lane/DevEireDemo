@@ -1,0 +1,71 @@
+.dev-contact-wrapper {
+    background: @gray-light-5;
+    padding: @space-double @space;
+
+    @media @mq-sm {
+        padding: @space-triple 0 @space-quint 0;
+    }
+
+    label {
+        font-family: @font-family-secondary;
+        text-transform: uppercase;
+    }
+
+    input, textarea {
+        border: 1px solid @gray-light-2;
+        border-radius: 8px;
+        padding: 0 1rem;
+    }
+
+    .dev-contact-name, .dev-contact-phone {
+        width: 100%;
+
+        @media @mq-sm {
+            float: left;
+            width: 50%;
+        }
+    }
+
+    .dev-contact-name {
+        input {
+            width: 100%;
+
+            @media @mq-sm {
+                margin-right: 10%;
+                width: 90%;
+            }
+        }
+    }
+
+    .dev-contact-phone {
+        input {
+            width: 100%;
+        }
+    }
+
+    .dev-contact-email {
+        width: 100%;
+
+        input {
+            width: 100%;
+        }
+    }
+
+    .dev-contact-submit {
+        padding: @space-quint 0 0 0;
+        text-align: center;
+
+        input[type="submit"] {
+            background: @brand-accent;
+            border-radius: 0;
+            color: @white;
+            font-family: @font-family-secondary;
+            text-transform: uppercase;
+            padding: @space @space-quint;
+
+        }
+    }
+
+
+
+}

@@ -4,7 +4,7 @@
 	"headerView" : {
 		"_template": "components/bsp-component-group",
 		"components": [
-			{ "_dataUrl" : "/components/jsg-site-header/jsg-header.json" },
+			{ "_dataUrl" : "/components/dev-site-header/dev-header.json" },
 			{ "_dataUrl" : "tournaments-title.json" },
 			{ "_dataUrl" : "tabs.json" }
 		]
@@ -23,7 +23,7 @@
 	},
 
 	"footerView" : {
-		"_dataUrl" : "/components/jsg-site-footer/jsg-site-footer.json"
+		"_dataUrl" : "/components/dev-site-footer/dev-site-footer.json"
 	}
 
 }

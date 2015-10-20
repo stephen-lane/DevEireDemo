@@ -1,0 +1,97 @@
+{
+    "_template": "components/bsp-table/bsp-table",
+
+    "options": {
+        "modifierClass": "dev-tournament-sched"
+    },
+
+
+
+    "headings": [{
+        "text": "Date"
+    }, {
+        "text": "Name"
+    }, {
+        "text": "POS"
+    }, {
+        "text": "Score"
+    }, {
+        "text": "FedExCup Points"
+    }],
+
+    "rows": [{
+        "row": [{
+            "text": "November 3, 2013"
+        }, {
+            "_template": "components/bsp-table/dev-tournament-name",
+
+            "link": {
+
+                "_template": "common/link",
+
+                "attributes": {
+                    "href": "link",
+                    "title": "Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text": "WGC - HSBC Champions"
+                }
+            }
+
+        }, {
+            "text": "T35"
+        }, {
+            "_template": "components/bsp-table/dev-score-elements",
+
+            "scoreTotal": "290",
+            "scoreRelToPar": "+2",
+            "rounds": {
+                "r1": "70",
+                "r2": "74",
+                "r3": "70",
+                "r4": "74"
+            }
+        }, {
+            "text": "3"
+        }]
+    }, {
+        "row": [{
+            "text": "November 3, 2013"
+        }, {
+            "_template": "components/bsp-table/dev-tournament-name",
+
+            "link": {
+
+                "_template": "common/link",
+
+                "attributes": {
+                    "href": "link",
+                    "title": "Link Title"
+                },
+
+                "body" : {
+                    "_template" : "common/text",
+                    "text": "WGC - HSBC Champions"
+                }
+            }
+
+        }, {
+            "text": "T35"
+        }, {
+            "_template": "components/bsp-table/dev-score-elements",
+
+            "scoreTotal": "290",
+            "scoreRelToPar": "+2",
+            "rounds": {
+                "r1": "70",
+                "r2": "74",
+                "r3": "70",
+                "r4": "74"
+            }
+        }, {
+            "text": "3"
+        }]
+    }]
+}

@@ -1,0 +1,42 @@
+{
+    "_template": "components/dev-partner",
+    "options": {
+        "modifierClass": "light-gray-back-dev"
+    },
+    "title": "Under Armour",
+    "logo": {
+        "_template": "common/image",
+        "attributes": {
+            "src": "/components/dev-partner/under-armour.jpg"
+        }
+    },
+    "content": {
+        "_template": "common/text",
+        "text": "\"This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. This is partner text. \""
+    },
+    "links": {
+        "_template": "elements/list",
+        "items": [
+            {
+                "_template": "common/link",
+                "attributes": {
+                    "href": "http://www.google.com"
+                },
+                "body": {
+                    "_template": "common/text",
+                    "text": "CTA 1"
+                }
+            },
+            {
+                "_template": "common/link",
+                "attributes": {
+                    "href": "http://www.google.com"
+                },
+                "body": {
+                    "_template": "common/text",
+                    "text": "CTA 2"
+                }
+            }
+        ]
+    }
+}

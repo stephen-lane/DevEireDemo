@@ -33,7 +33,7 @@
 
 
     "leadImage" : {
-        "_dataUrl" : "/components/jsg-video/video.json"
+        "_dataUrl" : "/components/dev-video/video.json"
     },
 
 	"body" : [

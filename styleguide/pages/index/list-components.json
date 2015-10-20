@@ -1,448 +1,366 @@
 {
-	"_template" : "components/bsp-list-promo",
-
-	"listItems" : [
-		{
-			"sections" : [
-				{
-					"_template" : "components/bsp-list-promo-item-handler",
-
-					"link": {
-						"_template" : "common/link",
-
-						"attributes" : {
-							"href"  : "/components/jsg-site-header/",
-							"title" : "Jordan Spieth Site Header"
-						},
-						"body" : {
-                            "_template" : "common/text",
-                            "text" : "Jordan Spieth Site Header"
-                        }
-					}
-				}
-			]
-		},
-
-		{
-			"sections" :[
-				{
-					"_template" : "components/bsp-list-promo-item-handler",
-
-					"link": {
-						"_template" : "common/link",
-
-						"attributes" : {
-							"href"  : "/components/jsg-site-footer/",
-							"title" : "Jordan Spieth Site Footer`"
-						},
-                        "body" : {
-                            "_template" : "common/text",
-						    "text"  : "Jordan Spieth Site Footer"
-                        }
-					}
-				}
-			]
-		},
+    "_template": "components/bsp-list-promo",
+    "listItems": [
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/bsp-page-title/",
-                            "title" : "Jordan Page Title"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-site-header/",
+                            "title": "DevEire Site Header"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Page Title"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Site Header"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-tab-navigation/",
-                            "title" : "Jordan Tab Navigation"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-site-header-simple/",
+                            "title": "DevEire Site Simple Header"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Tab Navigation"
-                        }
-                    }
-                }
-            ]
-        },
-		{
-			"sections" :[
-				{
-					"_template" : "components/bsp-list-promo-item-handler",
-
-					"link": {
-						"_template" : "common/link",
-
-						"attributes" : {
-							"href"  : "/components/jsg-super-promo/",
-							"title" : "Jordan Spieth Super Promo"
-						},
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Super Promo"
-                        }
-					}
-				}
-			]
-		},
-		{
-			"sections" :[
-				{
-					"_template" : "components/bsp-list-promo-item-handler",
-
-					"link": {
-						"_template" : "common/link",
-
-						"attributes" : {
-							"href"  : "/components/jsg-small-promo/",
-							"title" : "Jordan Spieth Small Promo"
-						},
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Small Promo"
-                        }
-					}
-				}
-			]
-		},
-        {
-            "sections" :[
-                {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
-                    "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-medium-promo/",
-                            "title" : "Jordan Spieth Medium Promo"
-                        },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Medium Promo"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Site Simple Header"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-large-promo/",
-                            "title" : "Jordan Spieth Large Promo"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-site-footer/",
+                            "title": "DevEire Site Footer`"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Large Promo"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Site Footer"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-callout/",
-                            "title" : "Jordan Spieth Callout"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-site-footer-simple/",
+                            "title": "DevEire Site Footer Simple"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Callout"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Site Footer Simple"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-blockquote/",
-                            "title" : "Jordan Spieth Blockquote"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-page-title/",
+                            "title": "DevEire Page Title"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Blockquote"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Page Title"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-gallery-grid/",
-                            "title" : "Jordan Spieth Gallery Grid"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-tab-navigation/",
+                            "title": "DevEire Tab Navigation"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Gallery Grid"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Tab Navigation"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-image/",
-                            "title" : "Jordan Spieth Image"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-super-promo/",
+                            "title": "DevEire Super Promo"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Image"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Super Promo"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-sponsor-carousel/",
-                            "title" : "Jordan Spieth Partner Carousel"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-small-promo/",
+                            "title": "DevEire Small Promo"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Partner Carousel"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Small Promo"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-scorecard/",
-                            "title" : "Jordan Spieth Scorecard"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-medium-promo/",
+                            "title": "DevEire Medium Promo"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Scorecard"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Medium Promo"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-statistics/",
-                            "title" : "Jordan Spieth Statistics"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-large-promo/",
+                            "title": "DevEire Large Promo"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Statistics"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Large Promo"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-tournament-schedule/",
-                            "title" : "Jordan Spieth Tournament Schedule"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-callout/",
+                            "title": "DevEire Callout"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Tournament Schedule"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Callout"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-tourn-summary/",
-                            "title" : "Jordan Spieth Tournament Summary"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-blockquote/",
+                            "title": "DevEire Blockquote"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Spieth Tournament Summary"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Blockquote"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-iframe/",
-                            "title" : "Jordan Iframe"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-gallery-grid/",
+                            "title": "DevEire Gallery Grid"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Iframe"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Gallery Grid"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/bsp-social-share/",
-                            "title" : "Jordan Social Share"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-image/",
+                            "title": "DevEire Image"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Social Share"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Image"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-caption/",
-                            "title" : "Jordan Caption"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-sponsor-carousel/",
+                            "title": "DevEire Partner Carousel"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Caption"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Partner Carousel"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-video/",
-                            "title" : "Jordan Video"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-iframe/",
+                            "title": "DevEire Iframe"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Video"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Iframe"
                         }
                     }
                 }
             ]
         },
         {
-            "sections" :[
+            "sections": [
                 {
-                    "_template" : "components/bsp-list-promo-item-handler",
-
+                    "_template": "components/bsp-list-promo-item-handler",
                     "link": {
-                        "_template" : "common/link",
-
-                        "attributes" : {
-                            "href"  : "/components/jsg-partner/",
-                            "title" : "Jordan Partner"
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/bsp-social-share/",
+                            "title": "DevEire Social Share"
                         },
-                        "body" : {
-                            "_template" : "common/text",
-                            "text"  : "Jordan Partner"
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Social Share"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "link": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-caption/",
+                            "title": "DevEire Caption"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Caption"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "link": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-video/",
+                            "title": "DevEire Video"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Video"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "link": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "/components/dev-partner/",
+                            "title": "DevEire Partner"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Partner"
                         }
                     }
                 }
             ]
         }
 
-	]
+    ]
 }

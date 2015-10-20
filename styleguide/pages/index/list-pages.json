@@ -231,7 +231,7 @@
                         "_template" : "common/link",
 
                         "attributes" : {
-                            "href"  : "/pages/jsg-error-page/",
+                            "href"  : "/pages/dev-error-page/",
                             "title" : "Error Page"
                         },
                         "body" : {

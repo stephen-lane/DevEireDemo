@@ -1,0 +1,44 @@
+{
+    "_template" : "components/dev-tourn-summary",
+
+
+    "listItems" : [
+        {
+            "title" : "Position",
+            "content" : "19",
+            "type" : "position"
+        },
+        {
+            "title" : "Total",
+            "content" : "-1",
+            "type" : "total"
+        },
+        {
+            "title" : "Round One",
+            "content" : "71",
+            "type" : "round"
+        },
+        {
+            "title" : "Round Two",
+            "content" : "72",
+            "type" : "round"
+        },
+        {
+            "title" : "Round Three",
+            "content" : "73",
+            "type" : "round"
+        },
+        {
+            "title" : "Round Four",
+            "content" : "--",
+            "type" : "round"
+        },
+        {
+            "title" : "Strokes",
+            "content" : "216",
+            "type" : "strokes"
+        }
+
+    ]
+
+}

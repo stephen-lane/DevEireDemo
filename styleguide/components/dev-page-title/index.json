@@ -1,0 +1,46 @@
+{
+    "_template": "common/body",
+    "pageTitle": "This is an example of page titles.",
+    "headerView": {
+        "_dataUrl": "/components/dev-site-header/dev-header.json"
+    },
+    "mainView": {
+        "_template": "layouts/one-col",
+        "main": {
+            "components": [
+                {
+                    "_template": "common/html",
+                    "options": {
+                        "modifierClass": "styleguide-page-description"
+                    },
+                    "text": "<p>This is an example of page titles. The page renderer can be found under: <strong>src/main/webapp/render/compontents/bsp-page-title.hbs</strong></p>"
+                },
+                {
+                    "_template": "components/bsp-page-title",
+                    "pageTitle": {
+                        "_template": "common/text",
+                        "text": "I am title 1"
+                    }
+                },
+                {
+                    "_template": "components/bsp-page-title",
+                    "pageTitle": {
+                        "_template": "common/text",
+                        "text": "I am title 2, and a bit longer"
+
+                    }
+                },
+                {
+                    "_template": "components/bsp-page-title",
+                    "pageTitle": {
+                        "_template": "common/text",
+                        "text": "I am title 3, and even a bit longer then the last title"
+                    }
+                }
+            ]
+        }
+    },
+    "footerView": {
+        "_dataUrl": "/components/dev-site-footer-simple/dev-site-footer.json"
+    }
+}
