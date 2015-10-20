@@ -5,53 +5,55 @@
             "sections": [
                 {
                     "_template": "components/bsp-list-promo-item-handler",
-                    "link": {
+                    "name": "image",
+                    "imgAlign": "top",
+                    "image": {
                         "_template": "common/link",
                         "attributes": {
-                            "href": "/pages/home-page/",
-                            "title": "Home Page"
+                            "href": "link",
+                            "title": "Link Title"
                         },
                         "body": {
-                            "_template": "common/text",
-                            "text": "Home Page"
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Image",
+                                "src": "/components/dev-super-promo/list-promo1.png"
+                            }
                         }
                     }
-                }
-            ]
-        },
-        {
-            "sections": [
+                },
                 {
                     "_template": "components/bsp-list-promo-item-handler",
-                    "link": {
+                    "name": "text-right",
+                    "title": {
                         "_template": "common/link",
                         "attributes": {
-                            "href": "/pages/article/",
-                            "title": "Article"
+                            "href": "link",
+                            "title": "Link Title"
                         },
                         "body": {
                             "_template": "common/text",
-                            "text": "Article"
+                            "text": "This is single image tag "
                         }
+
                     }
-                }
-            ]
-        },
-        {
-            "sections": [
+                },
                 {
                     "_template": "components/bsp-list-promo-item-handler",
-                    "link": {
+                    "name": "text-right",
+                    "title": {
                         "_template": "common/link",
                         "attributes": {
-                            "href": "/pages/article-lead/",
-                            "title": "Article with Lead"
+                            "href": "link",
+                            "title": "Link Title"
                         },
                         "body": {
                             "_template": "common/text",
-                            "text": "Article with Lead"
+                            "text": "This is single image title"
                         }
-                    }
+
+                    },
+                    "description": "Slide 3"
                 }
             ]
         }

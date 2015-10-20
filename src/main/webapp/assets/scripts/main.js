@@ -26,3 +26,4 @@ import bsp_template_plugin from 'bsp-template-plugin';
 import deveire_gallery_grid_plugin from 'plugins/deveire-gallery-grid-plugin';
 import deveire_next_content from 'plugins/deveire-next-content'; 
 import deveire_tabber_plugin from 'plugins/deveire-tabber-plugin';
+import deveire_dynamic_lead_module from 'modules/dynamic-lead';

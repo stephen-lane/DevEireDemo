@@ -18,8 +18,16 @@
         </ul>
     {{/if}}
 
+    {{#with tag}}
+        <div class="bsp-list-promo-tag">{{render this}}</div>
+    {{/with}}
+
     {{#with title}}
         <div class="bsp-list-promo-title">{{render this}}</div>
+    {{/with}}
+
+    {{#with overlay}}
+        <div class="bsp-list-promo-overlay">{{render this}}</div>
     {{/with}}
 
     {{#if subtitle}}
