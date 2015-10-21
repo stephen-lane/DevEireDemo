@@ -17,13 +17,19 @@
                             "_template": "common/image",
                             "attributes": {
                                 "alt": "Image",
-                                "src": "/components/dev-super-promo/list-promo1.png"
+                                "src": "http://lorempixel.com/1600/600/sports/"
                             }
                         }
                     }
                 },
                 {
-                    "_template": "components/bsp-list-promo-item-handler",
+                    "_template": "components/bsp-gallery-overlay",   
+                    "options" : {
+                        "overlay" : true,
+                        "position" : "right",
+                        "backgroundColor" : "#000",
+                        "maxLines" : "1"
+                    },
                     "name": "text-right",
                     "tag": {
                         "_template": "common/link",
@@ -37,6 +43,20 @@
                         }
 
                     },
+                    "image": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Image",
+                                "src": "http://lorempixel.com/1600/600/sports/"
+                            }
+                        }
+                    },
                     "title": {
                         "_template": "common/link",
                         "attributes": {
@@ -49,7 +69,9 @@
                         }
 
                     },
+
                     "description": "This is single image description. This is single image description. This is single image description. This is single image description.  "
+                    
                 }
             ]
         }

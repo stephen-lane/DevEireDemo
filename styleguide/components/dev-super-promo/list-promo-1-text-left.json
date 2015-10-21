@@ -17,15 +17,21 @@
                             "_template": "common/image",
                             "attributes": {
                                 "alt": "Image",
-                                "src": "/components/dev-super-promo/list-promo1.png"
+                                "src": "http://lorempixel.com/1600/600/sports/1"
                             }
                         }
                     }
                 },
                 {
-                    "_template": "components/bsp-list-promo-item-handler",
-                    "name": "text-right",
-                    "title": {
+                    "_template": "components/bsp-gallery-overlay",                        
+                    "options" : {
+                        "overlay" : true,
+                        "position" : "left",
+                        "backgroundColor" : "rgba(255,255,255,0.4)",
+                        "textColor" : "rgb(0,0,0)"
+                    },
+                    "name": "text-left",
+                    "tag": {
                         "_template": "common/link",
                         "attributes": {
                             "href": "link",
@@ -36,11 +42,7 @@
                             "text": "This is single image tag "
                         }
 
-                    }
-                },
-                {
-                    "_template": "components/bsp-list-promo-item-handler",
-                    "name": "text-right",
+                    },
                     "title": {
                         "_template": "common/link",
                         "attributes": {
@@ -49,11 +51,11 @@
                         },
                         "body": {
                             "_template": "common/text",
-                            "text": "This is single image title"
+                            "text": "This is single image Left tag "
                         }
 
                     },
-                    "description": "Slide 3"
+                    "description": "This is single image description. This is single image description. This is single image description. This is single image description.  "
                 }
             ]
         }

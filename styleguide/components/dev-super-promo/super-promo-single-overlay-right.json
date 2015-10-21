@@ -3,16 +3,12 @@
 
     "options" : {
         "carouselDots" : false,
-        "modifierClass" : "super-promo-dev",
-        "fade" : true
+        "modifierClass" : "super-promo-dev"
     },
 
     "gallerySlides" : [
         {
             "_dataUrl" : "/components/dev-super-promo/list-promo-1-text-right.json"
-        },
-        {
-            "_dataUrl" : "/components/dev-super-promo/list-promo-1-text-left.json"
         }
     ]
 

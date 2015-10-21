@@ -24,7 +24,19 @@
                 },
                 {
                     "_template": "components/bsp-list-promo-item-handler",
-                    "name": "title",
+                    "name": "text-bottom",
+                    "tag": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "This is single image tag "
+                        }
+
+                    },
                     "title": {
                         "_template": "common/link",
                         "attributes": {
@@ -36,25 +48,8 @@
                             "text": "This is single image tag "
                         }
 
-                    }
-                },
-                {
-                    "_template": "components/bsp-list-promo-item-handler",
-                    "name": "text-below",
-                    "title": {
-                        "_template": "common/link",
-                        "attributes": {
-                            "href": "link",
-                            "title": "Link Title"
-                        },
-                        "body": {
-                            "_template": "common/text",
-                            "text": "This is single image title"
-                        }
-
                     },
-                    "description": "Slide 3"
-
+                    "description": "This is single image description. This is single image description. This is single image description. This is single image description.  "
                 }
             ]
         }
