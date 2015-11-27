@@ -1,12 +1,15 @@
 {
     "_template": "components/bsp-list-promo",
+    "options": {
+        "horizontalSplit": "third",
+        "modifierClass": "small-promo-with-cta"
+    },
     "listItems": [
         {
             "sections": [
                 {
                     "_template": "components/bsp-list-promo-item-handler",
                     "name": "image",
-                    "imgAlign": "top",
                     "image": {
                         "_template": "common/link",
                         "attributes": {
@@ -16,48 +19,61 @@
                         "body": {
                             "_template": "common/image",
                             "attributes": {
-                                "alt": "Image",
-                                "src": "http://lorempixel.com/1600/600/sports/1"
+                                "alt": "Test Alt",
+                                "src": "/assets/images/small-promo/small-promo-1.jpeg"
                             }
                         }
                     }
-                },
+                }
+            ]
+        },
+        {
+            "sections": [
                 {
-                    "_template": "components/bsp-gallery-overlay",                        
-                    "options" : {
-                        "overlay" : true,
-                        "position" : "left",
-                        "backgroundColor" : "#20343f",
-                        "textColor" : "#fff"
-                    },
-                    "name": "text-left",
-                    "tag": {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
                         "_template": "common/link",
                         "attributes": {
                             "href": "link",
                             "title": "Link Title"
                         },
                         "body": {
-                            "_template": "common/text",
-                            "text": "This is single image tag "
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/small-promo/small-promo-2.jpeg"
+                            }
                         }
 
-                    },
-                    "title": {
+                    }
+
+                }
+            ]
+
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "name": "image",
+                    "image": {
                         "_template": "common/link",
                         "attributes": {
                             "href": "link",
                             "title": "Link Title"
                         },
                         "body": {
-                            "_template": "common/text",
-                            "text": "This is single image Left tag "
+                            "_template": "common/image",
+                            "attributes": {
+                                "alt": "Test Alt",
+                                "src": "/assets/images/small-promo/small-promo-3.jpeg"
+                            }
                         }
-
-                    },
-                    "description": "This is single image description. This is single image description. This is single image description. This is single image description.  "
+                    }
                 }
             ]
         }
     ]
+
 }

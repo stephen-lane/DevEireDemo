@@ -1,6 +1,5 @@
-
 {{#if options.overlay}}
-    <div class="bsp-list-promo-overlay">
+    <div class="bsp-list-promo-overlay {{#if options.position}}pos-{{options.position}}{{/if}}">
         <div class="bsp-list-promo-overlay{{#if options.position}}-{{options.position}}{{/if}}" style="{{#if options.backgroundColor}}background-color:{{options.backgroundColor}};{{/if}} {{#if options.textColor}}color:{{options.textColor}};{{/if}}">
 
             {{#with tag}}
@@ -23,5 +22,5 @@
                 <div class="bsp-list-promo-desc"{{#if options.truncate}}data-bsp-truncate data-bsp-truncate-options='{"maxLines" : {{options.maxLines}} }'{{/if}} >{{{description}}}</div>
             {{/if}}
         </div>
-    </div>
-{{/if}}
+    </div> 
+{{/if}} 

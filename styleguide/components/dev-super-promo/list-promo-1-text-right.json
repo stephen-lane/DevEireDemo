@@ -6,17 +6,13 @@
                 {
                     "_template": "components/bsp-list-promo-item-handler",
                     "name": "image",
-                    "imgAlign": "top",
+                    "imgAlign": "top", 
                     "image": {
                         "_template": "common/link",
-                        "attributes": {
-                            "href": "link",
-                            "title": "Link Title"
-                        },
                         "body": {
                             "_template": "common/image",
                             "attributes": {
-                                "alt": "Image",
+                                "alt": "Image Test",
                                 "src": "http://lorempixel.com/1600/600/sports/"
                             }
                         }
@@ -25,10 +21,10 @@
                 {
                     "_template": "components/bsp-gallery-overlay",   
                     "options" : {
-                        "overlay" : true,
-                        "position" : "right",
-                        "backgroundColor" : "#000",
-                        "maxLines" : "1"
+                        "overlay" : true, 
+                        "position" : "left",
+                        "backgroundColor" : "blue",
+                        "textColor" : "brown"
                     },
                     "name": "text-right",
                     "tag": {

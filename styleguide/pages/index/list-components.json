@@ -152,6 +152,24 @@
                     "link": {
                         "_template": "common/link",
                         "attributes": {
+                            "href": "/components/dev-small-promo-circle/",
+                            "title": "DevEire Small Promo Circle"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "DevEire Small Promo Circle"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-handler",
+                    "link": {
+                        "_template": "common/link",
+                        "attributes": {
                             "href": "/components/dev-medium-promo/",
                             "title": "DevEire Medium Promo"
                         },

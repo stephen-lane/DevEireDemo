@@ -12,7 +12,7 @@
                         "attributes": {
                             "href": "link",
                             "title": "Link Title"
-                        },
+                        },                        
                         "body": {
                             "_template": "common/image",
                             "attributes": {

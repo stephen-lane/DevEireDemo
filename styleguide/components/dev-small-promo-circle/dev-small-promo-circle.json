@@ -1,0 +1,165 @@
+{
+    "_template": "components/bsp-list-promo",
+    "options": {
+        "horizontalSplit": "half",
+        "modifierClass": "small-promo-circle"
+    },
+    "heading": {
+        "_template": "components/bsp-component-group",
+        "components": [
+            {
+                "_template": "common/link",
+                "attributes": {
+                    "href": "link",
+                    "title": "Link Title"
+                },
+                "body": {
+                    "_template": "common/text",
+                    "text": "Responsive Web Design"
+                }
+            },
+            {
+                "_template": "common/text",
+                "options": {
+                    "modifierClass": "bsp-sub-title"
+                },
+                "text": "This is Page Title Subtitle"
+
+            }
+        ]
+
+    },
+    "listItems": [
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-circle-handler",
+                    "icon": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },        
+                        "cssClass" : "bsp-list-promo-icon-link",                
+                        "body": {
+                            "_template": "common/icon",
+                            "iconClass" : "desktop",
+                            "icon" : ""
+                        }
+                    }
+                },
+                {
+                    "_template": "components/bsp-list-promo-item-circle-handler",
+                    "name": "text-below text-center",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "Desktop Design"
+                        }
+
+                    },
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nihil aspernatur consectetur commodi fugiat, ea dolor quia dolorum, nobis, illum a, veritatis! Dolorum, ad harum consectetur nobis. Officia obcaecati, tempore."
+
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-circle-handler",
+                    "icon": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },        
+                        "cssClass" : "bsp-list-promo-icon-link",                
+                        "body": {
+                            "_template": "common/icon",
+                            "iconClass" : "tablet",
+                            "icon" : ""
+                        }
+                    }
+                },
+                {
+                    "_template": "components/bsp-list-promo-item-circle-handler",
+                    "name": "text-below text-center",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "Tablet Design"
+                        }
+
+                    },
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nesciunt sunt saepe porro corporis. Odit repellendus sint voluptatum fugiat excepturi. Delectus mollitia corporis reiciendis tenetur eum, veniam, sunt doloribus reprehenderit!"
+
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                    "_template": "components/bsp-list-promo-item-circle-handler",
+                    "icon": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },        
+                        "cssClass" : "bsp-list-promo-icon-link",                
+                        "body": {
+                            "_template": "common/icon",
+                            "iconClass" : "mobile",
+                            "icon" : ""
+                        }
+                    }
+                },
+                {
+                    "_template": "components/bsp-list-promo-item-circle-handler",
+                    "name": "text-below text-center",
+                    "title": {
+                        "_template": "common/link",
+                        "attributes": {
+                            "href": "link",
+                            "title": "Link Title"
+                        },
+                        "body": {
+                            "_template": "common/text",
+                            "text": "Mobile Design"
+                        }
+
+                    },
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eligendi dolorum dolor earum, delectus minus cupiditate aliquam? Esse voluptas eum iusto, nostrum neque! Nam architecto debitis, consequatur repellendus error, cum."
+
+                }
+            ]
+        }
+    ],
+    "cta": {
+        "options": {
+            "location": "bottom-center"
+        },
+        "content": {
+            "_template": "common/link",
+            "attributes": {
+                "href": "link",
+                "title": "Link Title"
+            },
+            "body": {
+                "_template": "common/text",
+                "text": "CTA Link"
+            }
+
+        }
+    }
+}

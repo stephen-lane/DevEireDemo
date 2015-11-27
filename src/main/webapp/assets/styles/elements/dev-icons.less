@@ -1,16 +1,17 @@
 // override nav arrows in carousel
+
 .bsp-carousel {
 	.slick-prev {
 		&:before {
 			content: "\e601";
-			font-family: jordanspieth-icons;
+			font-family: deveire-icons;
 			font-weight: bold;
 		}
 	}
 	.slick-next {
 		&:before {
 			content: "\e600";
-			font-family: jordanspieth-icons;
+			font-family: deveire-icons;
 			font-weight: bold;
 		}
 	}
@@ -25,5 +26,21 @@
         .bsp-googleplus-share & {
             content: @fa-var-google-plus;
         }
+    }
+}
+
+.@{fa-css-prefix}-tablet { 
+    &:before {
+        content: @fa-var-tablet;
+    }
+}
+.@{fa-css-prefix}-mobile {
+    &:before {
+        content: @fa-var-mobile;
+    }
+}
+.@{fa-css-prefix}-desktop {
+    &:before {
+        content: @fa-var-desktop;
     }
 }

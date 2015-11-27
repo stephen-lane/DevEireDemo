@@ -1,0 +1,43 @@
+.small-promo-circle {
+    &:extend(small-promo-with-cta all);
+    .bsp-component-title {
+        text-align: center;
+        .type-scale (3, @lh: @line-height-headings);
+        font-weight: @font-weight-light;
+        a {
+            &:hover {
+                color: @brand-accent;
+            }
+        }
+        .bsp-sub-title {
+            .type-scale(-2, @lh: 1.4);
+            font-family: @font-family-base;
+            @media @mq-sm {
+                font-size: @ts-0;
+            }
+        }
+    }
+    .bsp-list-promo-section-image {
+        position: relative;
+    }
+    .dev-overlay {
+        .dev-overlay-promo();
+    }
+    .bsp-list-promo-icon-link {
+        position: relative;
+        text-align: center;
+        display: block;
+        line-height: 220px;
+        font-size: 310px;
+        vertical-align: top;
+        transition: all .2s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .icon{
+        &:before{
+            vertical-align: middle;
+        }
+    }
+}

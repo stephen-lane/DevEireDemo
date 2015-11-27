@@ -1,16 +1,27 @@
 <div class="bsp-list-promo-section{{#if name}}-{{name}}{{/if}} ">
     {{#with image}}
-        <div class="bsp-list-promo-image">
+        <div class="bsp-list-promo-image"> 
             {{render this}}
 
             {{#with overlayLinked}}
-                {{render this}}
+                {{render this}} 
             {{/with}}
 
         </div>
     {{/with}}
 
-    {{#if tags}} 
+    {{#with icon}}
+        <div class="bsp-list-promo-icon">
+            {{render this}}
+
+            {{#with overlayLinked}}
+                {{render this}} 
+            {{/with}}
+
+        </div>
+    {{/with}}
+
+    {{#if tags}}
         <ul class="bsp-list-promo-tags">
             {{#each tags}}
                 <li>{{render this}}</li>
